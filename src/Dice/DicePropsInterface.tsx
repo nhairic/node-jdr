@@ -1,4 +1,4 @@
-import DiceInterface from "./DiceInterface";
+import DiceInterface from './DiceInterface';
 
 interface DicePropsInterface {
   dice: DiceInterface
