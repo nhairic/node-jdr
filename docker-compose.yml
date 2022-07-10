@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  jdr_node:
+    container_name: "jdr_node"
+    build:
+      context: ./bin/build
+    tty: true
+    stdin_open: true
+    volumes:
+      - "./:/usr/src/app"
+    ports:
+      - "3000:3000"
