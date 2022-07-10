@@ -1,8 +1,9 @@
-import Dice6 from "./Dice6";
+import Dice from './Dice';
 
-class Dice666 extends Dice6 
-{
+class Dice666 extends Dice {
   readonly _values: Array<number> = [1, 2, 3, 4, 5, 6];
+
+  readonly _name: string = 'D666';
 
   result = () => {
     const centaine = this.rollDice() * 100;

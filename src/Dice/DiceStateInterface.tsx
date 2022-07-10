@@ -1,3 +1,5 @@
-export default interface DiceStateInterface {
+interface DiceStateInterface {
     result: number|string;
 }
+
+export default DiceStateInterface;

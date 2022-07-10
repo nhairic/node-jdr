@@ -51,7 +51,7 @@ ol, ul {
 }
 
 .Sector {
-  background: #fff;
+  background: transparent;
   border: 1px solid #999;
   float: left;
   font-size: 24px;
@@ -74,10 +74,30 @@ ol, ul {
 }
 
 .MutantYearZero {
-  display: flex;
-  flex-direction: row;
+  background-color: darkgoldenrod;
 }
 
 .game-info {
   margin-left: 20px;
+}
+.Dice {
+  display: inline-block;
+  width:100px;
+  height: 100px;
+  text-align: center;
+  border: 2px solid;
+  border-color: darkviolet;
+  background-color:coral;
+  border-radius: 1em;
+  
+}
+.DiceName{
+  height: 33%;
+  display: block;
+  text-align: center;
+}
+.DiceResult{
+  height: 33%;
+  display: block;
+  text-align: center;
 }
