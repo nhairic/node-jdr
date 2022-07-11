@@ -9,9 +9,6 @@ help: ## Show this help
 
 start: ## Start the project in a Docker container
 	docker-compose up -d
-	make install
-little-start: ## Start the project in a Docker container
-	docker-compose up -d
 
 bash: ## Login to the Docker container
 	$(EXEC_IT) bash || true
@@ -28,28 +25,8 @@ build: ## Build the project
 
 install: ## Install project dependecies
 	$(EXEC) npm install --also=dev
-	#$(EXEC) npm run postinstall
 	make compile
 
-compile: ## Compile project once
-	$(EXEC) npm run compile
-
-compile-force: ## Force recompilation
-	$(EXEC) rm -rf dist
-	$(EXEC) npm run compile
-
-compile-dev: ## Compile project and watch for changes
-	$(EXEC_IT) npm run compile-dev
-
-lint: ## Lint code
-	$(EXEC) npm run lint
-
-lint-fix: ## Fix lint errors
-	$(EXEC) npm run lint-fix
-
-tests: ## Run tests and coverage
-	$(EXEC) npm run test
-	$(EXEC) npm run coverage
 
 run: ## Run the project
-	$(EXEC) node dev.js
+	$(EXEC) npm run start
