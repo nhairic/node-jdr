@@ -5,7 +5,7 @@ class Dice66 extends Dice {
 
   readonly _name: string = 'D66';
 
-  result = () => {
+  result = (): number => {
     const dizaine = this.rollDice() * 10;
     const unit = this.rollDice();
     return dizaine + unit;

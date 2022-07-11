@@ -1,0 +1,290 @@
+[
+    {
+        "d66": 11,
+        "blessure" : "essouflé",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "aucun",
+        "convalescence": ""
+    },
+    {
+        "d66": 12,
+        "blessure" : "sonné",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "aucun",
+        "convalescence": ""
+    },  
+    {
+        "d66": 13,
+        "blessure" : "poignet foulé",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-1 en Tir et en Combat.",
+        "convalescence": "d6"
+    },
+    {
+        "d66": 14,
+        "blessure" : "Cheville foulée",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-1 en Déplacement et en Furtivité.",
+        "convalescence": "d6"
+    },
+    {
+        "d66": 15,
+        "blessure" : "Commotion cérébrale",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-1 en Observation et en Compréhension.",
+        "convalescence": "d6"
+    },
+    {
+        "d66": 16,
+        "blessure" : "Tibia blessé",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-1 en Déplacement et en Furtivité.",
+        "convalescence": "2d6"
+    },
+    {
+        "d66": 21,
+        "blessure" : "Nez cassé",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-1 en Manipulation, +1 en Intimidation, la mutation Pisteur ne peut plus être activée.",
+        "convalescence": "2d6"
+    },
+    {
+        "d66": 22,
+        "blessure" : "Doigts cassés",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-1 en Tir et en Combat.",
+        "convalescence": "2d6"
+    },
+    {
+        "d66": 23,
+        "blessure" : "Orteils cassés",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-1 en Déplacement et en Furtivité.",
+        "convalescence": "2d6"
+    },
+    {
+        "d66": 24,
+        "blessure" : "Dents cassées",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-1 en Manipulation, +1 en Intimidation.",
+        "convalescence": "2d6"
+    },
+    {
+        "d66": 25,
+        "blessure" : "Coup à l’entrejambe",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "Vous subissez un point de dégâts pour chaque test de Force, de Déplacement ou de Combat que vous effectuez.",
+        "convalescence": "2d6"
+    },
+    {
+        "d66": 26,
+        "blessure" : "Coup à la cuisse",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-2 en Déplacement et en Furtivité.",
+        "convalescence": "2d6"
+    },
+    {
+        "d66": 31,
+        "blessure" : "Blessure au biceps",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-2 en Tir et en Combat.",
+        "convalescence": "2d6"
+    },
+    {
+        "d66": 32,
+        "blessure" : "Tendon d’Achille sectionné",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-2 en Déplacement et en Furtivité.",
+        "convalescence": "2d6"
+    },
+    {
+        "d66": 33,
+        "blessure" : "Épaule déboîtée",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-3 en Force et en Combat, impossible d’utiliser les armes à deux mains.",
+        "convalescence": "d6"
+    },
+    {
+        "d66": 34,
+        "blessure" : "Côtes cassées",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-2 en Déplacement et en Combat.   ",
+        "convalescence": "2d6"
+    },
+    {
+        "d66": 35,
+        "blessure" : "Avant-bras cassé",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "Impossible d’utiliser les armes à deux mains.",
+        "convalescence": "3d6"
+    },
+    {
+        "d66": 36,
+        "blessure" : "Jambe cassée",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-2 en Déplacement et en Furtivité.",
+        "convalescence": "3d6"
+    },
+    {
+        "d66": 41,
+        "blessure" : "Oreille arrachée",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-1 en Observation.",
+        "convalescence": "3d6"
+    },
+    {
+        "d66": 42,
+        "blessure" : "Œil crevé",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "-2 en Tir et en Observation.",
+        "convalescence": "3d6"
+    },
+    {
+        "d66": 43,
+        "blessure" : "Poumon perforé",
+        "mortelle": "oui",
+        "periode_soin": "D6 jours",
+        "effet_durant_guerison": "2 en Endurance et en Déplacement.",
+        "convalescence": "2d6"
+    },
+    {
+        "d66": 44,
+        "blessure" : "Blessure au rein",
+        "mortelle": "oui",
+        "periode_soin": "D6 jours",
+        "effet_durant_guerison": "Vous subissez un point de dégâts pour chaque test de Force, de Déplacement ou de Combat que vous effectuez",
+        "convalescence": "3d6"
+    },
+    {
+        "d66": 45,
+        "blessure" : "Genou broyé",
+        "mortelle": "oui",
+        "periode_soin": "D6 jours",
+        "effet_durant_guerison": "-2 en Déplacement et en Furtivité.",
+        "convalescence": "4d6"
+    },
+    {
+        "d66": 46,
+        "blessure" : "Coude broyé",
+        "mortelle": "oui",
+        "periode_soin": "D6 jours",
+        "effet_durant_guerison": "-2 en Force et en Combat, impossible d’utiliser les armes à deux mains.",
+        "convalescence": "4d6"
+    },
+    {
+        "d66": 51,
+        "blessure" : "Pied écrasé",
+        "mortelle": "oui",
+        "periode_soin": "D6 jours",
+        "effet_durant_guerison": "-3 en Déplacement et en Furtivité.",
+        "convalescence": "4d6"
+    },
+    {
+        "d66": 52,
+        "blessure" : "Hémorragie intestinale",
+        "mortelle": "oui",
+        "periode_soin": "D6 heures",
+        "effet_durant_guerison": "Vous subissez un point de dégâts pour chaque test de Force, de Déplacement ou de Combat que vous effectuez.",
+        "convalescence": "d6"
+    },
+    {
+        "d66": 53,
+        "blessure" : "Défiguré",
+        "mortelle": "oui",
+        "periode_soin": "D6 heures",
+        "effet_durant_guerison": "-2 en Manipulation.",
+        "convalescence": "4d6"
+    },
+    {
+        "d66": 54,
+        "blessure" : "Intestin crevé",
+        "mortelle": "oui",
+        "periode_soin": "D6 heures",
+        "effet_durant_guerison": "Vous subissez un point de Gangrène par heure tant que vous n’avez pas reçu de Soins",
+        "convalescence": "2d6"
+    },
+    {
+        "d66": 55,
+        "blessure" : "Colonne vertébrale fracturée",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "Paralysé sous la ceinture. L’effet est permanent si personne ne vous soigne avant la limite de temps.",
+        "convalescence": "4d6"
+    },
+    {
+        "d66": 56,
+        "blessure" : "Fracture des cervicales",
+        "mortelle": "non",
+        "periode_soin": "-",
+        "effet_durant_guerison": "Paralysé sous le cou. L’effet est permanent si personne ne vous soigne avant la limite de temps.",
+        "convalescence": "4d6"
+    },
+    {
+        "d66": 61,
+        "blessure" : "Hémorragie interne",
+        "mortelle": "oui, -1*",
+        "periode_soin": "D6 minutes",
+        "effet_durant_guerison": "Vous subissez un point de dégâts pour chaque test de Force, de Déplacement ou de Combat que vous effectuez.",
+        "convalescence": "2d6"
+    },
+    {
+        "d66": 62,
+        "blessure" : "Artère du bras sectionnée",
+        "mortelle": "oui, -1*",
+        "periode_soin": "D6 minutes",
+        "effet_durant_guerison": "-1 en Endurance et en Déplacement.",
+        "convalescence": "d6"
+    },
+    {
+        "d66": 63,
+        "blessure" : "Artère de la jambe sectionnée",
+        "mortelle": "oui, -1*",
+        "periode_soin": "D6 minutes",
+        "effet_durant_guerison": "-1 en Endurance et en Déplacement.",
+        "convalescence": "d6"
+    },
+    {
+        "d66": 64,
+        "blessure" : "Jugulaire sectionnée",
+        "mortelle": "oui, -1*",
+        "periode_soin": "D6 tours",
+        "effet_durant_guerison": "-1 en Endurance et en Déplacement.",
+        "convalescence": "d6"
+    },
+    {
+        "d66": 65,
+        "blessure" : "Cœur transpercé",
+        "mortelle": "oui",
+        "periode_soin": "-",
+        "effet_durant_guerison": "Votre cœur bat une dernière fois, puis vous mourez. Il est temps de créer un nouveau PJ.",
+        "convalescence": "-"
+    },
+    {
+        "d66": 66,
+        "blessure" : "Crâne fracassé",
+        "mortelle": "oui",
+        "periode_soin": "-",
+        "effet_durant_guerison": "Vous mourez sur le coup et ne verrez jamais Éden.",
+        "convalescence": "-"
+    }
+]

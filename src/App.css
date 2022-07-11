@@ -101,3 +101,9 @@ ol, ul {
   display: block;
   text-align: center;
 }
+div.critical-wounds {
+  border: 2px double;
+}
+div.critical-wounds table tbody td{
+  border: 2px solid;
+}

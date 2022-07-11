@@ -4,6 +4,7 @@ import Dice100 from '../Dice/Dice100';
 import Dice6 from '../Dice/Dice6';
 import Dice66 from '../Dice/Dice66';
 import DiceComponent from '../Dice/DiceComponent';
+import CriticalWounds from './CriticalWounds';
 
 export default class Feature extends React.Component <{}> {
   render() {
@@ -16,6 +17,7 @@ export default class Feature extends React.Component <{}> {
         <DiceComponent key="d6" dice={d6} />
         <DiceComponent key="d66" dice={d66} />
         <DiceComponent key="d100" dice={d100} />
+        <CriticalWounds key="criticalWounds" />
       </div>
     );
   }
