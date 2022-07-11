@@ -14,12 +14,22 @@ const atypique = {
   effet_durant_guerison: 'Vous êtes inconscient jusqu’à ce qu’on vous soigne ou que vous mourriez.',
   convalescence: '-',
 };
+
 const force = {
   blessure: 'Dégâts d’un jet forcé',
   mortelle: 'non',
   periode_soin: '-',
   effet_durant_guerison: 'Aucun.',
   convalescence: '-',
+};
+
+const DefaultWound = {
+  d66: 0,
+  blessure: '',
+  mortelle: '',
+  periode_soin: '',
+  effet_durant_guerison: '',
+  convalescence: '',
 };
 
 class CriticalWounds extends React.Component <{}, CriticalWoundsStateInterface> {
@@ -43,6 +53,27 @@ class CriticalWounds extends React.Component <{}, CriticalWoundsStateInterface> 
     }
   }
 
+  // eslint-disable-next-line class-methods-use-this
+  searchClick = (e: React.FormEvent<HTMLInputElement>) => {
+    const newValue = parseInt(e.currentTarget.value, 10);
+    if (newValue > 10 && newValue < 67) {
+      const wound = CWJson.find((cw) => cw.d66 === newValue);
+      if (wound) {
+        this.setState(
+          {
+            criticalWound: wound,
+          },
+        );
+        return;
+      }
+    }
+    this.setState(
+      {
+        criticalWound: DefaultWound,
+      },
+    );
+  };
+
   render() {
     const { criticalWound } = this.state;
     return (
@@ -61,7 +92,7 @@ class CriticalWounds extends React.Component <{}, CriticalWoundsStateInterface> 
           </thead>
           <tbody>
             <tr>
-              <td>{criticalWound?.d66 ?? ''}</td>
+              <td>{criticalWound?.d66 ? criticalWound?.d66 : ''}</td>
               <td>{criticalWound?.blessure ?? ''}</td>
               <td>{criticalWound?.mortelle ?? ''}</td>
               <td>{criticalWound?.periode_soin ?? ''}</td>
@@ -99,7 +130,19 @@ class CriticalWounds extends React.Component <{}, CriticalWoundsStateInterface> 
             </tr>
           </tfoot>
         </table>
-        <button type="button" onClick={() => this.getCriticalWounds()}>Lancer</button>
+        <button id="launchcw" key="launchCW" type="button" onClick={() => this.getCriticalWounds()}>Lancer</button>
+        <label htmlFor="searchcw">
+          Search
+          <input
+            type="number"
+            min="11"
+            max="66"
+            id="searchcw"
+            name="search_cw"
+            key="searchCW"
+            onChange={this.searchClick}
+          />
+        </label>
       </div>
     );
   }
