@@ -4,6 +4,8 @@ const rollDice = (faces:number):number => {
   switch (faces) {
     case 66:
       return rollDice(6) * 10 + rollDice(6);
+    case 666:
+      return rollDice(6) * 100 + rollDice(6) * 10 + rollDice(6);
     default:
       return random(1, faces);
   }
@@ -19,6 +21,7 @@ const Dice = {
   d12: () => rollDice(12),
   d20: () => rollDice(20),
   d66: () => rollDice(66),
+  d666: () => rollDice(666),
   d100: () => rollDice(100),
 };
 
