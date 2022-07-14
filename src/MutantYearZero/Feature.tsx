@@ -12,9 +12,9 @@ export default class Feature extends React.Component <{}> {
     return (
       <div className="Feature">
         <h2>Features</h2>
-        <DiceComponent key="d6" dice={d6} howMany={1} />
-        <DiceComponent key="d66" dice={d6} howMany={2} likeHundred />
-        <DiceComponent key="d100" dice={d100} howMany={1} />
+        <DiceComponent key="d6" dice={d6} howMany={1} diceName="D6" />
+        <DiceComponent key="d66" dice={d6} howMany={2} likeHundred diceName="D66" />
+        <DiceComponent key="d100" dice={d100} howMany={1} diceName="D100" />
         <CriticalWounds key="criticalWounds" />
         <BaubleComponent key="dddddd" />
       </div>
