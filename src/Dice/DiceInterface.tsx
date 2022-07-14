@@ -1,7 +1,7 @@
+/* eslint-disable no-unused-vars */
 interface DiceInterface {
   _values: Array<number>,
-  result(): number;
-  _name: string;
+  roll(HowMany: number, LikeHundred?: boolean): number;
 }
 
 export default DiceInterface;

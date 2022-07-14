@@ -1,4 +1,4 @@
-import Dice666 from '../../Dice/Dice666';
+import Dice from '../../Dice/Dice';
 import DiceInterface from '../../Dice/DiceInterface';
 import BaubleData from '../Data/bauble.json';
 import BaubleDataType from '../Type/BaubleDataType';
@@ -9,11 +9,11 @@ class Bauble {
   _data: BaubleDataType[];
 
   constructor() {
-    this._dice = new Dice666();
+    this._dice = new Dice(6);
     this._data = BaubleData;
   }
 
-  public getRandomData = () : BaubleDataType => this.getData(this._dice.result());
+  public getRandomData = () : BaubleDataType => this.getData(this._dice.roll(3, true));
 
   public getData = (d66: number) : BaubleDataType => {
     const bauble = this._data.find((ba) => ba.d66 === d66);
