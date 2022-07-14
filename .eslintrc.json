@@ -29,6 +29,7 @@
             }
             ],
             "no-underscore-dangle": "off",
+            "react/function-component-definition": "off",
             "react/jsx-filename-extension": [0, { "extensions": [".js", ".jsx"] }]     
     },
     "settings": {
