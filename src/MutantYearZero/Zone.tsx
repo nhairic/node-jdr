@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Sector from './Sector';
-import SectorData from './SectorData';
+import SectorData from './domain/SectorData';
 import ZoneJson from './Data/zone.json';
 
 interface ZoneProps {

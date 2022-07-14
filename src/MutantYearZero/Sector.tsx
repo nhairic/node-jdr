@@ -1,6 +1,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import * as React from 'react';
-import SectorData from './SectorData';
+import SectorData from './domain/SectorData';
 
 interface SectorProps {
   id: string;
