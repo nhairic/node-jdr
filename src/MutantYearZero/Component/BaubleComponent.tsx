@@ -4,7 +4,7 @@ import BaubleDataType from '../Type/BaubleDataType';
 
 const BaubleComponent: React.FC = () => {
   const [data, setValue] = useState<BaubleDataType>({
-    d66: 0,
+    diceResult: 0,
     name: '',
   });
   const bauble = new Bauble();
@@ -12,7 +12,18 @@ const BaubleComponent: React.FC = () => {
     <div>
       <h2>Babiole</h2>
       <span>{data.name}</span>
-      <button type="button" onClick={() => setValue(bauble.getRandomData())}>Trouver une babiole</button>
+      <div>
+        <input
+          type="number"
+          min="111"
+          max="666"
+          id="searchcw"
+          name="search_cw"
+          key="searchCW"
+          onChange={(event) => setValue(bauble.getData(parseInt(event.target.value, 10)))}
+        />
+        <button type="button" onClick={() => setValue(bauble.getRandomData())}>Trouver une babiole</button>
+      </div>
     </div>
   );
 };
