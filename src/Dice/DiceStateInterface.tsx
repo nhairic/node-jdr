@@ -1,5 +1,5 @@
 interface DiceStateInterface {
-    result: number|string;
+    roll: number|string;
 }
 
 export default DiceStateInterface;

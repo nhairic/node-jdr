@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Dice66 from '../Dice/Dice66';
+import Dice from '../Dice/Dice';
 import WoundData from './WoundData';
 import CWJson from './Data/critiques.json';
 
@@ -41,8 +41,8 @@ class CriticalWounds extends React.Component <{}, CriticalWoundsStateInterface> 
   }
 
   getCriticalWounds() {
-    const dice = new Dice66();
-    const WoundIndex = dice.result();
+    const dice = new Dice(6);
+    const WoundIndex = dice.roll(2, true);
     const wound = CWJson.find((cw) => cw.d66 === WoundIndex);
     if (wound) {
       this.setState(
