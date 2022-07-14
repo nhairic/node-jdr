@@ -1,5 +1,5 @@
 type BaubleDataType = {
-  d66: number;
+  diceResult: number;
   name: string
 }
 

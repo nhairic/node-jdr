@@ -8,7 +8,6 @@ export default class Dice implements DiceInterface {
       this._values.push(i);
     }
     // this._values = Array(Math.floor(diceFaceNumber)).fill(null);
-    console.log(this._values);
   }
 
   get values(): Array<number> {

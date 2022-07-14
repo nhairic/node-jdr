@@ -1,30 +1,866 @@
 [
   {
-    "d66": 111,
+    "diceResult": 111,
     "name": "Figurine (musclor)"
   },
   {
-    "d66": 112,
+    "diceResult": 112,
     "name": "Agrafeuse"
   },
   {
-    "d66": 113,
+    "diceResult": 113,
     "name": "Album photo"
   },
   {
-    "d66": 114,
+    "diceResult": 114,
     "name": "Ampoules, D6"
   },
   {
-    "d66": 115,
+    "diceResult": 115,
     "name": "Aquarium (sans poisson)"
   },
   {
-    "d66": 116,
+    "diceResult": 116,
     "name": "Aspirateur"
   },
   {
-    "d66": 121,
+    "diceResult": 121,
     "name": "Balle de tennis"
+  },
+  {
+    "diceResult": 122,
+    "name": "Balle rebondissante"
+  },
+  {
+    "diceResult": 123,
+    "name": "Ballon de basket crevé"
+  },
+  {
+    "diceResult": 124,
+    "name": "Ballon de foot"
+  },
+  {
+    "diceResult": 125,
+    "name": "Bande adhésive de chantier"
+  },
+  {
+    "diceResult": 126,
+    "name": "Bande dessinée très violente"
+  },
+  {
+    "diceResult": 131,
+    "name": "Barbecue"
+  },
+  {
+    "diceResult": 132,
+    "name": "Batte de baseball (cf. page 86)"
+  },
+  {
+    "diceResult": 133,
+    "name": "Béret, rouge"
+  },
+  {
+    "diceResult": 134,
+    "name": "Bétonnière rouillée"
+  },
+  {
+    "diceResult": 135,
+    "name": "Bible"
+  },
+  {
+    "diceResult": 136,
+    "name": "Boîte de céréales encore fermée"
+  },
+  {
+    "diceResult": 141,
+    "name": "Boîte de chocolats (encore comestibles, D6 rations de bouffe)"
+  },
+  {
+    "diceResult": 142,
+    "name": "Bonbons aux fruits (une ration de bouffe)"
+  },
+  {
+    "diceResult": 143,
+    "name": "Bonnet de ski (bonus d’équipement +1 face au froid)"
+  },
+  {
+    "diceResult": 144,
+    "name": "Bottes (bonus d’équipement +1 lors d’une marche forcée)"
+  },
+  {
+    "diceResult": 145,
+    "name": "Bottes de ski"
+  },
+  {
+    "diceResult": 145,
+    "name": "Bottes en caoutchouc"
+  },
+  {
+    "diceResult": 151,
+    "name": "Bottes féminines"
+  },
+  {
+    "diceResult": 152,
+    "name": "Boule à neige"
+  },
+  {
+    "diceResult": 153,
+    "name": "Bouteille de détergent"
+  },
+  {
+    "diceResult": 154,
+    "name": "Bouteille de vin, imbuvable (1 point de Gangrène)"
+  },
+  {
+    "diceResult": 155,
+    "name": "Bouteille de whisky, vide"
+  },
+  {
+    "diceResult": 156,
+    "name": "Bouteille en plastique, vide"
+  },
+  {
+    "diceResult": 161,
+    "name": "Bretelles"
+  },
+  {
+    "diceResult": 162,
+    "name": "Brosse à dents"
+  },
+  {
+    "diceResult": 163,
+    "name": "Brosse à dents électrique"
+  },
+  {
+    "diceResult": 164,
+    "name": "Brosse à toilettes"
+  },
+  {
+    "diceResult": 165,
+    "name": "Câble Ethernet, D6 mètres"
+  },
+  {
+    "diceResult": 166,
+    "name": "Caddie de supermarché"
+  },
+  {
+    "diceResult": 211,
+    "name": "Cadre de vélo, sans roue"
+  },
+  {
+    "diceResult": 212,
+    "name": "Cadre vide"
+  },
+  {
+    "diceResult": 213,
+    "name": "Café instantané"
+  },
+  {
+    "diceResult": 214,
+    "name": "Caisse enregistreuse"
+  },
+  {
+    "diceResult": 215,
+    "name": "Canapé, cassé"
+  },
+  {
+    "diceResult": 216,
+    "name": "Canard en plastique"
+  },
+  {
+    "diceResult": 221,
+    "name": "Candélabre"
+  },
+  {
+    "diceResult": 222,
+    "name": "Carnet de croquis, rempli de dessins"
+  },
+  {
+    "diceResult": 223,
+    "name": "Carte de crédit"
+  },
+  {
+    "diceResult": 224,
+    "name": "Cartes à jouer"
+  },
+  {
+    "diceResult": 225,
+    "name": "Casque et micro"
+  },
+  {
+    "diceResult": 226,
+    "name": "Cassette VHS"
+  },
+  {
+    "diceResult": 231,
+    "name": "CD de musique, D6"
+  },
+  {
+    "diceResult": 232,
+    "name": "Chaîne de vélo (cf. page 86)"
+  },
+  {
+    "diceResult": 233,
+    "name": "Chaise IKEA"
+  },
+  {
+    "diceResult": 234,
+    "name": "Chaise pliante"
+  },
+  {
+    "diceResult": 235,
+    "name": "Chandelier"
+  },
+  {
+    "diceResult": 236,
+    "name": "Chapeau de femme"
+  },
+  {
+    "diceResult": 241,
+    "name": "Chapeau haut-de-forme"
+  },
+  {
+    "diceResult": 242,
+    "name": "Chariot à hot-dogs"
+  },
+  {
+    "diceResult": 243,
+    "name": "Chaussures de soirée, abîmées"
+  },
+  {
+    "diceResult": 244,
+    "name": "Cheval à bascule"
+  },
+  {
+    "diceResult": 245,
+    "name": "Chevalet de peinture"
+  },
+  {
+    "diceResult": 246,
+    "name": "Chewing-gum à la nicotine"
+  },
+  {
+    "diceResult": 251,
+    "name": "Classeur plein de données bancaires"
+  },
+  {
+    "diceResult": 252,
+    "name": "Clavier, manque quelques touches"
+  },
+  {
+    "diceResult": 253,
+    "name": "Clé en croix"
+  },
+  {
+    "diceResult": 254,
+    "name": "Club de golf (arme improvisée)"
+  },
+  {
+    "diceResult": 255,
+    "name": "Combinaison"
+  },
+  {
+    "diceResult": 256,
+    "name": "Combinaison de plongée, très usée"
+  },
+  {
+    "diceResult": 261,
+    "name": "Cônes de chantier, D6"
+  },
+  {
+    "diceResult": 262,
+    "name": "Console de jeu"
+  },
+  {
+    "diceResult": 263,
+    "name": "Costume de lapin, taille adulte"
+  },
+  {
+    "diceResult": 264,
+    "name": "Costume de Spider-Man pour enfant"
+  },
+  {
+    "diceResult": 265,
+    "name": "Coupe sportive"
+  },
+  {
+    "diceResult": 266,
+    "name": "Couteau (couteau de fortune)"
+  },
+  {
+    "diceResult": 311,
+    "name": "Couteau de cuisine"
+  },
+  {
+    "diceResult": 312,
+    "name": "Coutellerie, D6 pièces"
+  },
+  {
+    "diceResult": 313,
+    "name": "Cravate"
+  },
+  {
+    "diceResult": 314,
+    "name": "Crème hydratante, bouteille"
+  },
+  {
+    "diceResult": 315,
+    "name": "Cric"
+  },
+  {
+    "diceResult": 316,
+    "name": "Crosse de hockey (arme improvisée)"
+  },
+  {
+    "diceResult": 321,
+    "name": "Déambulateur"
+  },
+  {
+    "diceResult": 322,
+    "name": "Demi-paquet de cigarettes"
+  },
+  {
+    "diceResult": 323,
+    "name": "Dentier"
+  },
+  {
+    "diceResult": 324,
+    "name": "Déodorant"
+  },
+  {
+    "diceResult": 325,
+    "name": "Dés, D6"
+  },
+  {
+    "diceResult": 326,
+    "name": "Dessin d’enfant"
+  },
+  {
+    "diceResult": 331,
+    "name": "Dinosaure en plastique"
+  },
+  {
+    "diceResult": 332,
+    "name": "Disque vinyle"
+  },
+  {
+    "diceResult": 333,
+    "name": "Dissertation scientifique"
+  },
+  {
+    "diceResult": 334,
+    "name": "Drapeau national, déchiré"
+  },
+  {
+    "diceResult": 335,
+    "name": "Écharpe colorée (bonus d’équipement +1 face au froid)"
+  },
+  {
+    "diceResult": 336,
+    "name": "Échelle, rouillée (bonus d’équipement +1 lors d’escalades)"
+  },
+  {
+    "diceResult": 341,
+    "name": "Enceinte, cassée"
+  },
+  {
+    "diceResult": 342,
+    "name": "Enjoliveur"
+  },
+  {
+    "diceResult": 343,
+    "name": "Épée en plastique"
+  },
+  {
+    "diceResult": 344,
+    "name": "Extincteur"
+  },
+  {
+    "diceResult": 345,
+    "name": "Fausses canines de vampire"
+  },
+  {
+    "diceResult": 346,
+    "name": "Feux d’artifice, D6, fonctionnels"
+  },
+  {
+    "diceResult": 351,
+    "name": "Figurines de pirates"
+  },
+  {
+    "diceResult": 352,
+    "name": "Films DVD, D6"
+  },
+  {
+    "diceResult": 353,
+    "name": "Fleurs artificielles, D6"
+  },
+  {
+    "diceResult": 354,
+    "name": "Flûtes à champagne, D6"
+  },
+  {
+    "diceResult": 355,
+    "name": "Flûte en plastique"
+  },
+  {
+    "diceResult": 356,
+    "name": "Four à micro-ondes, cassé"
+  },
+  {
+    "diceResult": 361,
+    "name": "Fourchette"
+  },
+  {
+    "diceResult": 362,
+    "name": "Gants de boxe"
+  },
+  {
+    "diceResult": 363,
+    "name": "Gel (pour cheveux)"
+  },
+  {
+    "diceResult": 364,
+    "name": "Globe terrestre"
+  },
+  {
+    "diceResult": 365,
+    "name": "Gourde de sport"
+  },
+  {
+    "diceResult": 366,
+    "name": "Graines de gazon dans un sachet"
+  },
+  {
+    "diceResult": 411,
+    "name": "Guitare électrique cassée"
+  },
+  {
+    "diceResult": 412,
+    "name": "Haltères, 5 kg"
+  },
+  {
+    "diceResult": 413,
+    "name": "Horloge murale"
+  },
+  {
+    "diceResult": 414,
+    "name": "Image d’un chat"
+  },
+  {
+    "diceResult": 415,
+    "name": "Lait en poudre pour bébé (D6 rations de bouffe)"
+  },
+  {
+    "diceResult": 416,
+    "name": "Lampe à pied"
+  },
+  {
+    "diceResult": 421,
+    "name": "Lampe de bureau"
+  },
+  {
+    "diceResult": 422,
+    "name": "Lampe torche, cassée"
+  },
+  {
+    "diceResult": 423,
+    "name": "Lettre d’amour, jaunie"
+  },
+  {
+    "diceResult": 424,
+    "name": "Livre de coloriage, à moitié fait"
+  },
+  {
+    "diceResult": 425,
+    "name": "Livre de mathématiques"
+  },
+  {
+    "diceResult": 426,
+    "name": "Loupe"
+  },
+  {
+    "diceResult": 431,
+    "name": "Loupe"
+  },
+  {
+    "diceResult": 432,
+    "name": "Machine à écrire"
+  },
+  {
+    "diceResult": 433,
+    "name": "Mallette"
+  },
+  {
+    "diceResult": 434,
+    "name": "Marmite"
+  },
+  {
+    "diceResult": 435,
+    "name": "Mascara"
+  },
+  {
+    "diceResult": 436,
+    "name": "Masque de plongée"
+  },
+  {
+    "diceResult": 441,
+    "name": "Masque de soudeur"
+  },
+  {
+    "diceResult": 442,
+    "name": "Masque, Donald Duck"
+  },
+  {
+    "diceResult": 443,
+    "name": "Masque, Père Noël"
+  },
+  {
+    "diceResult": 444,
+    "name": "Masque, Squelette"
+  },
+  {
+    "diceResult": 445,
+    "name": "Médaille en métal"
+  },
+  {
+    "diceResult": 446,
+    "name": "Mégaphone, cassé"
+  },
+  {
+    "diceResult": 451,
+    "name": "Miroir"
+  },
+  {
+    "diceResult": 452,
+    "name": "Mixer électrique"
+  },
+  {
+    "diceResult": 453,
+    "name": "Montre, cassée"
+  },
+  {
+    "diceResult": 454,
+    "name": "Mouchoirs en papier D666"
+  },
+  {
+    "diceResult": 455,
+    "name": "Moulin à poivre"
+  },
+  {
+    "diceResult": 456,
+    "name": "Mug à café avec imprimé"
+  },
+  {
+    "diceResult": 461,
+    "name": "Nouilles instantanées (D6 rations de bouffe)"
+  },
+  {
+    "diceResult": 462,
+    "name": "Ordinateur portable, cassé"
+  },
+  {
+    "diceResult": 463,
+    "name": "Ours en peluche"
+  },
+  {
+    "diceResult": 464,
+    "name": "Ouvre-boîte"
+  },
+  {
+    "diceResult": 465,
+    "name": "Pailles en plastique, paquet de 100"
+  },
+  {
+    "diceResult": 466,
+    "name": "Pantalon de jean élimé"
+  },
+  {
+    "diceResult": 511,
+    "name": "Paquet de chaussettes montantes"
+  },
+  {
+    "diceResult": 512,
+    "name": "Parapluie, cassé"
+  },
+  {
+    "diceResult": 513,
+    "name": "Peigne"
+  },
+  {
+    "diceResult": 514,
+    "name": "Perles en verre"
+  },
+  {
+    "diceResult": 515,
+    "name": "Perruque blonde"
+  },
+  {
+    "diceResult": 516,
+    "name": "Photo d’une famille heureuse"
+  },
+  {
+    "diceResult": 521,
+    "name": "Pied-de-biche"
+  },
+  {
+    "diceResult": 522,
+    "name": "Pistolet à eau"
+  },
+  {
+    "diceResult": 523,
+    "name": "Planche de surf"
+  },
+  {
+    "diceResult": 524,
+    "name": "Pneu de voiture"
+  },
+  {
+    "diceResult": 525,
+    "name": "Poêle à frire (arme improvisée)"
+  },
+  {
+    "diceResult": 526,
+    "name": "Polar (roman)"
+  },
+  {
+    "diceResult": 531,
+    "name": "Pompe à vélo"
+  },
+  {
+    "diceResult": 532,
+    "name": "Popcorn, paquet non ouvert"
+  },
+  {
+    "diceResult": 533,
+    "name": "Porte-manteau"
+  },
+  {
+    "diceResult": 534,
+    "name": "Portefeuille rempli d’argent moisi"
+  },
+  {
+    "diceResult": 535,
+    "name": "Poster de film"
+  },
+  {
+    "diceResult": 536,
+    "name": "Poupée"
+  },
+  {
+    "diceResult": 541,
+    "name": "Poupée Barbie"
+  },
+  {
+    "diceResult": 542,
+    "name": "Poussette"
+  },
+  {
+    "diceResult": 543,
+    "name": "Puzzle"
+  },
+  {
+    "diceResult": 544,
+    "name": "Rallonge électrique"
+  },
+  {
+    "diceResult": 545,
+    "name": "Rasoir électrique"
+  },
+  {
+    "diceResult": 546,
+    "name": "Réveil (mécanique)"
+  },
+  {
+    "diceResult": 551,
+    "name": "Robe de princesse pour enfant"
+  },
+  {
+    "diceResult": 552,
+    "name": "Rollers"
+  },
+  {
+    "diceResult": 553,
+    "name": "Roman de fantasy très épais"
+  },
+  {
+    "diceResult": 554,
+    "name": "Rouge à lèvres"
+  },
+  {
+    "diceResult": 555,
+    "name": "Sacs en plastique, D66"
+  },
+  {
+    "diceResult": 556,
+    "name": "Savon liquide"
+  },
+  {
+    "diceResult": 561,
+    "name": "Saxophone"
+  },
+  {
+    "diceResult": 562,
+    "name": "Sèche-cheveux"
+  },
+  {
+    "diceResult": 563,
+    "name": "Sel aromatisé"
+  },
+  {
+    "diceResult": 564,
+    "name": "Serviette avec l’imprimé « Club Med »"
+  },
+  {
+    "diceResult": 565,
+    "name": "Sex-toy"
+  },
+  {
+    "diceResult": 566,
+    "name": "Skateboard"
+  },
+  {
+    "diceResult": 611,
+    "name": "Ski de fond (un seul)"
+  },
+  {
+    "diceResult": 612,
+    "name": "Sous-vêtements"
+  },
+  {
+    "diceResult": 613,
+    "name": "Squelette en plastique"
+  },
+  {
+    "diceResult": 614,
+    "name": "Synthétiseur"
+  },
+  {
+    "diceResult": 615,
+    "name": "T-shirt portant l’imprimé « Heisenberg »"
+  },
+  {
+    "diceResult": 616,
+    "name": "Table basse"
+  },
+  {
+    "diceResult": 621,
+    "name": "Tableau blanc Velleda"
+  },
+  {
+    "diceResult": 622,
+    "name": "Taille-haie (équivalent d’un couteau de fortune)"
+  },
+  {
+    "diceResult": 623,
+    "name": "Tapis de sol"
+  },
+  {
+    "diceResult": 624,
+    "name": "Tapis oriental"
+  },
+  {
+    "diceResult": 625,
+    "name": "Télé cassée"
+  },
+  {
+    "diceResult": 626,
+    "name": "Télécommande"
+  },
+  {
+    "diceResult": 631,
+    "name": "Téléphone"
+  },
+  {
+    "diceResult": 632,
+    "name": "Tétine"
+  },
+  {
+    "diceResult": 633,
+    "name": "Thermomètre cassé"
+  },
+  {
+    "diceResult": 634,
+    "name": "Thermos"
+  },
+  {
+    "diceResult": 635,
+    "name": "Tirelire, vide"
+  },
+  {
+    "diceResult": 636,
+    "name": "Tondeuse à barbe"
+  },
+  {
+    "diceResult": 641,
+    "name": "Tondeuse à gazon"
+  },
+  {
+    "diceResult": 642,
+    "name": "Tracteur en plastique (jouet)"
+  },
+  {
+    "diceResult": 643,
+    "name": "Train miniature (jouet)"
+  },
+  {
+    "diceResult": 644,
+    "name": "Transat"
+  },
+  {
+    "diceResult": 645,
+    "name": "Trombone"
+  },
+  {
+    "diceResult": 646,
+    "name": "Trousseau de clés, 2D6 clés"
+  },
+  {
+    "diceResult": 651,
+    "name": "Tuba de plongée"
+  },
+  {
+    "diceResult": 652,
+    "name": "Tuyau de fer (arme improvisée)"
+  },
+  {
+    "diceResult": 653,
+    "name": "Petits gâteaux, D6 (comestibles, une ration de bouffe chacun)"
+  },
+  {
+    "diceResult": 654,
+    "name": "Un exemplaire jauni du jeu de rôle Mutant Chronicles"
+  },
+  {
+    "diceResult": 655,
+    "name": "Vase"
+  },
+  {
+    "diceResult": 656,
+    "name": "Ventilateur"
+  },
+  {
+    "diceResult": 661,
+    "name": "Veste de sport"
+  },
+  {
+    "diceResult": 662,
+    "name": "Veste doublée (bonus d’équipement +1 face au froid)"
+  },
+  {
+    "diceResult": 663,
+    "name": "Voiture miniature"
+  },
+  {
+    "diceResult": 664,
+    "name": "Walkman avec écouteur et cassette"
+  },
+  {
+    "diceResult": 665,
+    "name": "Wok"
+  },
+  {
+    "diceResult": 666,
+    "name": "Yo-yo (arme improvisée)"
   }
 ]
