@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import DicePropsInterface from '../../Dice/DicePropsInterface';
+import DicePropsInterface from '../Interface/DicePropsInterface';
 
 const DiceComponent = ({
   dice, howMany, likeHundred, diceName,

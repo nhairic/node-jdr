@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Dice from '../Dice/Dice';
-import WoundData from './WoundData';
-import CWJson from './Data/critiques.json';
+import Dice from '../../Transverse/Dice/Class/Dice';
+import WoundData from '../Type/WoundDataType';
+import CWJson from '../Data/critiques.json';
 
 interface CriticalWoundsStateInterface {
   criticalWound: null | WoundData;
@@ -32,7 +32,7 @@ const DefaultWound = {
   convalescence: '',
 };
 
-class CriticalWounds extends React.Component <{}, CriticalWoundsStateInterface> {
+class CriticalWoundsComponent extends React.Component <{}, CriticalWoundsStateInterface> {
   constructor() {
     super({});
     this.state = {
@@ -148,4 +148,4 @@ class CriticalWounds extends React.Component <{}, CriticalWoundsStateInterface> 
   }
 }
 
-export default CriticalWounds;
+export default CriticalWoundsComponent;

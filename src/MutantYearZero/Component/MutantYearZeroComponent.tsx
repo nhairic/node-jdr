@@ -1,9 +1,9 @@
 /* eslint-disable react/prefer-stateless-function */
 import * as React from 'react';
-import ZoneComponent from './Zone';
-import Feature from './Feature';
+import ZoneComponent from './ZoneComponent';
+import Feature from './FeatureComponent';
 
-export default class MutantYearZero extends React.Component <{}> {
+export default class MutantYearZeroComponent extends React.Component <{}> {
   render() {
     return (
       <div className="MutantYearZero">
