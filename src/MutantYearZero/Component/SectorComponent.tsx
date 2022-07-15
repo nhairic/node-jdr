@@ -1,6 +1,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import * as React from 'react';
-import SectorData from './SectorData';
+import SectorData from '../Type/SectorDataType';
 
 interface SectorProps {
   id: string;
@@ -11,7 +11,7 @@ interface SectorProps {
 //  zone: { sectors: Array<{[key: string]: Array<number>}> };
 // }
 
-export default class Sector extends React.Component <SectorProps> {
+export default class SectorComponent extends React.Component <SectorProps> {
   render() {
     const { data, id } = this.props;
     return (

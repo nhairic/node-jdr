@@ -1,4 +1,4 @@
-import DiceInterface from './DiceInterface';
+import DiceInterface from '../Interface/DiceInterface';
 
 export default class Dice implements DiceInterface {
   readonly _values: Array<number> = [];

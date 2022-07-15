@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Sector from './Sector';
-import SectorData from './SectorData';
-import ZoneJson from './Data/zone.json';
+import Sector from './SectorComponent';
+import SectorData from '../Type/SectorDataType';
+import ZoneJson from '../Data/zone.json';
 
 interface ZoneProps {
   // eslint-disable-next-line react/no-unused-prop-types

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './App.css';
 import reportWebVitals from './reportWebVitals';
-import MutantYearZero from './MutantYearZero/MutantYearZero';
+import MutantYearZero from './MutantYearZero/Component/MutantYearZeroComponent';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,

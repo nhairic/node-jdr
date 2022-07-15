@@ -1,4 +1,4 @@
-type SectorData = {
+type SectorDataType = {
     position: string;
     enviromnent: string;
     ruins: string;
@@ -7,4 +7,4 @@ type SectorData = {
     threat: string;
 }
 
-export default SectorData;
+export default SectorDataType;

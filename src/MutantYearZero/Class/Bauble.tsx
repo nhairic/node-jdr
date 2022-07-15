@@ -1,6 +1,6 @@
 import React from 'react';
-import Dice from '../../Dice/Dice';
-import DiceInterface from '../../Dice/DiceInterface';
+import Dice from '../../Transverse/Dice/Class/Dice';
+import DiceInterface from '../../Transverse/Dice/Interface/DiceInterface';
 import BaubleData from '../Data/bauble.json';
 import BaubleDataType from '../Type/BaubleDataType';
 

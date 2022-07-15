@@ -1,4 +1,4 @@
-type WoundData = {
+type WoundDataType = {
     d66: number;
     blessure : string,
     mortelle: string,
@@ -7,4 +7,4 @@ type WoundData = {
     convalescence: string
 }
 
-export default WoundData;
+export default WoundDataType;
