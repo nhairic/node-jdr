@@ -14,8 +14,9 @@ interface SectorProps {
 export default class SectorComponent extends React.Component <SectorProps> {
   render() {
     const { data, id } = this.props;
+    const sectorClass = data.explored ? 'Sector sector-explored' : 'Sector sector-not-explored';
     return (
-      <div className="Sector" key={data.position} id={id}>
+      <div className={sectorClass} key={data.position} id={id} title={data.position}>
         {data.ruins}
       </div>
     );

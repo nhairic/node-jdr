@@ -51,18 +51,25 @@ ol, ul {
 }
 
 .Sector {
-  background: transparent;
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 12px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  height: 55px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 55px;
+}
+
+.sector-explored{
+  backface-visibility: hidden;
+}
+
+.sector-not-explored{
+  opacity: 0.8;
+  background: black;
 }
 
 .Sector:focus {
@@ -107,3 +114,8 @@ div.critical-wounds {
 div.critical-wounds table tbody td{
   border: 2px solid;
 }
+ div.zone-render {
+  background-image: url(MutantYearZero/img/myz-monceaux.png);
+  background-repeat: no-repeat;
+  width:1685px
+ }

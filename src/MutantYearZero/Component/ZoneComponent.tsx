@@ -36,7 +36,7 @@ export default class ZoneComponent extends React.Component <ZoneProps, ZoneState
         let find = sectors.find((sec) => sec.position === `${linePosition}-${columnNumber}`);
         if (!find) {
           find = {
-            position: 'a-1',
+            position: `${linePosition}-${columnNumber}`,
             enviromnent: '',
             ruins: '',
             artifact: '',
@@ -56,7 +56,9 @@ export default class ZoneComponent extends React.Component <ZoneProps, ZoneState
     return (
       <div className="zone">
         <h2>{name}</h2>
-        {this.renderSectors()}
+        <div className="zone-render">
+          {this.renderSectors()}
+        </div>
       </div>
     );
   }
