@@ -6,5 +6,20 @@
       "artifact": "",
       "explored": false,
       "threat": ""
+    },{
+      "position": "h-11",
+      "enviromnent": "",
+      "ruins": "Arche",
+      "artifact": "",
+      "explored": true,
+      "threat": ""
+    },
+    {
+      "position": "h-15",
+      "enviromnent": "Foret",
+      "ruins": "Gare de train avec train",
+      "artifact": "Boussole",
+      "explored": true,
+      "threat": "Razorbak"
     }
 ]
