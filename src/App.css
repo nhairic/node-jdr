@@ -1,3 +1,36 @@
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./fontawesome/webfonts/fa-regular-400.woff) format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'MyFont2';
+  src: local('MyFont2'), url(./fontawesome/webfonts/fa-brands-400.woff) format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'Mutante';
+  src: local('Mutante'), url(./MutantYearZero/font/mutante/MUTANTE_.TTF) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'Monsterama';
+  src: local('Monsterama'), url(./font/monsterama/monsterama.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: 'Brokenglass';
+  src: local('Brokenglass'), url(./font/broken_glass/BrokenGlass.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+
 .App {
   text-align: center;
 }
@@ -50,46 +83,16 @@ ol, ul {
   margin-bottom: 10px;
 }
 
-.Sector {
-  border: 1px solid #999;
-  float: left;
-  font-size: 12px;
-  font-weight: bold;
-  height: 55px;
-  margin-right: -1px;
-  margin-top: -1px;
-  padding: 0;
-  text-align: center;
-  width: 55px;
-}
-
-.sector-explored{
-  backface-visibility: hidden;
-}
-
-.sector-not-explored{
-  opacity: 0.8;
-  background: black;
-}
-
-.Sector:focus {
-  outline: none;
-}
-
 .kbd-navigation .Sector:focus {
   background: #ddd;
 }
-
-.MutantYearZero {
-  background-color: darkgoldenrod;
-}
-
 .game-info {
   margin-left: 20px;
 }
 .Dice {
+  font-family: Monsterama;
   display: inline-block;
-  width:100px;
+  width:100px; 
   height: 100px;
   text-align: center;
   border: 2px solid;
@@ -98,24 +101,10 @@ ol, ul {
   border-radius: 1em;
   
 }
-.DiceName{
-  height: 33%;
-  display: block;
-  text-align: center;
-}
-.DiceResult{
-  height: 33%;
-  display: block;
-  text-align: center;
-}
-div.critical-wounds {
-  border: 2px double;
-}
-div.critical-wounds table tbody td{
-  border: 2px solid;
-}
- div.zone-render {
-  background-image: url(MutantYearZero/img/myz-monceaux.png);
+
+.button-rolling-dice {
+  background-image: url(Transverse/Dice/svg/delapouite/rolling-dice-cup.svg);
   background-repeat: no-repeat;
-  width:1685px
- }
+  background-position: center;
+  min-height:30px;
+}

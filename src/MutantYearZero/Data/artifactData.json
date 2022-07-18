@@ -1,0 +1,512 @@
+[
+  {
+    "diceResultB": 111,
+    "diceResultH": 114,
+    "name": "ANTIDÉPRESSEURS",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 20",
+    "bonusDev": "aucun",
+    "effect": "lorsque vous avalez ces pilules, vous guérissez immédiatement de tout le doute accumulé. Il n’y a   assez de pilules que pour D6 doses. Lorsque vous les avez toutes consommées, vous perdez l’artefact. Objet minuscule.",
+    "description": "Lorsque la vie dans la Zone devient insoutenable et sans espoir, ces petites pilules rangées dans leur boît en plastique vous procurent un soulagement chimique."
+  },
+  {
+    "diceResultB": 115,
+    "diceResultH": 122,
+    "name": "Antidouleurs",
+    "commentaire": "",
+    "mandatoryDev": "20",
+    "bonusDev": "aucun",
+    "effect": "lorsque vous avalez ces pilules, vous guérissez immédiatement de tous les dégâts accumulés. Il n’y a assez de pilules que pour D6 doses. Lorsque vous les avez toutes consommées, vous perdez l’artefact. Petit objet.",
+    "description": "Ces petites pilules atténuent rapidement la douleur physique."
+  },
+  {
+    "diceResultB": 123,
+    "diceResultH": 126,
+    "name": "Arbalète",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 5",
+    "bonusDev": "Technologie +1, Défense +1",
+    "effect": "bonus d’équipement +3 aux tests de Tir, dégâts 1, portée Longue. Requiert des carreaux (semblables aux flèches) et non des balles",
+    "description": "Une arme ancienne, silencieuse et mortelle faite d’un métal léger. Elle est plus facile à charger qu’un arc normal et sa visée est plus précise."
+  },
+  {
+    "diceResultB": 131,
+    "diceResultH": 134,
+    "name": "Arc à poulies",
+    "commentaire": "",
+    "mandatoryDev": "aucun",
+    "bonusDev": "Technologie +1, Défense +1",
+    "effect": "bonus d’équipement +2 aux tests de Tir, dégâts 1, portée Longue. Requiert des flèches",
+    "description": "Le Peuple sait créer des arcs, mais pas comme celui-ci. Composé d’un matériau des Temps d’Avant, il est autrement plus puissant"
+  },
+  {
+    "diceResultB": 135,
+    "diceResultH": 142,
+    "name": "Bande dessinée",
+    "commentaire": "",
+    "mandatoryDev": "aucun",
+    "bonusDev": "Culture +D6",
+    "effect": "aucun, petit objet.",
+    "description": "Un petit magazine de papier usé des Temps d’Avant. On peut à peine tourner les pages jaunies sans les déchirer. Elles présentent des images d’hommes et de femmes musculeux aux tenues moulantes et qui se battent les uns contre les autres. Le sens de la mode aux Temps d’Avant était vraiment bizarre."
+  },
+  {
+    "diceResultB": 143,
+    "diceResultH": 146,
+    "name": "Bateau à moteur",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 20",
+    "bonusDev": "Technologie +D6",
+    "effect": "le bateau peut transporter jusqu’à sept mutants, augmente la vitesse de déplacement en combat et divise de moitié le temps nécessaire à l’exploration  d’un secteur côtier. Il peut aussi être utilisé pour percuter des adversaires ou fuir des menaces sur l’eau.  La manière dont fonctionnent les véhicules est expli quée en détail à la page 94. Bonus d’équipement +3, Résistance 2.",
+    "description": "Cette embarcation en plastique craquelé et patiné semble toujours flotter. L’engin dispose d’un moteur à hélice qui dépasse de la poupe. Il faut réussir un test de Système D pour le mettre en route. Le moteur fonctionne à l’essence ou au tord-boyaux (une dose par secteur de la Zone traversé)."
+  },
+  {
+    "diceResultB": 151,
+    "diceResultH": 154,
+    "name": "Batterie",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6",
+    "effect": "permet de faire fonctionner les autres artefacts qui nécessitent de l’électricité. Peut être rechargé avec un générateur (l’artefact ou le projet).",
+    "description": "Un gros bloc de métal que les Anciens utilisaient pour faire fonctionner leurs machines. On dirait qu’il reste un peu d’énergie à l’intérieur."
+  },
+  {
+    "diceResultB": 155,
+    "diceResultH": 162,
+    "name": "Boussole",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6",
+    "effect": "la boussole vous octroie un bonus d’équipement +2 aux jets de Trouver le chemin.",
+    "description": "Un morceau de plastique muni d’un cadran. Une aiguille tourne à l’intérieur, pointant toujours dans la même direction, quelle que soit la manière dont on l’oriente. Les Anciens utilisaient cet objet pour trouver leur chemin dans les terres sauvages."
+  },
+  {
+    "diceResultB": 163,
+    "diceResultH": 166,
+    "name": "Caméra (trame principale)",
+    "commentaire": "cet artefact peut aider les PJ à trouver le chemin d’Éden. Apprenez-en plus à ce sujet au chapitre 16.",
+    "mandatoryDev": "Technologie 30",
+    "bonusDev": "Technologie +D6",
+    "effect": "cet objet peut enregistrer des images qui bougent et du son. Peut-être qu’il y a déjà quelque chose dans sa mémoire ?",
+    "description": "Un objet de la taille d’un poing, terminé par un tube à l’une de ses extrémités. Il y a plusieurs boutons sur les côtés, et un écran qui peut être replié. Ce machin a besoin d’électricité pour fonctionner (un générateur ou une batterie)"
+  },
+  {
+    "diceResultB": 211,
+    "diceResultH": 214,
+    "name": "Canette de soda",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "aucun",
+    "effect": "lorsque vous buvez son contenu, vous guérissez immédiatement de trois points de dégâts. Une fois la canette ouverte, l’artefact est perdu. Petit objet.",
+    "description": "Une canette rouge avec un texte blanc aux formes étranges. Le liquide marron qu’il contient est gazeux  et très rafraîchissant pour les voyageurs éreintés. Les boissons des Anciens, c’était vraiment quelque chose"
+  },
+  {
+    "diceResultB": 215,
+    "diceResultH": 222,
+    "name": "Canoë",
+    "commentaire": "",
+    "mandatoryDev": "aucun",
+    "bonusDev": "Technologie +1",
+    "effect": "le canoë peut transporter sur l’eau jusqu’à quatre mutants et peut être utilisé pour explorer les secteurs côtiers. Il peut servir à échapper aux menaces sur l’eau et confère un bonus d’équipement +2 aux tests de Déplacement dans ce genre de situations. Résistance 1.",
+    "description": "Un étrange véhicule flottant oblong en métal bosselé. Il possède deux sièges, et deux rames en plastique sont rangées dessous"
+  },
+  {
+    "diceResultB": 223,
+    "diceResultH": 226,
+    "name": "Carte d’accès (trame principale)",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 20",
+    "bonusDev": "Technologie +D6",
+    "effect": "les cartes de ce genre étaient utilisées aux Temps d’Avant pour ouvrir des portes. La vraie question est de savoir laquelle elle ouvre… Objet minuscule.",
+    "description": "Une vieille carte poisseuse et abîmée en plastique jauni. On peut lire sur une face « Carte d’accès type VII », et au verso « Sécurité Éden »."
+  },
+  {
+    "diceResultB": 231,
+    "diceResultH": 234,
+    "name": "Carte de la Zone",
+    "commentaire": "",
+    "mandatoryDev": "Culture 10",
+    "bonusDev": "Culture +D6",
+    "effect": "bonus d’équipement +3 aux tests de Trouver le chemin. Objet minuscule.",
+    "description": "Cette carte chiffonnée et écornée par endroits révèle à quoi ressemblait la Zone aux Temps d’Avant. C’est un outil inestimable pour un Zonard désireux de se repérer à travers les ruines, mais également pour le Peuple."
+  },
+  {
+    "diceResultB": 235,
+    "diceResultH": 242,
+    "name": "Casque de hockey",
+    "commentaire": "",
+    "mandatoryDev": "aucun",
+    "bonusDev": "Technologie +1",
+    "effect": "valeur d’armure 3 contre les dégâts",
+    "description": "Un vieux casque en plastique bleu. Il est légèrement fendu et tordu, mais offre tout de même une bonne protection à la tête."
+  },
+  {
+    "diceResultB": 243,
+    "diceResultH": 246,
+    "name": "Clé à molette",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6",
+    "effect": "bonus d’équipement +3 aux tests de Système D et +2 aux tests de Combat. Dégâts 1.",
+    "description": "Un lourd outil de métal des Temps d’Avant. Bien que rouillé, il vaut son pesant d’or pour les Rafistoleurs. Et c’est toujours pratique pour fracasser des crânes."
+  },
+  {
+    "diceResultB": 251,
+    "diceResultH": 254,
+    "name": "Combinaison de protection",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6",
+    "effect": "valeur de protection 6 contre la Gangrène (cf. page 126)",
+    "description": "Une combinaison en épais tissu jaune. Elle est sale et usée, mais semble fonctionnelle."
+  },
+  {
+    "diceResultB": 255,
+    "diceResultH": 262,
+    "name": "Costume",
+    "commentaire": "",
+    "mandatoryDev": "Culture 10",
+    "bonusDev": "Culture +D6",
+    "effect": "bonus d’équipement +2 aux tests de Manipulation. Ne compte pas dans l’encombrement lorsqu’on le porte.",
+    "description": "Un ensemble composé d’une veste, d’un pantalon noir et d’une chemise. Devant la chemise, plusieurs bandes de tissu froissé pendent nonchalamment. Ces vêtements délicieusement rétro impressionneront tout le monde autour de vous."
+  },
+  {
+    "diceResultB": 263,
+    "diceResultH": 266,
+    "name": "Équipement de plongée",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 20",
+    "bonusDev": "Technologie +D6",
+    "effect": "octroie un bonus d’équipement +3 aux tests de Déplacement sous l’eau. L’équipement vous protège également contre les gaz et vous confère une valeur de protection 3 contre la Gangrène. Objet lourd.",
+    "description": "Une combinaison couvrant tout le corps et composée d’une sorte de caoutchouc des Temps d’Avant. Il y a en plus des chaussures bizarres qui ressemblent à des pattes de grenouille, un masque transparent et un cylindre de métal rouillé avec des tubes et une jauge."
+  },
+  {
+    "diceResultB": 311,
+    "diceResultH": 314,
+    "name": "Flacon de parfum",
+    "commentaire": "",
+    "mandatoryDev": "aucun",
+    "bonusDev": "Culture +D6",
+    "effect": "aucun",
+    "description": "Un petit flacon en verre très épais, contenant un liquide clair. Lorsqu’on appuie sur le bouton pressoir, le flacon libère un petit nuage. Vous n’avez jamais rien senti d’aussi bon."
+  },
+  {
+    "diceResultB": 315,
+    "diceResultH": 322,
+    "name": "Fusil à pompe",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6, Défense +1",
+    "effect": "bonus d’équipement +3 aux tests de Tir, dégâts 3, portée Courte. Peut être utilisé deux fois avant de devoir recharger.",
+    "description": "Un fusil composé de deux lourds canons sciés. À courte portée, sa puissance destructrice est telle qu’elle force l’admiration de tous les mutants de l’Arche."
+  },
+  {
+    "diceResultB": 323,
+    "diceResultH": 326,
+    "name": "Fusil d’assaut",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 20",
+    "bonusDev": "Technologie +D6, Défense +D6",
+    "effect": "bonus d’équipement +3 aux tests de Tir, dégâts 2, portée Longue. Possède un chargeur, ce qui signifie que vous n’avez pas besoin de recharger entre chaque tir. Capable de tirs automatiques (cf. page 86).",
+    "description": "Une arme rouillée mais qui impose le respect, capable de cracher des rafales de balles sur vos adversaires. Les balles sont généralement trop précieuses pour être gâchées de la sorte, mais l’arme vous vaudra le respect dans l’Arche."
+  },
+  {
+    "diceResultB": 331,
+    "diceResultH": 334,
+    "name": "Fusil de chasse",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6, Défense +1",
+    "effect": "bonus d’équipement +2 aux tests de Tir, dégâts 2, portée Longue.. Possède un chargeur, ce qui signifie que vous n’avez pas besoin de recharger entre chaque tir.",
+    "description": "Cette longue arme à feu est en piteux état et striée de rayures, mais sa puissance de feu et sa portée vous permettront d’être craint de tous."
+  },
+  {
+    "diceResultB": 335,
+    "diceResultH": 342,
+    "name": "Générateur",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 20",
+    "bonusDev": "Technologie +D6",
+    "effect": "requiert une dose de tord-boyaux par jour. Peut alimenter d’autres artefacts ou projets. Objet lourd.",
+    "description": "Une lourde machine rouillée qui semble inutile de prime abord. Mais un Rafistoleur saura reconnaître la valeur inestimable de ce vieux tas de métal. S’il est chargé en carburant, il peut générer de l’électricité."
+  },
+  {
+    "diceResultB": 343,
+    "diceResultH": 346,
+    "name": "Grenade",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 20",
+    "bonusDev": "Technologie +D6, Défense +D6",
+    "effect": "on lance la grenade au moyen d’un test de Tir. Pas de bonus d’équipement, portée Courte. Si l’attaque est un succès, la grenade atterrit à portée Proche de la cible, sinon à portée Courte. L’explosion a une Puissance 9 et des dégâts 2. Petit objet.",
+    "description": "Un morceau de métal rouillé qui explose dans une détonation assourdissante si on en retire la goupille. À manipuler avec précaution !"
+  },
+  {
+    "diceResultB": 351,
+    "diceResultH": 354,
+    "name": "Grenade fumigène",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +1, Défense +1",
+    "effect": "vous pouvez utiliser la grenade fumigène pour battre en retraite (cf. page 81) plutôt que de tenter un test de Déplacement. Vous pouvez même commencer par le test de Déplacement et utiliser la grenade si ce dernier se solde par un échec.",
+    "description": "Dans un chuintement, ce vieux tube de métal libère une fumée opaque bloquant la vision. L’objet idéal pour se carapater quand les choses tournent mal."
+  },
+  {
+    "diceResultB": 355,
+    "diceResultH": 362,
+    "name": "Guitare",
+    "commentaire": "",
+    "mandatoryDev": "Culture 20",
+    "bonusDev": "Culture +D6",
+    "effect": "si vous apprenez à jouer de la guitare, vous serez populaire autour des feux de camp. Offre un bonus d’équipement +3 aux tests de Manipulation, mais seulement lorsque vous êtes en mesure de jouer.",
+    "description": "Un étrange machin en bois, avec de fines cordes tendues au-dessus d’un trou. Contre toute attente, il a survécu à l’Apocalypse avec quelques éraflures seulement, et si on gratte ou tire les cordes, un joli son s’en échappe."
+  },
+  {
+    "diceResultB": 363,
+    "diceResultH": 366,
+    "name": "Jerrican",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +1",
+    "effect": "le carburant peut remplir les réservoirs des vieux véhicules (cf. page 94). Pour utiliser le jerrican comme une arme, il faut allumer une mèche fourrée dans le goulot et jeter le tout au moyen d’un test de Force. Pas de bonus d’équipement, portée Courte. Si l’attaque est un succès, le jerrican atterrit à portée Proche de la cible, sinon à portée Courte. L’explosion a une Puissance 6.",
+    "description": "Un contenant rouillé mais fonctionnel, rempli de carburant à l’odeur forte et facilement inflammable. Le carburant peut être utilisé pour faire fonctionner de vieux véhicules… ou servir de bombe incendiaire."
+  },
+  {
+    "diceResultB": 411,
+    "diceResultH": 414,
+    "name": "Journal",
+    "commentaire": "",
+    "mandatoryDev": "Culture 20",
+    "bonusDev": "Culture +D6",
+    "effect": "cet artefact permet de se raccorder à la trame principale. Vous en apprendrez plus à ce sujet au chapitre 16.",
+    "description": "Un cahier écorné contenant des textes écrits à la main sur des pages abîmées. Pour qui est en mesure de lire l’écriture des Anciens, il est possible de comprendre certaines choses."
+  },
+  {
+    "diceResultB": 415,
+    "diceResultH": 422,
+    "name": "Jumelles",
+    "commentaire": "",  
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6",
+    "effect": "bonus d’équipement +3 aux tests d’Observation et Trouver le chemin. Petit objet.",
+    "description": "Un étrange objet composé de deux tubes reliés entre eux et contenant des morceaux de verre. Si on regarde au travers, tout ce qui est loin semble plus proche. Un accessoire très pratique pour observer les menaces à bonne distance."
+  },
+  {
+    "diceResultB": 423,
+    "diceResultH": 426,
+    "name": "Katana",
+    "commentaire": "",
+    "mandatoryDev": "aucun",
+    "bonusDev": "Culture +D6",
+    "effect": "bonus d’équipement +3 aux tests de Combat, dégâts 2.",
+    "description": "Une épée longue et effilée, protégée par un fourreau qui se désagrège. Elle est bien équilibrée et semble toujours tranchante, très tranchante."
+  },
+  {
+    "diceResultB": 431,
+    "diceResultH": 434,
+    "name": "Lampe-torche",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6",
+    "effect": "dissipe les ténèbres (cf. page 93) jusqu’à portée Courte, vous permettant de Tirer et d’Observer.",
+    "description": "Une puissante lampe portative projetant un cône de lumière brillante à travers le brouillard de la Zone. Nécessite une batterie (l’artefact ou le projet) pour fonctionner."
+  },
+  {
+    "diceResultB": 435,
+    "diceResultH": 442,
+    "name": "Lecteur de cassettes (trame principale)",
+    "commentaire": "cet artefact peut aider les PJ à trouver Éden. Vous en apprendrez plus à ce sujet au chapitre 16.",
+    "mandatoryDev": "Technologie 20",
+    "bonusDev": "Technologie +D6, Culture +D6",
+    "effect": "nécessite une batterie ou un générateur (l’artefact ou le projet) pour fonctionner. Peut jouer de la musique des Temps d’Avant et capter des signaux radio… si quelqu’un émet encore.",
+    "description": "Un objet fait de plastique craquelé avec des boutons et un couvercle sur le côté. À l’intérieur, on trouve un petit rectangle noir, en plastique lui aussi, et comportant deux trous. Sur le haut de l’objet, une petite antenne métallique a été fixée."
+  },
+  {
+    "diceResultB": 443,
+    "diceResultH": 446,
+    "name": "Lunettes de soleil",
+    "commentaire": "",
+    "mandatoryDev": "aucun",
+    "bonusDev": "Culture +1",
+    "effect": "bonus d’équipement +2 aux tests de Manipulation. Objet minuscule.",
+    "description": "Une paire de lunettes à verres teintés. Ils sont légèrement rayés et dissimulent bien les yeux, ce qui est très pratique pendant des négociations."
+  },
+  {
+    "diceResultB": 451,
+    "diceResultH": 454,
+    "name": "Magazine",
+    "commentaire": "",
+    "mandatoryDev": "aucun",
+    "bonusDev": "Culture +D6",
+    "effect": "aucun, objet minuscule",
+    "description": "Un assemblage de pages gondolées par l’humidité qui devaient être brillantes un jour. Sur la couverture et partout à l’intérieur, on voit des images d’Anciens. Ils sourient et ont l’air en bonne santé et heureux, leurs maisons sont magnifiques et baignées de lumière, leurs véhicules étincellent au soleil. Entre les images, des textes relatent la vie aux Temps d’Avant. Ce devait être le paradis."
+  },
+  {
+    "diceResultB": 455,
+    "diceResultH": 462,
+    "name": "Masque à gaz",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6",
+    "effect": "protège contre les gaz et offre une valeur de protection 3 contre la Gangrène.",
+    "description": "Ce masque de caoutchouc déformé couvre le visage en entier et comprend un gros filtre au niveau de la bouche. Il a connu des jours meilleurs, mais il est toujours fonctionnel. Petit objet."
+  },
+  {
+    "diceResultB": 463,
+    "diceResultH": 466,
+    "name": "Matelas pneumatique",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6",
+    "effect": "le matelas pneumatique permet de se reposer pleinement. Une seule heure de repos permet de récupérer tout son Intellect (cf. page 90).",
+    "description": "Ce lit gonflable offre un confort de sommeil incomparable ! Il est sale, usé et difficile à gonfler lorsqu’on ne sait pas comment s’en servir."
+  },
+  {
+    "diceResultB": 511,
+    "diceResultH": 514,
+    "name": "Moto",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6",
+    "effect": "la moto peut transporter deux mutants. Elle augmente la vitesse de déplacement en combat et divise de moitié le temps nécessaire à l’exploration d’un secteur. Elle peut aussi servir à s’échapper d’un combat ou à percuter les ennemis. Le fonctionnement des véhicules est expliqué à la page 94. Bonus d’équipement +3, Résistance 1.",
+    "description": "Deux roues, un moteur et un guidon rouillé : le véhicule idéal dans la Zone. Pour le faire fonctionner, un Rafistoleur doit réussir un test de Système D. Le moteur consomme du carburant ou du tord-boyaux (une dose par secteur de la Zone exploré)."
+  },
+  {
+    "diceResultB": 515,
+    "diceResultH": 522,
+    "name": "Parapluie",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6",
+    "effect": "valeur de protection 3 contre la Gangrène (cf. page 126).",
+    "description": "D’un simple geste, on peut déplier cet objet pour qu’il offre un dôme de protection en tissu et en métal. Pratique contre la pluie gangrenée ou acide de la Zone."
+  },
+  {
+    "diceResultB": 523,
+    "diceResultH": 526,
+    "name": "Peinture",
+    "commentaire": "",
+    "mandatoryDev": "aucun",
+    "bonusDev": "Culture +D6",
+    "effect": "aucun",
+    "description": "Une grande œuvre d’art dans un cadre en bois. L’image montre un homme étique et disproportionné qui crie sur un pont, le visage entre les mains. Les Anciens étaient vraiment des gens étranges. Cet artefact n’a pas une utilité particulière, mais vous pouvez toujours l’accrocher quelque part dans votre planque, ou au Sanctuaire du Renouveau."
+  },
+  {
+    "diceResultB": 531,
+    "diceResultH": 534,
+    "name": "Pilules énergisantes",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 20",
+    "bonusDev": "Technologie +D6",
+    "effect": "lorsque vous avalez ces pilules, vous guérissez immédiatement de tout l’épuisement accumulé. Il n’y a assez de pilules que pour D6 doses. Lorsque vous les avez toutes consommées, vous perdez l’artefact. Objet minuscule.",
+    "description": "Les pilules contenues dans cette boîte redonnent rapidement de l’énergie lorsqu’on est épuisé."
+  },
+  {
+    "diceResultB": 535,
+    "diceResultH": 542,
+    "name": "Pistolet de détresse",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6",
+    "effect": "le pistolet tire dans les airs une fusée éclairante qui peut être aperçue à plusieurs secteurs de là. Peut également servir d’arme : bonus d’équipement +2, dégâts 2, portée Courte.",
+    "description": "Un pistolet lourd avec une grosse cartouche dans le canon. Cette arme ne peut pas être chargée avec des balles normales."
+  },
+  {
+    "diceResultB": 543,
+    "diceResultH": 546,
+    "name": "Pistolet semi-automatique",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6, Défense +1",
+    "effect": "bonus d’équipement +2 aux tests de Tir, dégâts 2, portée Courte. Possède un chargeur, ce qui signifie que vous n’avez pas à recharger entre chaque tir. Petit objet.",
+    "description": "Une arme de poing légère et facile à cacher, assez petite pour se glisser dans une manche. Très pratique dans certaines situations tendues."
+  },
+  {
+    "diceResultB": 551,
+    "diceResultH": 554,
+    "name": "REGEN",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 30",
+    "bonusDev": "aucun",
+    "effect": "le liquide clair contenu dans cet injecteur est la légendaire drogue REGEN. Une injection guérit immédiatement tous les traumatismes permanents dont vous souffrez (cf. page 70). Vous gardez vos mutations. Cet injecteur ne contient qu’une dose. Objet minuscule.",
+    "description": "Un tube en plastique orange avec un bouton d’un côté et une aiguille de l’autre. Le texte est presque effacé,   mais toujours lisible : REGEN."
+  },
+  {
+    "diceResultB": 555,
+    "diceResultH": 562,
+    "name": "Revolver",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6, Défense +1",
+    "effect": "bonus d’équipement +3 aux tests de Tir, dégâts 2, portée Courte. Possède un barillet qui peut être chargé de plusieurs balles, il n’est donc pas nécessaire de recharger après chaque tir.",
+    "description": "Une arme faite d’un acier lourd, agréable à tenir en main. Elle est un peu rouillée, mais toujours dans un état étonnamment bon. Simple comme bonjour !"
+  },
+  {
+    "diceResultB": 563,
+    "diceResultH": 566,
+    "name": "Robe",
+    "commentaire": "",
+    "mandatoryDev": "Culture 10",
+    "bonusDev": "Culture +D6",
+    "effect": "bonus d’équipement +2 aux tests de Manipulation. Ne compte pas dans l’encombrement lorsqu’on la porte",
+    "description": "Un vêtement ample taillé dans un ancien tissu très fin, qui brille et scintille encore malgré les décennies de boue et de poussière. Il couvre à peine la partie supérieure du corps, mais pend autour de vos jambes, entravant vos déplacements. Ce n’est pas très pratique, mais c’est très joli."
+  },
+  {
+    "diceResultB": 611,
+    "diceResultH": 614,
+    "name": "Stimulants",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 20",
+    "bonusDev": "aucun",
+    "effect": "lorsque vous avalez ces pilules, vous guérissez immédiatement de toute la confusion accumulée. Il n’y a assez de pilules que pour D6 doses. Lorsque vous les avez toutes consommées, vous perdez l’artefact. Petit objet",
+    "description": "Ces petites pilules n’ont l’air de rien, mais lorsqu’on les avale, elles aiguisent aussitôt les sens et rendent particulièrement réactif. Cela dit, elles risquent de priver ceux qui les consomment de sommeil pendant quelque temps."
+  },
+  {
+    "diceResultB": 615,
+    "diceResultH": 622,
+    "name": "Tronçonneuse",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6",
+    "effect": "utilisée comme une arme, la tronçonneuse offre un bonus d’équipement +2 et dégâts 3. Objet l",
+    "description": "Ce monstre de métal cliquetant peut être utilisé au corps à corps pour infliger d’atroces blessures. Il faut toutefois un tour complet et une dose de carburant ou de tord-boyaux pour démarrer l’objet."
+  },
+  {
+    "diceResultB": 623,
+    "diceResultH": 626,
+    "name": "Vélo",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6",
+    "effect": "le vélo peut accueillir un mutant, augmente la vitesse de déplacement en combat et divise de moitié le temps nécessaire à l’exploration d’un secteur. Il peut aussi servir à échapper aux menaces. Le fonctionnement des véhicules est expliqué en détail à la page 94. Bonus d’équipement +2, Résistance 1.",
+    "description": "Cet objet piqué par la rouille est simple mais très ingénieux : il comprend deux roues minces, un guidon et des pédales. Les pneus en caoutchouc sont épais et à crampons, parfaits pour se déplacer dans la Zone."
+  },
+  {
+    "diceResultB": 631,
+    "diceResultH": 634,
+    "name": "Veste en Kevlar",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 10",
+    "bonusDev": "Technologie +D6",
+    "effect": "valeur d’armure 6",
+    "description": "Cette lourde veste est percée de nombreux trous, mais offre néanmoins une grande protection contre les balles et autres types d’attaques."
+  },
+  {
+    "diceResultB": 635,
+    "diceResultH": 642,
+    "name": "Voiture",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 20",
+    "bonusDev": "Technologie +D6",
+    "effect": "La voiture peut transporter cinq mutants, augmente la vitesse de déplacement en combat et divise de moitié le temps nécessaire à l’exploration d’un secteur. Elle peut aussi servir à fuir une menace ou à percuter des ennemis. Le fonctionnement des véhicules est expliqué en détail à la page 94. Bonus d’équipe ment +3, valeur d’armure 3, Résistance 1.",
+    "description": "Cette sorte de chariot à moteur est une épave branlante, mais peut être réparée grâce à un test de Système D. Le moteur fonctionne avec du carburant ou du tord-boyaux (une dose par secteur traversé)"
+  },
+  {
+    "diceResultB": 643,
+    "diceResultH": 666,
+    "name": "Relancez les dés",
+    "commentaire": "",
+    "mandatoryDev": "",
+    "bonusDev": "",
+    "effect": "",
+    "description": ""
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "diceResultB": 11,
+    "diceResultH": 13,
+    "name": "Brouillard de la Zone",
+    "description": "Une épaisse brume jaune se lève. Au début, elle ne monte pas plus haut que les genoux, mais bientôt elle obscurcit la vision. Les yeux sont rapidement irrités, et chaque respiration brûle le nez et la gorge.",
+    "effect": "toute personne prise dans un brouillard de la Zone subit un point de Gangrène. La vision est limitée à portée Proche et les PJ ne peuvent voir (ou Tirer sur) quoi que ce soit qui se trouve à portée supérieure. Quelques monstres de la Zone en tirent profit pour chasser : vous êtes libre d’en choisir ou d’en tirer un au hasard. Le seul moyen d’échapper à la brume est de prendre de la hauteur en montant sur un bâtiment ou une colline. La brume ne s’élève pas plus haut que quelques mètres et se dissipe au bout de D6 heures.",
+    "zoneKnowledgeModifier": 1,
+    "page": 184,
+    "special": false
+  },
+  {
+    "diceResultB": 14,
+    "diceResultH": 14,
+    "name": "Champ d’inertie",
+    "description": "Au loin, les PJ aperçoivent un monstre ou un humanoïde qui semble figé en plein élan. S’ils se rapprochent, ils ont l’impression de le voir bouger au ralenti. À cet endroit se trouve un étrange champ de force qui déforme le temps lui-même. Pour toute personne prisonnière du phénomène, l’extérieur semble aller plus vite. L’effet s’amplifie lorsqu’on se rapproche du centre. Il est possible de parler à l’occupant du champ. Toutefois, les mots lui semblent rapides et difficilement compréhensibles, et sa propre voix est ralentie de la même manière pour tous ceux qui se trouvent à l’extérieur.",
+    "effect": "se tenir à l’extérieur du champ n’est pas dangereux, mais quiconque se déplace vers son centre risque d’y être emprisonné à tout jamais. Permettez à un PJ qui s’y déplace (ou voit une personne qui y est coincée) de faire un test de Connaissance de la Zone. En cas de succès, le PJ prend conscience des risques.",
+    "zoneKnowledgeModifier": -1,
+    "page": 184,
+    "special": false
+  },
+  {
+    "diceResultB": 15,
+    "diceResultH": 16,
+    "name": "Champ magnétique",
+    "description": "Les restes d’une quelconque centrale électrique souterraine créent un puissant champ magnétique ici. Les PJ entendent un faible bourdonnement et leurs poils se hérissent. S’ils s’attardent dans les parages, ils voient ou sentent tous les objets métalliques attirés vers un endroit précis.",
+    "effect": "les PJ doivent soient lâcher ce qu’ils portent, soit réussir un test de Force pour sortir du champ d’attraction avec leur équipement en métal. Toute personne portant une armure de fortune doit réussir un test de Force : il est impossible de la retirer assez vite. En cas d’échec, elle peut retenter le test au prochain tour, mais avec un modificateur de -1, qui passe à -2 au tour suivant, etc. L’effet s’arrête subitement (selon votre bon vouloir) et sans explication apparente.",
+    "zoneKnowledgeModifier": -1,
+    "page": 184,
+    "special": false
+  },
+  {
+    "diceResultB": 21,
+    "diceResultH": 21,
+    "name": "Chute de température",
+    "description": "Soudain, le vent se lève, la température chute et la neige tombe à gros flocons. Puis le vent et la neige se calment. Les nuages forment une vaste muraille cylindrique au-dessus des PJ, entourant un ciel d’un bleu cristallin. Mais la sérénité a un prix : la température chute brusquement et le froid peut se révéler mortel.",
+    "effect": "tout voyageur de la Zone pris dans ce phénomène alors qu’il se trouve à extérieur doit immédiatement faire un test d’Endurance contre le froid (cf. page 93). Un test doit être effectué toutes les 15 minutes, jusqu’à ce que le froid passe (au bout de D6 heures) ou que les PJ quittent le secteur. Allumer un feu permet de se protéger de la température, mais nécessite du bois et un test d’Agilité sans compétence associée.",
+    "zoneKnowledgeModifier": 0,
+    "page": 184,
+    "special": false
+  },
+  {
+    "diceResultB": 22,
+    "diceResultH": 22,
+    "name": "Vague de chaleur",
+    "description": "La température grimpe soudainement jusqu’à une chaleur extrême. Les PJ sont essoufflés et suent abondamment, les objets métalliques brûlent quand on les touche.",
+    "effect": "toute personne prise dans une vague de chaleur doit réussir un test d’Endurance après avoir entrepris la moindre action physique. Ce jet ne compte pas comme une action, mais doit être fait immédiatement. Un échec inflige un point d’épuisement. De plus, toute personne prise dans une vague de chaleur doit boire une ration d’eau toutes les heures pour éviter d’être déshydratée (cf. page 92). La vague de chaleur dure D6 heures.",
+    "zoneKnowledgeModifier": 0,
+    "page": 187,
+    "special": false
+  },
+  {
+    "diceResultB": 23,
+    "diceResultH": 24,
+    "name": "Effondrement de terrain",
+    "description": "Le sol se dérobe soudain, et un immense trou déboux chant sur de vieux souterrains fait son apparition.",
+    "effect": "toute personne trop proche de la zone d’effondrement doit réussir un test de Déplacement pour éviter de tomber dans le gouffre. Un échec inflige un point de dégâts et expose la victime aux périls tapis dans les souterrains, comme des monstres ou de la Gangrène. Remonter peut se révéler difficile et requiert généralement un test de Déplacement.",
+    "zoneKnowledgeModifier": 0,
+    "page": 184,
+    "special": false
+  },
+  {
+    "diceResultB": 25,
+    "diceResultH": 31,
+    "name": "Épicentre de la Gangrène",
+    "description": "Cet endroit semble tranquille. Pas de menace visible à l’horizon, et l’exploration peut commencer sans risque. Mais ici, la Gangrène est très forte et peut tuer des voyageurs imprudents ou les marquer à vie.",
+    "effect": "donnez aux joueurs une chance de remarquer que quelque chose ne va pas, comme beaucoup de cadavres sur le sol ou un tuyau duquel s’échappe un magma verdâtre. Toute personne restant à proximité malgré ces indices subit un point de Gangrène par minute.",
+    "zoneKnowledgeModifier": 0,
+    "page": 185,
+    "special": false
+  },
+  {
+    "diceResultB": 32,
+    "diceResultH": 33,
+    "name": "Flaques de boue",
+    "description": "Cette zone brumeuse est couverte de grandes flaques remplies d’une boue étrangement épaisse et chaude. Elles ne sont pas très profondes et on devine un sol dur à mi-genoux. Par endroits, on trouve cependant des puits d’eau bouillonnante. Traverser ces espaces risque de déclencher des geysers d’eau brûlante susceptibles de blesser toute personne à proximité.",
+    "effect": "un PJ qui Observe l’endroit avec succès remarque des bulles et des volutes de vapeur s’échappant de la boue à certains endroits. S’aventurer dans ce genre de formations géologiques nécessite un test de Connaissance de la Zone, un échec signifiant le déclenchement d’un geyser. Lancez six dés de base pour chaque personne à portée Proche. Chaque Succés obtenu inflige un point de dégâts. L’armure permet de se protéger normalement, et toute personne subissant un point de dégâts ou plus reçoit également un point de Gangrène. Rester ici a tout de même un effet positif : la vapeur tient chaud, protégeant donc contre les températures basses (cf. page 93).",
+    "zoneKnowledgeModifier": 0,
+    "page": 185,
+    "special": false
+  },
+  {
+    "diceResultB": 34,
+    "diceResultH": 34,
+    "name": "Lueurs fantômes",
+    "description": "Une lueur verte et vacillante se déplace parmi les ruines et les arbres. Si quelqu’un tente de s’en apprcher, elle s’éloigne comme si elle percevait sa présence. La lueur s’attarde quelques minutes dans les parages avant de disparaître.",
+    "effect": "aucun, mais vous pouvez laisser les PJ s’inquiéter. Rien de ce qu’ils font ne peut affecter les lumières.",
+    "zoneKnowledgeModifier": 0,
+    "page": 185,
+    "special": false
+  },
+  {
+    "diceResultB": 35,
+    "diceResultH": 36,
+    "name": "Lumières nocturnes",
+    "description": "De gigantesques lumières blafardes et mouvantes éclairent le ciel nocturne. Les artefacts et équipements fonctionnant à l’électricité se comportent de manière erratique, voire cessent de fonctionner. Certains voient dans ces lumières un mauvais présage, d’autres le signe d’un monde nouveau, et certains enfin les trouvent simplement jolies. Les lueurs durent jusqu’au matin.",
+    "effect": "tous les objets électriques (comme la lampe-torche, le lecteur de cassettes ou la caméra) ne fonctionnent pas correctement en présence des lumières nocturnes.",
+    "zoneKnowledgeModifier": -1,
+    "page": 185,
+    "special": false
+  },
+  {
+    "diceResultB": 41,
+    "diceResultH": 41,
+    "name": "Mirage",
+    "description": "Le terrain non loin des PJ se déforme soudain, puis change complètement d’apparence pour ressembler à ce qu’il était aux Temps d’Avant : pas de décombres, d’usure, tout semble propre et ordonné. Les PJ traversent un hologramme, vestige d’un ancien système de défense.",
+    "effect": "les PJ risquent de se cogner contre des objets qu’ils ne peuvent voir et suivent donc les règles de l’obscurité totale (cf. page 93). L’hologramme mesure une quinzaine de mètres de large.",
+    "zoneKnowledgeModifier": -1,
+    "page": 185,
+    "special": false
+  },
+  {
+    "diceResultB": 42,
+    "diceResultH": 42,
+    "name": "Obélisque",
+    "description": "Au milieu des terres désolées se dresse un imposant obélisque noir. Il semble composé d’un métal très résistant. Les PJ ne repèrent aucune porte ni ouverture d’aucune sorte. La structure n’est visiblement pas soumise au passage du temps et l’obélisque paraît complètement étranger aux PJ. Il pourrait affecter leurs esprits d’étranges manières.",
+    "effect": "l’énergie qui émane de l’obélisque peut provoquer des hallucinations psychédéliques. Toute personne à portée Courte doit réussir un test de Connaissance de la Zone ou s’exposer à un point de confusion.",
+    "zoneKnowledgeModifier": -1,
+    "page": 185,
+    "special": false
+  },
+  {
+    "diceResultB": 43,
+    "diceResultH": 44,
+    "name": "Obus ou mine",
+    "description": "La zone entière est signalée par des impacts de balles et des traces d’explosions. Dans le sol, on a enfoui des mines, des grenades ou des obus toujours en état de marche. Se hasarder dans les environs est particulièrement dangereux.",
+    "effect": "toute personne se déplaçant dans le secteur doit réussir un test de Déplacement. Un échec déclenche une explosion de Puissance 6 à Portée de main (cf. page 94).",
+    "zoneKnowledgeModifier": 1,
+    "page": 186,
+    "special": false
+  },
+  {
+    "diceResultB": 45,
+    "diceResultH": 46,
+    "name": "Orage électrique",
+    "description": "Des nuages noirs s’amoncellent. Une odeur de métal se répand, les poils se dressent sur la peau et les objets métalliques se mettent à tinter. Subitement, des éclairs frappent tout autour, encore et encore, bombardant la zone. Les flashs de lumière sont aveuglants et le tonnerre assourdissant. L’orage électrique cesse au bout de quelques minutes, mais semble durer une éternité.",
+    "effect": "toute personne prise dans l’orage subit une attaque dotée de quatre dés de base (dégâts 1), ou huit si elle est située en hauteur ou sur quelque chose de métallique. S’abriter peut aider, mais les armures sont parfaitement inefficaces. Faites un nouveau jet chaque tour tant que les PJ n’ont pas trouvé un abri, ce qui nécessite un test de Déplacement réussi.",
+    "zoneKnowledgeModifier": 0,
+    "page": 186,
+    "special": false
+  },
+  {
+    "diceResultB": 51,
+    "diceResultH": 52,
+    "name": "Pilier de lumière",
+    "description": "Deux grands piliers de lumière apparaissent à l’horizon, filant droit vers le ciel noir de la Zone. D’où viennent ces lumières ? Et pourquoi apparaissent-elles maintenant ?",
+    "effect": "aucun, mais faites dire à des PNJ que ces rayons indiquent le chemin vers Éden, une autre Arche, ou un malheur imminent.",
+    "zoneKnowledgeModifier": 0,
+    "page": 186,
+    "special": false
+  },
+  {
+    "diceResultB": 53,
+    "diceResultH": 55,
+    "name": "Pluie acide",
+    "description": "Une terrible averse s’abat sur la Zone. Mais il ne s’agit pas de pluie ordinaire : les gouttes acides brûlent tout ce qu’elles touchent, et les PJ doivent trouver un abri. Lorsque la pluie cesse (au bout de D6 heures), le paysage est mutilé par l’acide et des mares corrosives se sont formées un peu partout.",
+    "effect": "toute personne prise dans la pluie acide subit une attaque dotée d’un nombre de dés de base dépendant de l’intensité de l’averse : de 4 à 10, 6 étant la norme. Chaque Succés obtenu inflige un point de dégâts. L’armure compte normalement. Les victimes subissent une attaque de ce type chaque tour tant qu’elles n’ont pas trouvé un abri pour se protéger de la pluie, ce qui nécessite un test de Déplacement réussi.",
+    "zoneKnowledgeModifier": 1,
+    "page": 186,
+    "special": false
+  },
+  {
+    "diceResultB": 56,
+    "diceResultH": 61,
+    "name": "Tempête de cendres",
+    "description": "Un vent puissant balaye l’endroit, soulevant les cendres qui couvrent les ruines. Le nuage ainsi créé réduit la visibilité à quelques mètres, irrite les yeux et gêne la respiration. Au bout de quelques heures, lorsque le vent se calme enfin, tout est recouvert d’une fine pellicule de cendres.",
+    "effect": "les voyageurs de la Zone qui veulent poursuivre leur progression malgré le vent chargé de cendres doivent réussir un test d’Endurance. Un échec implique qu’ils doivent s’arrêter et trouver un abri. La tempête dure D6 heures.",
+    "zoneKnowledgeModifier": 1,
+    "page": 186,
+    "special": false
+  },
+  {
+    "diceResultB": 62,
+    "diceResultH": 63,
+    "name": "Tornade de poussière",
+    "description": "Le vent s’intensifie soudain et l’air se remplit de sable et de cendre. Autour des PJ, les prémices de tornades sombres apparaissent progressivement. D’un coup, une vieille maison est pulvérisée par un grand tourbillon noir qui fonce droit sur les PJ.",
+    "effect": "toute personne située sur la trajectoire de la tornade de poussière doit réussir un test de Déplacement pour s’éloigner à temps. Un échec implique une attaque dotée de douze dés de base (dégâts 1). Se mettre à couvert ou utiliser une armure permet d’en réduire les effets.",
+    "zoneKnowledgeModifier": -1,
+    "page": 186,
+    "special": false
+  },
+  {
+    "diceResultB": 64,
+    "diceResultH": 65,
+    "name": "Vent de Gangrène",
+    "description": "Un vent charriant des fumées chargées de Gangrène balaye le secteur. L’air est empli de poussière et d’une odeur atroce.",
+    "effect": "le vent de Gangrène inflige immédiatement un point de Gangrène à toute personne exposée. De plus, toute eau ou bouffe portée par les PJ se retrouve contaminée par la Gangrène, infligeant un point de Gangrène en cas d’ingestion. Le vent de Gangrène dure D6 heures.",
+    "zoneKnowledgeModifier": 0,
+    "page": 187,
+    "special": false
+  },
+  {
+    "diceResultB": 66,
+    "diceResultH": 66,
+    "name": "Vide",
+    "description": "Les PJ traversent une zone vide d’air. Il n’y a aucune explication rationnelle à ce phénomène. Mais les PJ se rendent rapidement compte du problème : ils ne peuvent ni respirer ni parler.",
+    "effect": "toute personne pénétrant dans cette zone doit réussir un test de Déplacement. Un échec indique que la victime panique et s’attarde un tour de plus. Chaque tour passé à l’intérieur inflige un point de dégâts. Un seul jet est autorisé chaque tour pour tenter de quitter les lieux.",
+    "zoneKnowledgeModifier": -1,
+    "page": 187,
+    "special": false
+  }
+]

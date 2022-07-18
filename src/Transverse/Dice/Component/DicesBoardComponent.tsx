@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
+import { Button } from 'react-bootstrap';
 import DicesBoradPropsInterface from '../Interface/DicesBoardPropsInterface';
 
 const DicesBoardComponent = ({ dices }: DicesBoradPropsInterface) => {
   const [result, setValue] = useState<number>(0);
   const dicesButton = dices.map((dice) => (
-    <button type="button" onClick={() => setValue(dice.dice.roll(dice.howMany, dice.likeHundred))}>
+    <Button variant="warning" type="button" onClick={() => setValue(dice.dice.roll(dice.howMany, dice.likeHundred))}>
       Lancer
       {dice.diceName}
-    </button>
+    </Button>
   ));
   return (
     <div className="Dices">

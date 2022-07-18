@@ -1,0 +1,182 @@
+[
+  {
+    "diceResult": 11,
+    "name": "Abri",
+    "description": "Une porte métallique, particulièrement massive et dépassant de la roche, mène sous terre. C’est là-dessous que les Anciens pensaient pouvoir se protéger des horreurs de la surface. C’est aujourd’hui un excellent endroit pour trouver des artefacts. Mais qui sait ce qui rôde là-dessous ? Qui d’autre a déjà découvert cette caverne aux trésors ?"
+  },
+  {
+    "diceResult": 12,
+    "name": "Aire de jeux",
+    "description": "Des balançoires grincent au vent, pendues à des arches de métal et des chaînes rouillées. Un bac à sable entouré de bois s’est transformé en piscine de boue nauséabonde. Les pluies acides ont grêlé les toboggans de trous irréguliers. C’est ici que les enfants des Anciens venaient jouer. Quelques jouets en plastique fissurés ont résisté au temps et reposent tristement sur le sol."
+  },
+  {
+    "diceResult": 13,
+    "name": "Autoroute",
+    "description": "L’asphalte est craquelé et les marquages au sol quasiment effacés. Avant la Fin, les Anciens filaient ici à toute vitesse au volant de leurs v éhicules étincelants. À présent, leurs bolides calcinés ou dévorés par larouille hantent le bas-côté."
+  },
+  {
+    "diceResult": 14,
+    "name": "Banlieue résidentielle",
+    "description": "De grands immeubles en béton, étrangement identiques et parcourus de fissures, s’effondrent à moitié. Au sol, entre ces monolithes, on trouve des bancs vermoulus et des herbes hautes. Des épaves rouillées de voitures sont alignées sur un parking silencieux. Chaque bâtiment abrite les mêmes appartements, répliqués à l’infini. À l’intérieur, on peut trouver des meubles décrépits, et ce qui étaient autrefois des vêtements et autres objets du quotidien."
+  },
+  {
+    "diceResult": 15,
+    "name": "Bureaux",
+    "description": "Dans ces ruines sombres, on découvre des espaces occupés par une multitude de tables identiques et séparés par de minces cloisons. Des monceaux de papier jaunis jonchent le sol. Avant la Fin, l’endroit devait accueillir une activité importante, mais aujourd’hui, on n’y trouve plus que de la poussière et des vitres brisées."
+  },
+  {
+    "diceResult": 16,
+    "name": "Centre commercial",
+    "description": "Une ville dans la ville, des murs immenses, d’anciens magasins et restaurants sur plusieurs étages... Tout ici a brûlé il y a longtemps et est recouvert de cendre et de suie, mais peut-être y trouverez-vous quelque chose de valeur ? Çà et là, de vieilles statues de plastique aux poses étranges semblent invectiver une foule invisible."
+  },
+  {
+    "diceResult": 21,
+    "name": "Centre sportif",
+    "description": "Un grand hall, haut de plafond et criblé de poutres métalliques. À l’intérieur, on trouve des monceaux d’objets étranges comme des matelas recouverts de plastique rouge ou bleu, de grands filets montés sur des structures en métal, des disques de fonte avec des trous et des balles de différentes tailles et couleurs. On dit que les Anciens venaient ici pour faire de l’exercice."
+  },
+  {
+    "diceResult": 22,
+    "name": "Champ de bataille",
+    "description": "La zone est entièrement dévastée. Des barres à mine rouillées dépassent de blocs de ciment fracturés qui servaient autrefois de murs. Les ruines ont été carbonisées par les explosions ou mouchetées d’impacts de balles. Des cratères grêlent le sol."
+  },
+  {
+    "diceResult": 23,
+    "name": "Cinéma",
+    "description": "Au terme d’une grande entrée qui mène vers les ténèbres, vous découvrez de grandes affiches jaunies encadrées au mur. Elles dépeignent des scènes pleines de la symbolique des Temps d’Avant. Dans ce dédale, il est dit que les Anciens venaient regarder des images animées."
+  },
+  {
+    "diceResult": 24,
+    "name": "Commissariat",
+    "description": "À l’extérieur de ce grand bâtiment, on trouve des épaves de voitures identiques réduites à l’état de tas de rouille. Les pneus ont depuis longtemps disparu, mais les lampes colorées rouges et bleues sur le toit sont encore là. Au sous-sol, on trouve de petites pièces dont les portes ne s’ouvrent pas de l’intérieur."
+  },
+  {
+    "diceResult": 25,
+    "name": "Cratère",
+    "description": "Un gigantesque trou dans le sol, d’au moins 50 m de diamètre. Une terrible arme de destruction a vraisemblablement frappé le sol à cet endroit, détruisant tout. Au fond, on peut distinguer un étang d’eau verdie par la Gangrène."
+  },
+  {
+    "diceResult": 26,
+    "name": "École",
+    "description": "Sur la façade de briques croulante trône encore une horloge qui s’est arrêtée il y a bien longtemps. On distingue en dessous une inscription désormais illisible. D’étranges lignes partiellement visibles marquent le sol, et des barres de métal hérissent çà et là le béton craquelé."
+  },
+  {
+    "diceResult": 31,
+    "name": "Église",
+    "description": "Les antiques flèches de ce bâtiment de pierre pointent vers le ciel. Leurs têtes effilées se perdent dans la brume de la Zone. À l’intérieur, des rangées de bancs en bois pourris font face à la statue d’un homme cloué sur une croix. Les Anciens venaient ici pour parler à leur Caïd dans le ciel. Maintenant, tout n’est que silence. Si l’endroit a abrité un dieu, il est parti depuis longtemps."
+  },
+  {
+    "diceResult": 32,
+    "name": "Épave d’avion",
+    "description": "Un grand cylindre de métal brisé et écrasé sur le sol. Il est marqué par les flammes et, à l’intérieur, on trouve des rangées de sièges élimés ou noircis par le feu. Autour de la carcasse, le sol est carbonisé et les maisons détruites, comme si le cylindre était tombé du ciel à une vitesse prodigieuse."
+  },
+  {
+    "diceResult": 33,
+    "name": "Fast-food",
+    "description": "Un large M formé par deux étranges arcs jaunes trône sur la façade de cet étrange bâtiment. Il y a plusieurs endroits du même genre dans la Zone. Personne ne connaît leur véritable utilité, mais les Zonards tendent à les éviter en raison de la forte Gangrène qu’ils abritent."
+  },
+  {
+    "diceResult": 34,
+    "name": "Gare ferroviaire",
+    "description": "De vieux wagons sommeillent sur des rails envahis de végétation. Si l’on en croit la rumeur, c’est à bord de tels engins que les Anciens parcouraient à grande vitesse la Zone et les terres au-delà. Les seuls passagers qui occupent encore ces colosses de ferraille sont des corps décomposés."
+  },
+  {
+    "diceResult": 35,
+    "name": "Gare routière",
+    "description": "Au milieu de panneaux écaillés, piqués de restes de chiffres et de lettres, plusieurs grandes et longues épaves de véhicules s’abandonnent à la rouille et au temps. Certaines comptent deux étages, d’autres des accordéons en caoutchouc en leur centre, comme si le véhicule pouvait se plier... Les machines des Anciens sont véritablement mystérieuses."
+  },
+  {
+    "diceResult": 36,
+    "name": "Gratte-ciel",
+    "description": "Un grand bâtiment s’élève et perce le cœur du brouillard jaunâtre qui dissimule le ciel dans la Zone. Le béton est usé et fissuré par endroits, et les centaines de vitres de verre se sont déchaussées de leurs cadres depuis bien longtemps. Aujourd’hui, le vent de la Zone souffle au travers des différents étages de ce majestueux édifice. À chaque niveau, on trouve de petits bureaux ou des appartements semblables. Seuls les derniers étages détonnent et recèlent quelques objets de luxe, si toutefois vous parvenez à aller jusqu’en haut..."
+  },
+  {
+    "diceResult": 41,
+    "name": "Hôpital",
+    "description": "Au jour de l’Apocalypse, les Anciens se ruèrent dans le ventre en béton de ce grand bâtiment dans l’espoir d’un salut. Ce n’est plus qu’une ruine aujourd’hui. Descorps décomposés jonchent le sol, les lits, les couloirs..."
+  },
+  {
+    "diceResult": 42,
+    "name": "Lotissement",
+    "description": "Une longue rue avec des maisons identiques de part et d’autre. Le gazon et la végétation ont disparu, tout est couvert de cendres. À l’intérieur des maisons, des vêtements en lambeaux et autres objets personnels jonchent le sol : les habitants ont dû s’enfuir précipitamment. Des épaves de voitures et autres débris des Anciens qui vivaient là hantent encore l’endroit. Le temps a presque tout emporté, et certaines maisons se sont effondrées."
+  },
+  {
+    "diceResult": 43,
+    "name": "Magasin de chasse",
+    "description": "Sur certaines étagères, on trouve de vieilles cannes à pêche, des lignes et des hameçons. Un Zonard compétent pourrait utiliser ces objets pour pêcher des poissons  comestibles dans la Zone (cf. page 60). Sur les murs, des images estompées de fusils plus beaux et rutilants les uns que les autres pendent mollement. Dans un coin sommeille une grande armoire métallique. Peut-être qu’elle contient quelque chose de valeur ?"
+  },
+  {
+    "diceResult": 44,
+    "name": "Manoir délabré",
+    "description": "Cette maison lugubre devait déjà être vieille avant la Fin des Temps. Bien qu’elle soit faite de bois et de pierres, elle a su résister – on ne sait comment – à l’épreuve du temps. Que pourrait-on bien trouver dans ces couloirs obscurs ?"
+  },
+  {
+    "diceResult": 45,
+    "name": "Musée",
+    "description": "De grandes marches de pierre brisées mènent à la porte d’entrée de cette imposante structure. À l’intérieur, des salles enténébrées protègent d’étranges objets des Temps d’Avant, ou peut-être d’époques plus reculées encore. Ils étaient installés là pour que les Anciens puissent les contempler."
+  },
+  {
+    "diceResult": 46,
+    "name": "Parc d’attractions",
+    "description": "Un étrange regroupement de machines, de barres et de câbles rouillés ainsi que de grandes tentes qui devaient autrefois arborer des couleurs vives... Les restes de tissu et de plastique des bâches flottent au vent. Sur un gigantesque panneau, un homme au visage peint en blanc et rehaussé d’un gros nez rouge observe les voyageurs en souriant. Une machine circulaire accueille de petits chevaux en plastique. L’installation semble montée sur un moteur qui devait permettre de faire pivoter l’ensemble."
+  },
+  {
+    "diceResult": 51,
+    "name": "Parc luxuriant",
+    "description": "De grands arbres et d’épais buissons poussent de manière anarchique et se sont approprié les lieux. Des bancs, des allées et des fontaines étouffent sous d’épaisses couches de végétation. Les pelouses se sont transformées en petits marécages. Les rumeurs vont bon train sur les créatures qui rôderaient dans les vieux parcs de la Zone."
+  },
+  {
+    "diceResult": 52,
+    "name": "Parking",
+    "description": "Les piliers de béton ont cédé et le bâtiment s’est effondré sur lui-même, étage par étage. Dans les décombres, on trouve beaucoup de restes de moteurs de véhicules des Temps d’Avant. Peut-être que certains pourraient être réparés ?"
+  },
+  {
+    "diceResult": 53,
+    "name": "Piscine",
+    "description": "Dans cette gigantesque ruine, on trouve de grands bassins remplis de boue et d’algues inquiétantes. Tous ceux qui souhaitent s’y aventurer doivent s’accommoder des émanations toxiques suffocantes. Il est difficile d’imaginer les Anciens se baignant ici volontairement."
+  },
+  {
+    "diceResult": 54,
+    "name": "Pont en ruine",
+    "description": "Les restes d’un pont majestueux percent les brumes de la Zone. Il s’est effondré de part et d’autre, et seuls deux lourds piliers tiennent encore debout. Si quelqu’un parvenait à les gravir, il jouirait d’une vue imprenable sur les environs."
+  },
+  {
+    "diceResult": 55,
+    "name": "Port de plaisance",
+    "description": "Sur la côte, un grand nombre d’épaves de bateaux à moitié submergées croupissent dans l’eau gangrenée. Bateaux à voiles, à moteur et autres canots utilisés par les Anciens pour leur bon plaisir se sont transformés en dangereux récifs de plastique et de métal."
+  },
+  {
+    "diceResult": 56,
+    "name": "Station de métro",
+    "description": "Non loin d’un escalier menant vers les profondeurs se trouve un grand panneau à la peinture écaillée. Tous les Zonards connaissent ce symbole. C’est une entrée des souterrains de la Zone ; de terribles dangers y attendent les imprudents, mais peut-être aussi des artefacts préservés de l’usure."
+  },
+  {
+    "diceResult": 61,
+    "name": "Station de radio",
+    "description": "Une forêt d’antennes rouillées et de disques de métal surmonte le toit de ce vieux bâtiment. Un panneau sur la façade représente une antenne ceinte de quelques anneaux."
+  },
+  {
+    "diceResult": 62,
+    "name": "Station-service",
+    "description": "Sous un toit sans mur, à proximité d’un bâtiment assez bas, dorment plusieurs épaves de voitures. À leurs côtés, on trouve des machines bardées de tuyaux et de robinets verseurs. Toute personne coutumière de la Zone sait que c’est ici que les Anciens venaient réparer leurs véhicules et les remplir de carburant."
+  },
+  {
+    "diceResult": 63,
+    "name": "Supermarché",
+    "description": "Une immense construction s’élève des ruines. Ses larges fenêtres sont brisées depuis longtemps, et la poussière de la Zone a envahi l’endroit. Avant la fin, ce genre de bâtiments stockait une quantité invraisemblable de nourriture, de boissons et d’autres objets que les Anciens surconsommaient à une allure démentielle. Mais la plupart des denrées ont été pillées, brûlées ou détruites par le temps."
+  },
+  {
+    "diceResult": 64,
+    "name": "Tank",
+    "description": "Un véhicule de métal, massif et impressionnant, bloque le passage. Ses grandes chenilles sont entartrées de rouille et, bien que son canon n’ait pas répandu la mort ou la destruction depuis des décennies, la plupart des voyageurs de la Zone sont saisis d’effroi à sa vue."
+  },
+  {
+    "diceResult": 65,
+    "name": "Théâtre",
+    "description": "À l’intérieur de cette sombre ruine se cache une grande salle, parcourue de rangées de sièges faisant face à une large scène surmontée d’un immense rideau rouge. Les Anciens se rassemblaient ici pour assister à des chants, de la danse et d’autres types de représentations."
+  },
+  {
+    "diceResult": 66,
+    "name": "Tunnel",
+    "description": "L’entrée de ce large tunnel fait penser à la gueule d’une énorme bête. À l’extérieur, d’innombrables épaves de voitures, de camions et de bus sont alignées les unes contre les autres, rouillant jusqu’à tomber en poussière. Quelles que soient les horreurs que leurs occupants fuyaient, il est évident que peu d’entre eux ont survécu."
+  }
+]

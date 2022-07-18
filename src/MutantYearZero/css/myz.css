@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Mutante';
+  src: local('Mutante'), url(./../font/mutante/MUTANTE_.TTF) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.Sector {
+  border: 1px solid #999;
+  float: left;
+  font-size: 12px;
+  height: 57px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  /*width: 55px;*/
+  width: 57px;
+}
+
+.sector-explored{
+  backface-visibility: hidden;
+}
+
+.sector-not-explored{
+  opacity: 0.8;
+  background: black;
+}
+.sector-crossed{
+  opacity: 0.5;
+  background: black;
+}
+
+.Sector:focus {
+  outline: none;
+}
+
+.kbd-navigation .Sector:focus {
+  background: #ddd;
+}
+.game-info {
+  margin-left: 20px;
+}
+.mutant-year-zero {
+  font-family: Brokenglass;
+  background-image: url(../img/bg-myz.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #999;
+  background-blend-mode: exclusion;
+}
+.Dice {
+  font-family: Monsterama;
+  display: inline-block;
+  width:100px; 
+  height: 100px;
+  text-align: center;
+  border: 2px solid;
+  border-color: darkviolet;
+  background-color:coral;
+  border-radius: 1em;
+  
+}
+.DiceName{
+  height: 33%;
+  display: block;
+  text-align: center;
+}
+.DiceResult{
+  height: 33%;
+  display: block;
+  text-align: center;
+}
+div.zone-render {
+  background-image: url(../img/myz-monceaux.png);
+  background-repeat: no-repeat;
+  width:1685px
+ }
+.card_dice {
+  font-family: Monsterama;
+  width: 110px;
+  text-align: center;
+  color: #ffc107;
+  background-color: darkred;
+  border-color: #ffc107;
+}
+.card_header {
+  border-color: #ffc107;
+}
+.card_footer {
+  border-color: #ffc107;
+}
+.card_body {
+  background-color: rgb(148, 2, 2);
+  border-color: #ffc107;
+  font-size: x-large;
+  height: 80px;
+}
+
+.card_bauble {
+  width: 170px;
+  font-family: Mutante;
+  text-align: center;
+  color: #ffc107;
+  background-color: black;
+  border-color: #ffc107;
+}
+.card_header_bauble {
+  border-color: #ffc107;
+}
+.card_footer_bauble {
+  border-color: #ffc107;
+}
+.card_footer_bauble input {
+  background-color: #999;
+  border-radius: 5px;
+}
+.card_body_bauble {
+  height: 80px;
+  background-color: rgb(43, 43, 43);
+  border-color: #ffc107;
+}
+.card-header-sector-generator{
+  font-family: Mutante;
+}
+.card-footer-sector-generator{
+  font-family: Mutante;
+}
+
+.sector-generator .card-footer {
+  font-family: Mutante;
+  color: white;
+  background-color: black;
+}
+.sector-generator .card-header {
+  font-family: Mutante;
+}
+
+.sector-generator .card-body {
+  min-height: 15em;
+}
+.card-text{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sector-environment .card-header{
+  background-image: url(../img/bg-myz.jpg);
+  background-position-y: -1430px;
+  background-position-x: -600px;
+  color: white;
+}
+
+.sector-ambience .card-header{
+  background-image: url(../img/bg-myz.jpg);
+  background-position-y: -450px;
+  background-position-x: -294px;
+  color: white;
+}
+
+.sector-ruin .card-header{
+  background-image: url(../img/bg-myz.jpg);
+  background-position-y: -1450px;
+  background-position-x: -1294px;  
+  color: white;
+}
+
+.sector-artefact .card-header{
+  background-image: url(../img/bg-myz.jpg);
+  background-position-y: -2450px;
+  background-position-x: -2494px;
+  color: white;
+}
+
+.sector-threat .card-header{
+  background-image: url(../img/bg-myz.jpg);
+  background-position-y: -850px;
+  background-position-x: -994px;
+  color: white;
+}
+.font-override-for-font-mutante{
+  font-family: Monsterama;
+}
+.h1-myz {
+  font-family: Mutante;
+  background-image: url(../img/bg-myz-3.jpg);
+  color: white;
+  text-align: center;
+  border: 2px solid #282c34;
+}
+.h2-myz {
+  font-family: Mutante;
+  background-image: url(../img/bg-myz-3.jpg);
+  background-position-y: -160px;
+  color: white;
+  text-align: center;
+  border: 2px solid #282c34;
+}
+.scroll-description {
+  height: 150px;
+  overflow-y: auto;
+}

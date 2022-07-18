@@ -1,10 +1,19 @@
 import * as React from 'react';
+import Table from 'react-bootstrap/Table';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Col from 'react-bootstrap/Col';
+import Alert from 'react-bootstrap/Alert';
+
+// import InputGroup from 'react-bootstrap/InputGroup';
+import Row from 'react-bootstrap/Row';
 import Dice from '../../Transverse/Dice/Class/Dice';
 import WoundData from '../Type/WoundDataType';
 import CWJson from '../Data/critiques.json';
 
 interface CriticalWoundsStateInterface {
   criticalWound: null | WoundData;
+  message: null | string;
 }
 
 const atypique = {
@@ -25,18 +34,19 @@ const force = {
 
 const DefaultWound = {
   d66: 0,
-  blessure: '',
-  mortelle: '',
-  periode_soin: '',
-  effet_durant_guerison: '',
+  blessure: ' ',
+  mortelle: '-',
+  periode_soin: ' ',
+  effet_durant_guerison: ' ',
   convalescence: '',
 };
-
+// todo tranform in function
 class CriticalWoundsComponent extends React.Component <{}, CriticalWoundsStateInterface> {
   constructor() {
     super({});
     this.state = {
       criticalWound: null,
+      message: null,
     };
   }
 
@@ -62,6 +72,7 @@ class CriticalWoundsComponent extends React.Component <{}, CriticalWoundsStateIn
         this.setState(
           {
             criticalWound: wound,
+            message: null,
           },
         );
         return;
@@ -70,16 +81,17 @@ class CriticalWoundsComponent extends React.Component <{}, CriticalWoundsStateIn
     this.setState(
       {
         criticalWound: DefaultWound,
+        message: `Aucun résultat pour ${newValue}`,
       },
     );
   };
 
   render() {
-    const { criticalWound } = this.state;
+    const { criticalWound, message } = this.state;
     return (
       <div className="critical-wounds">
-        <h2>Blessure Critique</h2>
-        <table>
+        <h2 className="h2-myz">Blessure Critique</h2>
+        <Table striped bordered hover variant="dark">
           <thead>
             <tr>
               <th>D</th>
@@ -129,20 +141,37 @@ class CriticalWoundsComponent extends React.Component <{}, CriticalWoundsStateIn
               <td>{force.convalescence}</td>
             </tr>
           </tfoot>
-        </table>
-        <button id="launchcw" key="launchCW" type="button" onClick={() => this.getCriticalWounds()}>Lancer</button>
-        <label htmlFor="searchcw">
-          Search
-          <input
-            type="number"
-            min="11"
-            max="66"
-            id="searchcw"
-            name="search_cw"
-            key="searchCW"
-            onChange={this.searchClick}
-          />
-        </label>
+        </Table>
+        <Row>
+          <Col>
+            { message ? (
+              <Alert variant="warning">
+                {message}
+              </Alert>
+            ) : ''}
+          </Col>
+        </Row>
+        <Row className="align-items-center">
+          <Col>
+            <Button variant="dark" id="launchcw" key="launchCW" type="button" onClick={() => this.getCriticalWounds()}>Lancer</Button>
+          </Col>
+          <Col>
+            <Form.Label htmlFor="searchcw" variant="dark">
+              Search
+            </Form.Label>
+            <input
+              type="number"
+              width="20"
+              min="11"
+              max="66"
+              id="searchcw"
+              name="search_cw"
+              className="form-range"
+              key="searchCW"
+              onChange={this.searchClick}
+            />
+          </Col>
+        </Row>
       </div>
     );
   }

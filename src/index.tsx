@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Container from 'react-bootstrap/Container';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import './css/style.css';
 import './App.css';
 import reportWebVitals from './reportWebVitals';
 import MutantYearZero from './MutantYearZero/Component/MutantYearZeroComponent';
@@ -10,7 +13,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <MutantYearZero />
+    <Container fluid className="mutant-year-zero">
+      <MutantYearZero />
+    </Container>
   </React.StrictMode>,
 );
 
