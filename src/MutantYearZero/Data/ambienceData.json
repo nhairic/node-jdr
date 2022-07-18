@@ -1,0 +1,14 @@
+[
+  {
+    "diceResult": 11,
+    "name": "Vagabonds.",
+    "teaser": "Quelques silhouettes dans le lointain… Qui peut bien se hasarder dans la Zone ?",
+    "type": "HUMANOÏDES"
+  },
+  {
+    "diceResult": 12,
+    "name": "Campement.",
+    "teaser": "Les restes d’un campement, peut-être que les braises sont encore chaudes.",
+    "type": "HUMANOÏDES"
+  }
+]

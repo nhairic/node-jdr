@@ -71,6 +71,10 @@ ol, ul {
   opacity: 0.8;
   background: black;
 }
+.sector-crossed{
+  opacity: 0.5;
+  background: black;
+}
 
 .Sector:focus {
   outline: none;

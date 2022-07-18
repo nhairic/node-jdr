@@ -1,10 +1,13 @@
+import RuinDataType from './RuinDataType';
+
 type SectorDataType = {
     position: string;
-    enviromnent: string;
-    ruins: string;
+    environment: string;
+    ruins: RuinDataType;
     artifact: string;
-    explored: Boolean;
+    exploredLevel: string;// e|c|u explored|crossed|unknowed
     threat: string;
+    grangreneLevel: number;
 }
 
 export default SectorDataType;

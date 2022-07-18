@@ -1,25 +1,37 @@
 [
     {
       "position": "a-1",
-      "enviromnent": "",
+      "environment": "",
       "ruins": "ruins 1",
       "artifact": "",
-      "explored": false,
-      "threat": ""
+      "exploredLevel": "u",
+      "threat": "",
+      "grangreneLevel": 0
     },{
       "position": "h-11",
-      "enviromnent": "",
+      "environment": "",
       "ruins": "Arche",
       "artifact": "",
-      "explored": true,
-      "threat": ""
+      "exploredLevel": "e",
+      "threat": "",
+      "grangreneLevel": 0
+    },
+    {
+      "position": "h-12",
+      "environment": "",
+      "ruins": "",
+      "artifact": "",
+      "exploredLevel": "c",
+      "threat": "",
+      "grangreneLevel": 0
     },
     {
       "position": "h-15",
-      "enviromnent": "Foret",
+      "environment": "Foret",
       "ruins": "Gare de train avec train",
       "artifact": "Boussole",
-      "explored": true,
-      "threat": "Razorbak"
+      "exploredLevel": "e",
+      "threat": "Razorbak",
+      "grangreneLevel": 1
     }
 ]
