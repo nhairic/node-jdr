@@ -10,9 +10,9 @@ class AmbienceGenerator {
   public generate = () => this.geData(this.dice.roll(2, true));
 
   public geData = (diceResult: number) : AmbienceDataType => {
-    const ruin = this._ambienceData.find((elt) => elt.diceResult === diceResult);
-    if (ruin) {
-      return ruin;
+    const ambience = this._ambienceData.find((elt) => elt.diceResult === diceResult);
+    if (ambience) {
+      return ambience;
     }
 
     return {
@@ -23,3 +23,5 @@ class AmbienceGenerator {
     };
   };
 }
+
+export default AmbienceGenerator;

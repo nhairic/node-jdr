@@ -1,37 +1,161 @@
 [
     {
       "position": "a-1",
-      "environment": "",
-      "ruins": "ruins 1",
-      "artifact": "",
+      "environment": {
+        "name" : "test",
+        "className": "test",
+        "threat": {
+          "diceResult": 0,
+          "name": "",
+          "description": "",
+          "effect": "",
+          "zoneKnowledgeModifier": 0,
+          "page": 0,
+          "special": false
+        },
+        "artifact": {
+          "diceResultB": 0,
+          "diceResultH": 0,
+          "name": "",
+          "commentaire": "",
+          "mandatoryDev": "",
+          "bonusDev": "",
+          "effect": "",
+          "description": ""
+        },
+        "ruin": {
+          "diceResult": 0,
+          "name": "",
+          "description": ""
+        }
+      },
       "exploredLevel": "u",
-      "threat": "",
-      "grangreneLevel": 0
+      "grangreneLevel": 0,
+      "threatLevel": 8,
+      "ambience": {
+        "diceResult": 0,
+        "name": "",
+        "teaser": "",
+        "type": ""
+      }
     },{
       "position": "h-11",
-      "environment": "",
-      "ruins": "Arche",
-      "artifact": "",
+      "environment": {
+        "name" : "Arche",
+        "className": "arch",
+        "threat": {
+          "diceResult": 0,
+          "name": "",
+          "description": "",
+          "effect": "",
+          "zoneKnowledgeModifier": 0,
+          "page": 0,
+          "special": true
+        },
+        "artifact": {
+          "diceResultB": 0,
+          "diceResultH": 0,
+          "name": "",
+          "commentaire": "",
+          "mandatoryDev": "",
+          "bonusDev": "",
+          "effect": "",
+          "description": ""
+        },
+        "ruin": {
+          "diceResult": 0,
+          "name": "",
+          "description": ""
+        }
+      },
       "exploredLevel": "e",
-      "threat": "",
-      "grangreneLevel": 0
+      "grangreneLevel": 0,
+      "threatLevel": 8,
+      "ambience": {
+        "diceResult": 0,
+        "name": "",
+        "teaser": "",
+        "type": ""
+      }
     },
     {
       "position": "h-12",
-      "environment": "",
-      "ruins": "",
-      "artifact": "",
+      "environment": {
+        "name" : "test",
+        "className": "test",
+        "threat": {
+          "diceResult": 0,
+          "name": "",
+          "description": "",
+          "effect": "",
+          "zoneKnowledgeModifier": 0,
+          "page": 0,
+          "special": false
+        },
+        "artifact": {
+          "diceResultB": 0,
+          "diceResultH": 0,
+          "name": "",
+          "commentaire": "",
+          "mandatoryDev": "",
+          "bonusDev": "",
+          "effect": "",
+          "description": ""
+        },
+        "ruin": {
+          "diceResult": 0,
+          "name": "",
+          "description": ""
+        }
+      },
       "exploredLevel": "c",
-      "threat": "",
-      "grangreneLevel": 0
+      "grangreneLevel": 0,
+      "threatLevel": 8,
+      "ambience": {
+        "diceResult": 0,
+        "name": "",
+        "teaser": "",
+        "type": ""
+      }
     },
     {
       "position": "h-15",
-      "environment": "Foret",
-      "ruins": "Gare de train avec train",
-      "artifact": "Boussole",
+      "environment": {
+        "name" : "Forêt dense",
+        "className": "",
+        "threat": {
+          "diceResult": 0,
+          "name": "",
+          "description": "",
+          "effect": "",
+          "zoneKnowledgeModifier": 0,
+          "page": 0,
+          "special": false
+        },
+        "artifact": {
+          "diceResultB": 0,
+          "diceResultH": 0,
+          "name": "",
+          "commentaire": "",
+          "mandatoryDev": "",
+          "bonusDev": "",
+          "effect": "",
+          "description": ""
+        },
+        "ruin": {
+          "diceResult": 0,
+          "name": "",
+          "description": ""
+        }
+      },
       "exploredLevel": "e",
-      "threat": "Razorbak",
-      "grangreneLevel": 1
+      "grangreneLevel": 1,
+      "threatLevel": 8,
+      "ambience": {
+        "diceResult": 0,
+        "name": "",
+        "teaser": "",
+        "type": ""
+      }
     }
 ]

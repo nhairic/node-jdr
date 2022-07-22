@@ -30,7 +30,7 @@ export default class SectorComponent extends React.Component <SectorProps> {
     }
     return (
       <div className={sectorClass} key={data.position} id={id} title={data.position}>
-        {data.ruins}
+        {data.environment.name}
       </div>
     );
   }
