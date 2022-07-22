@@ -1,0 +1,42 @@
+[
+  {
+    "diceResult": 11,
+    "name": "Abri",
+    "description": ""
+  },
+  {
+    "diceResult": 12,
+    "name": "Aire de jeux",
+    "description": ""
+  },
+  {
+    "diceResult": 13,
+    "name": "Autoroute",
+    "description": ""
+  },
+  {
+    "diceResult": 14,
+    "name": "Banlieue résidentielle",
+    "description": ""
+  },
+  {
+    "diceResult": 15,
+    "name": "Bureaux",
+    "description": ""
+  },
+  {
+    "diceResult": 16,
+    "name": "Centre commercial",
+    "description": ""
+  },
+  {
+    "diceResult": 21,
+    "name": "Centre sportif",
+    "description": ""
+  },
+  {
+    "diceResult": 22,
+    "name": "Champ de bataille",
+    "description": ""
+  }
+]

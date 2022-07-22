@@ -1,0 +1,12 @@
+[
+  {
+    "diceResultB": 111,
+    "diceResultH": 114,
+    "name": "ANTIDÉPRESSEURS",
+    "commentaire": "",
+    "mandatoryDev": "Technologie 20",
+    "bonusDev": "aucun",
+    "effect": "lorsque vous avalez ces pilules, vous guérissez immédiatement de tout le doute accumulé. Il n’y a   assez de pilules que pour D6 doses. Lorsque vous les avez toutes consommées, vous perdez l’artefact. Objet minuscule.",
+    "description": "Lorsque la vie dans la Zone devient insoutenable et sans espoir, ces petites pilules rangées dans leur boît en plastique vous procurent un soulagement chimique."
+  }
+]

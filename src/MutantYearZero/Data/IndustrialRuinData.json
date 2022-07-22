@@ -1,0 +1,47 @@
+[
+  {
+    "diceResult": 11,
+    "name": "Antenne radio (pliée)",
+    "description": ""
+  },
+  {
+    "diceResult": 12,
+    "name": "Antenne radio",
+    "description": ""
+  },
+  {
+    "diceResult": 13,
+    "name": "Antenne radio (relais)",
+    "description": ""
+  },
+  {
+    "diceResult": 14,
+    "name": "Base militaire (infanterie)",
+    "description": ""
+  },
+  {
+    "diceResult": 15,
+    "name": "Base militaire (armée de l'air)",
+    "description": ""
+  },
+  {
+    "diceResult": 16,
+    "name": "Base militaire (cavalerie)",
+    "description": ""
+  },
+  {
+    "diceResult": 21,
+    "name": "Champ de tir",
+    "description": ""
+  },
+  {
+    "diceResult": 22,
+    "name": "Champ de tir",
+    "description": ""
+  },
+  {
+    "diceResult": 23,
+    "name": "Champ de tir",
+    "description": ""
+  }
+]

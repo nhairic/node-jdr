@@ -37,11 +37,43 @@ export default class ZoneComponent extends React.Component <ZoneProps, ZoneState
         if (!find) {
           find = {
             position: `${linePosition}-${columnNumber}`,
-            enviromnent: '',
-            ruins: '',
-            artifact: '',
-            explored: false,
-            threat: '',
+            environment: {
+              name: '',
+              className: '',
+              threat: {
+                diceResult: 0,
+                name: '',
+                description: '',
+                effect: '',
+                zoneKnowledgeModifier: 0,
+                page: 0,
+                special: false,
+              },
+              artifact: {
+                diceResultB: 0,
+                diceResultH: 0,
+                name: '',
+                commentaire: '',
+                mandatoryDev: '',
+                bonusDev: '',
+                effect: '',
+                description: '',
+              },
+              ruin: {
+                diceResult: 0,
+                name: '',
+                description: '',
+              },
+            },
+            exploredLevel: 'c',
+            grangreneLevel: 0,
+            threatLevel: 0,
+            ambience: {
+              diceResult: 0,
+              name: '',
+              teaser: '',
+              type: '',
+            },
           };
         }
         sectorsLine.push(<Sector id={linePosition + columnNumber} data={find} />);
