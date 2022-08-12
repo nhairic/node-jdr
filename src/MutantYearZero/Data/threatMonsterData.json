@@ -1,0 +1,232 @@
+[
+  {
+    "diceResultB": 11,
+    "diceResultH": 12,
+    "name": "Araignée de la Zone",
+    "description": "Dans les tunnels et les ruines sombres, des araignées ont muté jusqu’à atteindre de  tailles délirantes. Des voyageurs imprudents qui empruntent de vieux tunnels ou passent à travers un toit pourri peuvent se retrouver au beau milieu d’un nid. Les araignées de la Zone se nourrissent de tout et n’importe quoi, des détritus aux cadavres en passant par les proies vivantes qu’elles paralysent avec leur venin.",
+    "effect": "",
+    "zoneKnowledgeModifier": 0,
+    "page": 176,
+    "special": false
+  },
+  {
+    "diceResultB": 13,
+    "diceResultH": 13,
+    "name": "Arbre tueur",
+    "description": "Une zone recouverte de végétation est anormalement calme et silencieuse. C’est là que vit l’un des monstres les plus étranges et redoutés de la Zone : l’arbre tueur. Son tronc noir et épais se termine par une large gueule entourée de tentacules gluants. Éparpillés entre les épaisses et noueuses racines de la créature, on distingue des os, des crânes et de l’équipement rouillé, les restes de ses nombreuses victimes. La particularité la plus incroyable de cette plante semi-consciente réside dans ses gousses de forme humanoïde. Elles peuvent imiter l’apparence des humains (ou des mutants) et même leur langage, mais n’ont pas assez d’intelligence pour réellement communiquer. Les gousses rôdent dans les environs, en quête de victimes pour leur arbre-mère affamé. ",
+    "effect": "",
+    "zoneKnowledgeModifier": -1,
+    "page": 177,
+    "special": false
+  },
+  {
+    "diceResultB": 14,
+    "diceResultH": 14,
+    "name": "Automate",
+    "description": "Dans les sombres profondeurs des enclaves (cf. chapitre 16), les puissances des Titans ont construit des machines de métal, de plastique et de circuits si avancées qu’elles peuvent concurrencer l’intelligence, les capacités d’adaptation et la créativité de leurs concepteurs. Quelques chercheurs ont même mené des expériences pour mêler l’humain à la machine dans l’espoir de créer un être nouveau capable de s’adapter et de survivre au monde postapocalyptique. Les robots et les êtres biomécatroniques seront développés dans un futur supplément de Mutant: Year Zero. Pour l’heure, les PJ peuvent tout à fait croiser la route d’un rarissime automate qui aurait échoué on ne sait comment dans la Zone. Pour le Peuple, un tel dispositif est considéré comme une abomination, un être de métal marchant ou flottant, bardé d’armes intégrées sur tout le corps.",
+    "effect": "",
+    "zoneKnowledgeModifier": -2,
+    "page": 178,
+    "special": false
+  },
+  {
+    "diceResultB": 15,
+    "diceResultH": 16,
+    "name": "Bête corrosive",
+    "description": "Les dangereuses créatures que les Zonards nomment bêtes corrosives rôdent dans la Zone, souvent autour des lacs et des marécages. Ce sont des lézards géants, deux fois plus grands qu’un mutant. Certains prétendent que ces créatures intelligentes peuvent être dressées et servir de monture. L’opération n’est cependant pas sans risque : les bêtes corrosives sont réputées pour leur mauvais tempérament et leur faculté de cracher de l’acide avec une précision tout à fait alarmante.",
+    "effect": "",
+    "zoneKnowledgeModifier": 1,
+    "page": 178,
+    "special": false
+  },
+  {
+    "diceResultB": 21,
+    "diceResultH": 22,
+    "name": "Brouteurs",
+    "description": "Ici et là dans la Zone vagabondent des troupeaux de ruminants relativement paisibles. Ce sont des versions mutantes de moutons, de chèvres, de cochons ou de vaches. Ils sont revenus à l’état sauvage et n’hésiteront pas à attaquer un voyageur s’ils le considèrent comme une menace pour le troupeau. Les brouteurs sont de très bons candidats pour la chasse (cf. le talent Boucher au chapitre 4).",
+    "effect": "",
+    "zoneKnowledgeModifier": 1,
+    "page": 178,
+    "special": false
+  },
+  {
+    "diceResultB": 23,
+    "diceResultH": 23,
+    "name": "Champignon parasite",
+    "description": "Cette variété de champignon mortellement dangereuse infecte ses victimes grâce à des spores lorsqu’elles passent à proximité d’un corps contaminé. Le parasite se développe à l’intérieur du corps et du cerveau de la victime, lui infligeant d’atroces souffrances. Le comportement de l’hôte infecté en est également affecté.",
+    "effect": "après une période d’incubation, la victime subit un point de dégâts par jour. Ces derniers peuvent être soignés par le repos et la bouffe, mais cela signifie qu’il faut consommer davantage de bouffe que la normale pour ne pas finir Brisé. Si elle est Brisée, la victime souffre d’une blessure critique de type « Dégâts atypiques » (cf. page 92). À intervalles irréguliers (quand bon vous semble), le champignon parasite influence l’esprit de la victime pour la rapprocher d’un hôte potentiel afin de répandre l’infection. La victime doit réussir un test d’Intellect (aucune compétence ne peut aider) pour résister à cette impulsion. Le seul moyen de guérir est de finir Brisé par les dégâts, puis d’être Soigné.",
+    "zoneKnowledgeModifier": 0,
+    "page": 178,
+    "special": false
+  },
+  {
+    "diceResultB": 24,
+    "diceResultH": 25,
+    "name": "Chiens de la Zone",
+    "description": "Les meutes de molosses mutés sont fréquentes dans la zone. Ils sont généralement décharnés et manquent de fourrure par endroits.",
+    "effect": "",
+    "zoneKnowledgeModifier": 1,
+    "page": 179,
+    "special": false
+  },
+  {
+    "diceResultB": 26,
+    "diceResultH": 31,
+    "name": "Corbeaux ferrailleurs",
+    "description": "De gros oiseaux aux plumes couvertes de cendres qui vivent en bandes. Ils attaquent les voyageurs assez imprudents pour marcher à découvert, visant les yeux avec leurs becs acérés. Ces oiseaux gangrenés sont appelés corbeaux ferrailleurs par le Peuple en raison de leur attrait pour les objets brillants, notamment les matériaux de récupération des Temps d’Avant.",
+    "effect": "",
+    "zoneKnowledgeModifier": -1,
+    "page": 179,
+    "special": false
+  },
+  {
+    "diceResultB": 32,
+    "diceResultH": 33,
+    "name": "Dévoreur",
+    "description": "Un terrible prédateur sauvage, plus grand qu’un mutant lorsqu’il se tient sur ses pattes arrière. Il est couvert d’une fourrure grise et a un peu l’air d’un ours,mais la ressemblance s’arrête là. Le dévoreur est mû par une faim insatiable, se déplace très discrètement et dispose d’une mâchoire démesurée. Il s’approche en silence de ses proies, qui ne réalisent généralement ce qui leur arrive que lorsqu’elles sont déjà à moitié englouties. Le dévoreur peut déboîter sa mâchoire pour y faire rentrer tout le torse d’un mutant adulte. Sa salive corrosive tue rapidement la proie, qu’il ne relâche pas tant qu’il respire ou n’a pas été forcé de fuir.",
+    "effect": "",
+    "zoneKnowledgeModifier": 0,
+    "page": 179,
+    "special": false
+  },
+  {
+    "diceResultB": 34,
+    "diceResultH": 34,
+    "name": "Faucon des ordures",
+    "description": "Perché au sommet des plus hautes ruines, le faucon des ordures scrute la Zone à la recherche de ses proies. Ses plumes jaunes et marron lui permettent de se fondre dans les terres désolées. Ce grand rapace a de longues serres acérées ; il attaque en piqué rapide et arrache de grands lambeaux de chair. S’il est assez gros, il emporte sa cible dans les airs et disparaît avec elle. Des Zonards affirment avoir aperçu des spécimens de près de 8 m d’envergure.",
+    "effect": "",
+    "zoneKnowledgeModifier": 1,
+    "page": 179,
+    "special": false
+  },
+  {
+    "diceResultB": 35,
+    "diceResultH": 35,
+    "name": "Fleurs de cauchemar",
+    "description": "L’endroit est couvert de larges fleurs. Leurs pétales, lourds et humides, ainsi que leurs étamines et pistils, arborent des couleurs vives. Si quelqu’un se hasarde à proximité du parterre de fleurs, elles libèrent un nuage de spores soporifiques. Lorsque la victime s’effondre, inconsciente, des lianes recouvertes d’épines l’enserrent pour boire son sang. Les restes des victimes précédentes jonchent le sol, mais elles sont difficiles à repérer à travers l’épaisse végétation. Il pourrait même y avoir des artefacts cachés là-dessous.",
+    "effect": "un PJ qui Observe l’endroit avec succès remarque les ossements des précédentes victimes. Toute personne qui marche sur le parterre doit réussir un test de Déplacement pour éviter de perdre connaissance à cause des spores. Une fois au sol, la victime subit un point de dégâts par tour jusqu’à ce qu’elle soit Brisée ou que quelqu’un parvienne à l’en sortir (au moyen d’un test de Force). Les fleurs de cauchemar ne peuvent être détruites que par le feu. Comptez la Vigueur globale des fleurs comme étant de 10. Lorsque cette valeur atteint zéro, elles meurent et l’endroit peut être traversé sans risque",
+    "zoneKnowledgeModifier": -1,
+    "page": 179,
+    "special": false
+  },
+  {
+    "diceResultB": 36,
+    "diceResultH": 41,
+    "name": "Fourmis de la Gangrène",
+    "description": "Les fourmis de la Gangrène sont une légende chez les voyageurs de la Zone. Le pire, ce ne sont pas les insectes eux-mêmes (bien que ces petites vicieuses soient grosses comme le poing et pourvues de puissantes mandibules), mais leur nombre affolant. Les fourmis de la Gangrène ne construisent pas de fourmilière, mais se déplacent par millions dans la Zone,dévorant tout sur leur passage. Elles sont aveugles et considèrent tout ce qui vit comme de la nourriture.",
+    "effect": "",
+    "zoneKnowledgeModifier": 0,
+    "page": 180,
+    "special": false
+  },
+  {
+    "diceResultB": 42,
+    "diceResultH": 43,
+    "name": "Guêpes de la Zone",
+    "description": "La première chose que leurs victimes entendent est un bourdonnement, anormalement sourd et inquiétant. Les guêpes de la Zone sont noires et jaunes, comme leurs ancêtres des Temps d’Avant, mais grosses comme le poing et tout aussi robustes. Elles injectent un puissant venin hallucinogène qui désoriente leurs proies et les rend plus faciles à tailler en pièces. Pis, pendant le combat, elles émettent des phéromones qui préviennent les autres guêpes des environs, qui ne tardent pas à les rejoindre en nombre.",
+    "effect": "",
+    "zoneKnowledgeModifier": 0,
+    "page": 180,
+    "special": false
+  },
+  {
+    "diceResultB": 44,
+    "diceResultH": 45,
+    "name": "Herbe corrosive",
+    "description": "Un champ d’herbes hautes dégageant une forte odeur et laissant apparaître les restes d’animaux. Les herbes ondulent de gauche à droite, comme poussées par le vent, bien qu’il n’y ait aucun courant d’air. Il s’agit en réalité de plantes prédatrices. Si un animal ou un mutant s’y aventure, les herbes s’enroulent autour de ses pieds, de ses jambes et de son équipement. Elles sécrètent alors un puissant acide capable de ronger et de transformer la cible en une immonde bouillie dont elles se nourrissent.",
+    "effect": "un PJ qui Observe l’endroit avec succès peut remarquer les vieux ossements dans l’herbe. Toute personne se déplaçant dans le champ est immédiatement attaquée avec six dés de base. En cas de succès, la victime est immobilisée et subit un point de dégâts à cause de l’acide. Pour se libérer, elle doit réussir un test de Force (elle peut recevoir de l’aide, cf. page 48). Tant qu’elle n’y parvient pas, elle continue de subir des dégâts à raison d’un point par tour. Les herbes ne peuvent être détruites que par le feu. Comptez leur Vigueur totale comme étant de 10. Lorsque ce score atteint zéro, la zone d’herbe meurt et l’endroit peut être traversé sans risque.",
+    "zoneKnowledgeModifier": -1,
+    "page": 181,
+    "special": false
+  },
+  {
+    "diceResultB": 46,
+    "diceResultH": 46,
+    "name": "Méduses volantes",
+    "description": "Ce sont d’étranges créatures, des bulles de chair translucide de la taille de la paume. De longues et fines antennes pendent sous leurs corps. Elles sont plus légères que l’air et flottent où le vent les porte. Le moindre contact avec leurs antennes vous couvre d’un liquide collant et acide qui présente peu de risques pour la peau mais se révèle particulièrement corrosif pour le métal.",
+    "effect": "les méduses volantes n’attaquent pas les mutants eux mêmes, mais leur équipement. Faites une attaque en utilisant six dés de base (la Vigueur de la nuée). Chaque Succés diminue le bonus d’équipement de l’objet ciblé de 1. L’attaque se poursuit tant que l’objet n’a pas été détruit ou que son porteur n’est pas parvenu à s’échapper.",
+    "zoneKnowledgeModifier": 0,
+    "page": 181,
+    "special": false
+  },
+  {
+    "diceResultB": 51,
+    "diceResultH": 51,
+    "name": "Moustiques mentaux",
+    "description": "Dans la Zone, certains lieux grouillent de moustiques qui peuvent affecter directement l’esprit humain (ou d’un espace occupé par un essaim de moustiques mentaux se sent soudain déprimée et abattue. Les victimes éprouvent une envie grandissante de s’asseoir au sol et de ne rien faire. L’attaque en elle-même n’est pas mortelle, mais les effets mentaux peuvent avoir de dangereuses conséquences.",
+    "effect": "Les victimes des moustiques mentaux subissent chaque tour une attaque effectuée avec un nombre de dés de base égal à la Vigueur de la nuée (généralement 8). Chaque Succés obtenu inflige un point de doute. Pour s’échapper, il faut réussir un test de Déplacement.",
+    "zoneKnowledgeModifier": -1,
+    "page": 181,
+    "special": false
+  },
+  {
+    "diceResultB": 52,
+    "diceResultH": 52,
+    "name": "Nuée de vers",
+    "description": "Cette multitude de vers noirs d’une dizaine de centimètres de long a développé un esprit collectif et se comporte comme une seule entité. Une nuée standard compte plusieurs millions de vers. Cette abomination prospère généralement dans les endroits sombres et humides, attaquant ses proies lorsqu’elles passent à proximité. La nuée se déplace rapidement pour submerger ses proies et les pousser à la panique, pour ensuite les dévorer vivantes.",
+    "effect": "",
+    "zoneKnowledgeModifier": -1,
+    "page": 181,
+    "special": false
+  },
+  {
+    "diceResultB": 53,
+    "diceResultH": 53,
+    "name": "Poisson de la gangrene",
+    "description": "Dans les eaux troubles des lacs et rivières de la Zone rôde le poisson de la Gangrène. Ce monstre varie en taille et en forme, des poissons plats à écailles aux créatures semblables à des anguilles dotées d’une nageoire dorsale. Le poisson de la Gangrène peut attaquer les nageurs ou les voyageurs cheminant trop près des cours d’eau : il entraîne alors sa cible sous la surface pour tenter de la noyer.",
+    "effect": "",
+    "zoneKnowledgeModifier": 0,
+    "page": 182,
+    "special": false
+  },
+  {
+    "diceResultB": 54,
+    "diceResultH": 54,
+    "name": "Poisson des boyaux (eau gangrenée)",
+    "description": "Le poisson des boyaux est un parasite redouté qui s’attrape en buvant de l’eau. Même une bouteille d’eau non gangrenée peut être infectée. Le seul moyen de s’en protéger est de faire bouillir l’eau avant de la consommer. Le poisson des boyaux se développe dans l’estomac de sa victime, se nourrissant de ce qu’elle mange. Lorsque le poisson, qui ressemble à une anguille, atteint sa maturité (environ 2 m), il creuse un chemin à coups de dents pour sortir de l’hôte et ramper jusqu’au cours d’eau le plus proche.",
+    "effect": "après l’infection, l’hôte est pris d’une faim insatiable et doit manger au moins deux rations de bouffe par jour pour ne pas être affamé (cf. page 92). Au bout de 2D6 jours, le poisson des boyaux atteint sa taille adulte et se taille un chemin vers la sortie, ce qui Brise automatiquement la victime en Vigueur et lui inflige la blessure critique Hémorragie intestinale (cf. ligne 52 de la table page 91).",
+    "zoneKnowledgeModifier": 0,
+    "page": 182,
+    "special": false
+  },
+  {
+    "diceResultB": 55,
+    "diceResultH": 61,
+    "name": "Rats de la Zone",
+    "description": "Ces rongeurs décharnés d’une taille inhabituelle vivent en hordes dans la Zone. La Gangrène semble les rendre plus forts et plus agressifs. Ils sont longs comme le bras et mordent toute viande à portée, vivante ou morte, à l’aide de leurs grandes dents jaunies.",
+    "effect": "",
+    "zoneKnowledgeModifier": 1,
+    "page": 182,
+    "special": false
+  },
+  {
+    "diceResultB": 62,
+    "diceResultH": 62,
+    "name": "Razorback",
+    "description": "Un sanglier monstrueux, plus haut qu’un mutant et plus féroce que dix d’entre eux. Malgré ses pattes relativement courtes, ce monstre peut atteindre des vitesses affolantes, et ses robustes défenses peuvent déchirer la tôle d’une voiture. Le moindre mouvement déclenche la fureur du razorback, et il semble impossible de l’apaiser. Ce n’est pourtant pas un prédateur : il ne chasse donc généralement pas et se nourrit de ce qu’il trouve, des plantes aux cadavres.",
+    "effect": "",
+    "zoneKnowledgeModifier": 0,
+    "page": 183,
+    "special": false
+  },
+  {
+    "diceResultB": 63,
+    "diceResultH": 64,
+    "name": "Sangsues de la Zone",
+    "description": "Ces créatures de la taille d’un poing pullulent dans les végétations denses ou les ruines préservées de la lumière du soleil, ressentant la chaleur de leurs proies et se laissant tomber dessus. Ces vermines gluantes n’ont ni pattes ni yeux, juste une mâchoire hérissée de petites dents effilées. Quand une sangsue atterrit sur un être vivant, elle la mord immédiatement et commence à lui sucer le sang à une vitesse affolante. Une douzaine de sangsues peuvent vider un mutant adulte de son sang en un rien de temps.",
+    "effect": "",
+    "zoneKnowledgeModifier": 0,
+    "page": 183,
+    "special": false
+  },
+  {
+    "diceResultB": 65,
+    "diceResultH": 66,
+    "name": "Ver de mort",
+    "description": "Cette abomination mutante chasse en creusant à travers le sol et en tendant des embuscades à ses proies. Le ver tueur est deux fois plus grand qu’un mutant et gros comme une cuisse. Il est recouvert d’écailles, a d’innombrables petites pattes et une grande mâchoire préhensile garnie de plusieurs rangées de dents disposées en anneaux. Ce monstre particulièrement tenace continuera à attaquer sa proie tant que l’un d’eux respire – il n’est pas assez intelligent pour fuir.",
+    "effect": "",
+    "zoneKnowledgeModifier": 0,
+    "page": 183,
+    "special": false
+  }
+]

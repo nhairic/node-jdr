@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 import Bauble from '../Class/Bauble';
 import BaubleDataType from '../Type/BaubleDataType';
 
@@ -9,10 +11,15 @@ const BaubleComponent: React.FC = () => {
   });
   const bauble = new Bauble();
   return (
-    <div>
-      <h2>Babiole</h2>
-      <span>{data.name}</span>
-      <div>
+    <Card className="card_bauble">
+      <Card.Header className="card_header_bauble">
+        <Card.Title>Babiole</Card.Title>
+      </Card.Header>
+      <Card.Body className="card_body_bauble">
+        <Card.Text>{data.name}</Card.Text>
+      </Card.Body>
+      <Card.Footer className="card_footer_bauble">
+        {/*
         <input
           type="number"
           min="111"
@@ -22,9 +29,10 @@ const BaubleComponent: React.FC = () => {
           key="searchCW"
           onChange={(event) => setValue(bauble.getData(parseInt(event.target.value, 10)))}
         />
-        <button type="button" onClick={() => setValue(bauble.getRandomData())}>Trouver une babiole</button>
-      </div>
-    </div>
+  */}
+        <Button variant="warning" type="button" onClick={() => setValue(bauble.getRandomData())}>Trouver une babiole</Button>
+      </Card.Footer>
+    </Card>
   );
 };
 

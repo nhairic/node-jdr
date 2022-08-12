@@ -1,0 +1,182 @@
+[
+  {
+    "diceResult": 11,
+    "name": "Antenne radio (pliée)",
+    "description": "Une imposante structure métallique se dresse loin au-dessus de la Zone. Elle est maintenue en place par d’épais câbles et l’on distingue de vieilles antennes rouillées à son sommet. Avant, des transmissions sans fil partaient d’ici pour l’amusement et l’éducation des Anciens. De nos jours, la seule chose que l’on peut entendre, c’est le souffle du vent."
+  },
+  {
+    "diceResult": 12,
+    "name": "Antenne radio",
+    "description": "Une imposante structure métallique se dresse loin au-dessus de la Zone. Elle est maintenue en place par d’épais câbles et l’on distingue de vieilles antennes rouillées à son sommet. Avant, des transmissions sans fil partaient d’ici pour l’amusement et l’éducation des Anciens. De nos jours, la seule chose que l’on peut entendre, c’est le souffle du vent."
+  },
+  {
+    "diceResult": 13,
+    "name": "Antenne radio (relais)",
+    "description": "Une imposante structure métallique se dresse loin au-dessus de la Zone. Elle est maintenue en place par d’épais câbles et l’on distingue de vieilles antennes rouillées à son sommet. Avant, des transmissions sans fil partaient d’ici pour l’amusement et l’éducation des Anciens. De nos jours, la seule chose que l’on peut entendre, c’est le souffle du vent."
+  },
+  {
+    "diceResult": 14,
+    "name": "Base militaire (infanterie)",
+    "description": "Une grande cour est entourée de bâtiments en briques. À l’intérieur, on trouve beaucoup de pièces identiques, avec des lits superposés en métal. Plus loin, un grand hangar abrite les restes calcinés de quelques véhicules archaïques."
+  },
+  {
+    "diceResult": 15,
+    "name": "Base militaire (armée de l'air)",
+    "description": "Une grande cour est entourée de bâtiments en briques. À l’intérieur, on trouve beaucoup de pièces identiques, avec des lits superposés en métal. Plus loin, un grand hangar abrite les restes calcinés de quelques véhicules archaïques."
+  },
+  {
+    "diceResult": 16,
+    "name": "Base militaire (cavalerie)",
+    "description": "Une grande cour est entourée de bâtiments en briques. À l’intérieur, on trouve beaucoup de pièces identiques, avec des lits superposés en métal. Plus loin, un grand hangar abrite les restes calcinés de quelques véhicules archaïques."
+  },
+  {
+    "diceResult": 21,
+    "name": "Champ de tir infanterie",
+    "description": "Des douilles recouvrent ce grand espace ouvert. Dans un coin, on discerne un grand monticule de terre criblé d’impacts de balle. Sous un abri non loin de là, on peut trouver des cibles en forme d’humains ou d’animaux. Aux Temps d’Avant, ils pouvaient visiblement se permettre de gâcher leurs balles sur des bouts de papier…"
+  },
+  {
+    "diceResult": 22,
+    "name": "Champ de tir artillerie",
+    "description": "Des douilles recouvrent ce grand espace ouvert. Dans un coin, on discerne un grand monticule de terre criblé d’impacts de balle. Sous un abri non loin de là, on peut trouver des cibles en forme d’humains ou d’animaux. Aux Temps d’Avant, ils pouvaient visiblement se permettre de gâcher leurs balles sur des bouts de papier…"
+  },
+  {
+    "diceResult": 23,
+    "name": "Champ de tir police",
+    "description": "Des douilles recouvrent ce grand espace ouvert. Dans un coin, on discerne un grand monticule de terre criblé d’impacts de balle. Sous un abri non loin de là, on peut trouver des cibles en forme d’humains ou d’animaux. Aux Temps d’Avant, ils pouvaient visiblement se permettre de gâcher leurs balles sur des bouts de papier…"
+  },
+  {
+    "diceResult": 24,
+    "name": "Décharge voiture",
+    "description": "Une montagne de détritus bloque le chemin. Ici, les Anciens jetaient tout ce dont ils n’avaient plus besoin. La plupart des rebuts se sont transformés en poussière avec le temps, mais certains objets en plastique et de grandes pièces de métal émergent des décombres."
+  },
+  {
+    "diceResult": 25,
+    "name": "Décharge décheterie",
+    "description": "Une montagne de détritus bloque le chemin. Ici, les Anciens jetaient tout ce dont ils n’avaient plus besoin. La plupart des rebuts se sont transformés en poussière avec le temps, mais certains objets en plastique et de grandes pièces de métal émergent des décombres."
+  },
+  {
+    "diceResult": 26,
+    "name": "Décharge chimique?",
+    "description": "Une montagne de détritus bloque le chemin. Ici, les Anciens jetaient tout ce dont ils n’avaient plus besoin. La plupart des rebuts se sont transformés en poussière avec le temps, mais certains objets en plastique et de grandes pièces de métal émergent des décombres."
+  },
+  {
+    "diceResult": 31,
+    "name": "Éolienne cassée",
+    "description": "Une haute tour blanche perce la brume de la Zone. À son sommet se trouve une grande hélice. On dit que les Anciens ont commencé à bâtir ces structures pour obtenir de l’énergie lorsque les sources de pétrole se sont amenuisées. Il était déjà trop tard, évidemment."
+  },
+  {
+    "diceResult": 32,
+    "name": "Éolienne",
+    "description": "Une haute tour blanche perce la brume de la Zone. À son sommet se trouve une grande hélice. On dit que les Anciens ont commencé à bâtir ces structures pour obtenir de l’énergie lorsque les sources de pétrole se sont amenuisées. Il était déjà trop tard, évidemment."
+  },
+  {
+    "diceResult": 33,
+    "name": "Éolienne",
+    "description": "Une haute tour blanche perce la brume de la Zone. À son sommet se trouve une grande hélice. On dit que les Anciens ont commencé à bâtir ces structures pour obtenir de l’énergie lorsque les sources de pétrole se sont amenuisées. Il était déjà trop tard, évidemment."
+  },
+  {
+    "diceResult": 34,
+    "name": "Épave de bateau",
+    "description": "Un grand navire rongé par la rouille est échoué près de la plage, et dépasse à moitié des vagues. Les hublots vides donnent l’impression d’avoir affaire à une immense baleine échouée. Y aurait-il encore quelque chose d’utile à bord ?"
+  },
+  {
+    "diceResult": 35,
+    "name": "Épave de bateau",
+    "description": "Un grand navire rongé par la rouille est échoué près de la plage, et dépasse à moitié des vagues. Les hublots vides donnent l’impression d’avoir affaire à une immense baleine échouée. Y aurait-il encore quelque chose d’utile à bord ?"
+  },
+  {
+    "diceResult": 36,
+    "name": "Épave de bateau",
+    "description": "Un grand navire rongé par la rouille est échoué près de la plage, et dépasse à moitié des vagues. Les hublots vides donnent l’impression d’avoir affaire à une immense baleine échouée. Y aurait-il encore quelque chose d’utile à bord ?"
+  },
+  {
+    "diceResult": 41,
+    "name": "Lignes à haute tension",
+    "description": "Une grande tour faite de tiges de métal rouillées s’élève dans le ciel de la Zone. La moitié s’est effondrée, et des flèches aiguisées comme des rasoirs sont tombées par terre. D’épais câbles qui servaient auparavant à distribuer de l’électricité dans toute la Zone serpentent désormais sur le sol."
+  },
+  {
+    "diceResult": 42,
+    "name": "Lignes à haute tension",
+    "description": "Une grande tour faite de tiges de métal rouillées s’élève dans le ciel de la Zone. La moitié s’est effondrée, et des flèches aiguisées comme des rasoirs sont tombées par terre. D’épais câbles qui servaient auparavant à distribuer de l’électricité dans toute la Zone serpentent désormais sur le sol."
+  },
+  {
+    "diceResult": 43,
+    "name": "Lignes à haute tension",
+    "description": "Une grande tour faite de tiges de métal rouillées s’élève dans le ciel de la Zone. La moitié s’est effondrée, et des flèches aiguisées comme des rasoirs sont tombées par terre. D’épais câbles qui servaient auparavant à distribuer de l’électricité dans toute la Zone serpentent désormais sur le sol."
+  },
+  {
+    "diceResult": 44,
+    "name": "Pipeline",
+    "description": "Un épais tuyau de métal longe cette partie de la Zone, assez large pour qu’un mutant rampe à l’intérieur. Voilà bien longtemps que le gaz ou le pétrole qu’il abritait a disparu. Maintenant, sa seule valeur est son poids en métal."
+  },
+  {
+    "diceResult": 45,
+    "name": "Pipeline",
+    "description": "Un épais tuyau de métal longe cette partie de la Zone, assez large pour qu’un mutant rampe à l’intérieur. Voilà bien longtemps que le gaz ou le pétrole qu’il abritait a disparu. Maintenant, sa seule valeur est son poids en métal."
+  },
+  {
+    "diceResult": 46,
+    "name": "Pipeline",
+    "description": "Un épais tuyau de métal longe cette partie de la Zone, assez large pour qu’un mutant rampe à l’intérieur. Voilà bien longtemps que le gaz ou le pétrole qu’il abritait a disparu. Maintenant, sa seule valeur est son poids en métal."
+  },
+  {
+    "diceResult": 51,
+    "name": "Raffinerie",
+    "description": "Le paysage tout entier est criblé de machines rouillées et délabrées. D’énormes citernes sont connectées par des tubes en métal, certains assez larges pour y progresser en rampant. Si vous l’osez, vous pouvez tenter d’escalader ce cauchemar d’acier grâce à des éc helles, des poutres et des passerelles."
+  },
+  {
+    "diceResult": 52,
+    "name": "Raffinerie",
+    "description": "Le paysage tout entier est criblé de machines rouillées et délabrées. D’énormes citernes sont connectées par des tubes en métal, certains assez larges pour y progresser en rampant. Si vous l’osez, vous pouvez tenter d’escalader ce cauchemar d’acier grâce à des éc helles, des poutres et des passerelles."
+  },
+  {
+    "diceResult": 53,
+    "name": "Raffinerie",
+    "description": "Le paysage tout entier est criblé de machines rouillées et délabrées. D’énormes citernes sont connectées par des tubes en métal, certains assez larges pour y progresser en rampant. Si vous l’osez, vous pouvez tenter d’escalader ce cauchemar d’acier grâce à des éc helles, des poutres et des passerelles."
+  },
+  {
+    "diceResult": 54,
+    "name": "Réservoir de pétrole",
+    "description": "Un étroit escalier à ciel ouvert permet d’accéder au sommet de cette grande citerne de métal. De là, il doit être possible de repérer les menaces environnantes à une distance sûre. La cuve contient un liquide noir, épais et visqueux au toucher. Un Rafistoleur pourrait probablement le raffiner en carburant, mais comment l’extraire ?"
+  },
+  {
+    "diceResult": 55,
+    "name": "Réservoir de pétrole",
+    "description": "Un étroit escalier à ciel ouvert permet d’accéder au sommet de cette grande citerne de métal. De là, il doit être possible de repérer les menaces environnantes à une distance sûre. La cuve contient un liquide noir, épais et visqueux au toucher. Un Rafistoleur pourrait probablement le raffiner en carburant, mais comment l’extraire ?"
+  },
+  {
+    "diceResult": 56,
+    "name": "Réservoir de pétrole",
+    "description": "Un étroit escalier à ciel ouvert permet d’accéder au sommet de cette grande citerne de métal. De là, il doit être possible de repérer les menaces environnantes à une distance sûre. La cuve contient un liquide noir, épais et visqueux au toucher. Un Rafistoleur pourrait probablement le raffiner en carburant, mais comment l’extraire ?"
+  },
+  {
+    "diceResult": 61,
+    "name": "Station d’épuration",
+    "description": "La puanteur se fait plus forte à mesure qu’on approche du bâtiment, mais les Zonards savent que cette odeur de pourriture peut cacher des trésors inestimables. Ces grandes piscines, réservoirs et machines purifiaient l’eau des Anciens. Est-ce qu’on pourrait encore y trouver de l’eau non gangrenée ?"
+  },
+  {
+    "diceResult": 62,
+    "name": "Station d’épuration",
+    "description": "La puanteur se fait plus forte à mesure qu’on approche du bâtiment, mais les Zonards savent que cette odeur de pourriture peut cacher des trésors inestimables. Ces grandes piscines, réservoirs et machines purifiaient l’eau des Anciens. Est-ce qu’on pourrait encore y trouver de l’eau non gangrenée ?"
+  },
+  {
+    "diceResult": 63,
+    "name": "Station d’épuration",
+    "description": "La puanteur se fait plus forte à mesure qu’on approche du bâtiment, mais les Zonards savent que cette odeur de pourriture peut cacher des trésors inestimables. Ces grandes piscines, réservoirs et machines purifiaient l’eau des Anciens. Est-ce qu’on pourrait encore y trouver de l’eau non gangrenée ?"
+  },
+  {
+    "diceResult": 64,
+    "name": "Usine",
+    "description": "Le toit de métal de cette vaste structure plate s’est effondré il y a bien longtemps. À l’intérieur, on trouve de grandes machines et d’étranges véhicules équipés de fourches à l’avant. Tout à l’intérieur a été ravagé par des décennies de pluie et de vent. Quelques vieux barils rouillés ont été renversés et une bouillie verdâtre s’en échappe."
+  },
+  {
+    "diceResult": 65,
+    "name": "Usine",
+    "description": "Le toit de métal de cette vaste structure plate s’est effondré il y a bien longtemps. À l’intérieur, on trouve de grandes machines et d’étranges véhicules équipés de fourches à l’avant. Tout à l’intérieur a été ravagé par des décennies de pluie et de vent. Quelques vieux barils rouillés ont été renversés et une bouillie verdâtre s’en échappe."
+  },
+  {
+    "diceResult": 66,
+    "name": "Usine",
+    "description": "Le toit de métal de cette vaste structure plate s’est effondré il y a bien longtemps. À l’intérieur, on trouve de grandes machines et d’étranges véhicules équipés de fourches à l’avant. Tout à l’intérieur a été ravagé par des décennies de pluie et de vent. Quelques vieux barils rouillés ont été renversés et une bouillie verdâtre s’en échappe."
+  }
+]

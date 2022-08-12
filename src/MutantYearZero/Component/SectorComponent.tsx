@@ -1,5 +1,5 @@
-/* eslint-disable react/prefer-stateless-function */
 import * as React from 'react';
+// import SectorDataType from '../Type/SectorDataType';
 import SectorData from '../Type/SectorDataType';
 
 interface SectorProps {
@@ -11,14 +11,26 @@ interface SectorProps {
 //  zone: { sectors: Array<{[key: string]: Array<number>}> };
 // }
 
-export default class SectorComponent extends React.Component <SectorProps> {
-  render() {
-    const { data, id } = this.props;
-    const sectorClass = data.explored ? 'Sector sector-explored' : 'Sector sector-not-explored';
-    return (
-      <div className={sectorClass} key={data.position} id={id} title={data.position}>
-        {data.ruins}
-      </div>
-    );
+const SectorComponent = ({ id, data }: SectorProps) => {
+  let sectorClass = 'Sector';
+  switch (data.exploredLevel) {
+    case 'e':
+      sectorClass += ' sector-explored';
+      break;
+    case 'c':
+      sectorClass += ' sector-crossed';
+      break;
+    case 'u':
+      sectorClass += ' sector-not-explored';
+      break;
+    default:
+      break;
   }
-}
+  return (
+    <div className={sectorClass} key={data.position} id={id} title={data.position}>
+      {data.environment.name}
+    </div>
+  );
+};
+
+export default SectorComponent;

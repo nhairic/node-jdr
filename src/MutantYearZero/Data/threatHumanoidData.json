@@ -1,0 +1,152 @@
+[
+  {
+    "diceResultB": 11,
+    "diceResultH": 12,
+    "name": "Adorateurs de Nova",
+    "description": "Une procession d’hommes et de femmes aux cheveux rasés et affublés de longues robes. Ils laissent derrière eux un petit tas de linges et s’en vont discrètement. Si les PJ y prêtent attention, ils trouvent dans chacun de ces tas un bébé mutant. Faibles et souffrant d’hypothermie, les petits mourront si les PJ ne les Soignent pas. Tout bébé survivant développe de puissantes mutations mentales. Les « gens en robe » appartiennent au mythique culte de Nova (cf. page 149). Si les PJ questionnent les adorateurs, ces derniers les ignorent royalement ou s’adressent à eux comme à des enfants. Si les PJ ont recours à la violence, les adorateurs n’hésitent pas à utiliser leurs puissantes mutations mentales. Si les PJ font montre de prudence, ils peuvent prendre les adorateurs en filature jusqu’à leur repaire (cf. page 212)",
+    "effect": "",
+    "zoneKnowledgeModifier": -1,
+    "page": 171,
+    "special": false
+  },
+  {
+    "diceResultB": 13,
+    "diceResultH": 13,
+    "name": "Amnésique",
+    "description": "Une humaine titube dans la Zone. Ses yeux sont brumeux et semblent hantés par une horreur invisible. Elle débite un babil incompréhensible et à peine audible, et porte une combinaison sale et déchirée, piquée d’étranges symboles. L’inconnue ne réagit pas à la présence des PJ et s’effondre s’ils tentent de l’arrêter. À moins qu’on ne la Soigne, elle meurt dans l’heure. Si elle survit, les PJ peuvent lui parler, mais son dialecte est très étrange et elle semble avoir complètement oublié son identité et ses origines. Elle pourrait avoir un indice sur la localisation d’Éden (cf. chapitre 16). Si vous avez utilisé la carte Menace « L’homme sur la plage » (cf. page 148), les PJ peuvent reconnaître à la fois sa combinaison et son dialecte similaires. Elle réagit exactement de la même manière si on la conduit à l’Arche. Tout comme l’homme sur la plage, c’est une des assistantes de laboratoire du projet Éden maintenues en stase cryogénique.",
+    "effect": "",
+    "zoneKnowledgeModifier": -2,
+    "page": 172,
+    "special": false
+  },
+  {
+    "diceResultB": 14,
+    "diceResultH": 15,
+    "name": "Animaux mutants",
+    "description": "Dans la Zone, il existe une tribu d’êtres vivants différents de tous les autres. Ces mutants ne sont ni des humains ni des animaux sauvages, mais se situent entre les deux. Ce sont des animaux, mais ils se déplacent sur leurs pattes arrière, utilisent des outils et communiquent par la parole. Ils pratiquent un langage primitif et grossier, mais un langage tout de même. Ils viennent d’arriver dans la Zone et sont méfiants, voire hostiles, envers les étrangers. Malgré leur faible nombre, les animaux mutants semblent appartenir à différentes espèces : certains ressemblent à des chiens galeux, à des ours ou à des loups, d’autres sont petits et s’apparentent à des rongeurs, et les derniers forment un groupe d’excellents grimpeurs aux traits simiesques. En réalité, les animaux mutants (tout comme le Peuple) sont issus des laboratoires génétiques des Anciens et conçus pour résister à ce monde impitoyable. Ce sont des bêtes pourvues d’une intelligence supérieure et de bonnes capacités motrices. Les petites tribus qui sont récemment arrivées dans la Zone ont fui un ancien complexe de recherche situé",
+    "effect": "",
+    "zoneKnowledgeModifier": -1,
+    "page": 172 ,
+    "special": false
+  },
+  {
+    "diceResultB": 16,
+    "diceResultH": 22,
+    "name": "Cannibales",
+    "description": "Un groupe de mutants nerveux et attifés de vêtements en lambeaux. Leurs visages sont recouverts de motifs peints en blanc. Ils viennent d’une Arche où les scientifiques sont morts prématurément (cf. chapitre 16), et les enfants ainsi abandonnés ont développé une société particulièrement brutale. Ils sont rusés, assoiffés de sang et affamés de chair mutante. Il n’est pas facile de les raisonner (modificateur de -3 pour toute tentative de Manipulation, et tout succès obtenu n’octroie que peu de temps avant que les cannibales n’aient de nouveau faim). Seule une importante démonstration de force pourrait les décourager. Tout cannibale qui mord la poussière rejoindra bien vite l’estomac des survivants.",
+    "effect": "",
+    "zoneKnowledgeModifier": 0,
+    "page": 173,
+    "special": false
+  },
+  {
+    "diceResultB": 23,
+    "diceResultH": 24,
+    "name": "Disciples de l’Apocalypse",
+    "description": "Un groupe disparate de mutants expulsés de leur Arche il y a des années vénère une ruine ou un artefact en particulier dans la Zone. Ils ont perdu tout sens commun et ne vivent que pour l’objet de leur dévotion, qu’ils tiennent pour la promesse du retour sur Terre des Anciens. Les disciples peuvent tenter de recruter des PJ ou des PNJ, ou les capturer pour les sacrifier à leur dieu. Le culte peut être en possession d’un indice vers Éden (cf. chapitre 16)",
+    "effect": "",
+    "zoneKnowledgeModifier": 0,
+    "page": 173,
+    "special": false
+  },
+  {
+    "diceResultB": 25,
+    "diceResultH": 31,
+    "name": "Expédition d’une autre Arche",
+    "description": "Un groupe pas très différent de celui des PJ, mais originaire d’une autre Arche. Ses membres sont à peu près aussi nombreux que les PJ. S’ils n’ont jamais croisé de mutants d’une autre Arche (via la menace « Les Autres », cf. page 150), cette rencontre peut être un tournant dans l’histoire des deux peuples. L’expédition possède peut-être un artefact donnant un indice sur la localisation d’Éden (cf. chapitre 16).",
+    "effect": "",
+    "zoneKnowledgeModifier": 1,
+    "page": 173,
+    "special": false
+  },
+  {
+    "diceResultB": 32,
+    "diceResultH": 35,
+    "name": "Goules de la Zone",
+    "description": "Autour des feux de camp, les Zonards racontent des histoires horribles, et elles tournent souvent autour des goules de la Zone. Ce peuple agressif et nomade se déplace dans l’ombre et attaque les voyageurs sans avertissement. Elles sont le plus souvent actives la nuit. On ne compte plus les rumeurs à leur sujet, et d’aucuns affirment qu’elles écorchent et dévorent les mutants qu’elles capturent. Les goules de la Zone sont généralement plus petites que les mutants et se déplacent en grands groupes. Elles cachent leur visage à l’aide de capuches ou de masques fabriqués à partir de matériaux de récupération des Temps d’Avant, et portent souvent des capes pour se protéger des rayons du soleil et des pluies acides. Leurs mains et leurs pieds sont emmaillotés dans du plastique ou du tissu.",
+    "effect": "",
+    "zoneKnowledgeModifier": 0,
+    "page": 173,
+    "special": false
+  },
+  {
+    "diceResultB": 36,
+    "diceResultH": 42,
+    "name": "Helldrivers",
+    "description": "On croirait entendre rouler le tonnerre, comme si une tempête s’approchait. Mais bientôt, une colonne de véhicules étranges arrive. Des voitures, des bus, des motos et des camions, tous hérissés de piques, de crânes et d’autres matériaux de récupération. Les redoutés Helldrivers sont des mutants ayant quitté leur Arche il y a longtemps, et qui ont été assez chanceux pour tomber sur un grand garage débordant de véhicules des Temps d’Avant opérationnels.",
+    "effect": "",
+    "zoneKnowledgeModifier": -1,
+    "page": 174,
+    "special": false
+  },
+  {
+    "diceResultB": 43,
+    "diceResultH": 45,
+    "name": "Morlocks",
+    "description": "Certains mutants sauvages dégénérés issus d’Arches oubliées ont trouvé refuge dans les souterrains, tunnels et abris. On les appelle les Morlocks. Au fil des ans, ils ont perdu le peu d’humanité qui leur restait et ne sont aujourd’hui guère plus que des sauvages qui communiquent par grognements. Ils ne sont pas hostiles envers les étrangers, mais restent toutefois sur leurs gardes. Si on leur donne quelque chose en retour, ils peuvent fournir un peu d’aide ou des informations. S’ils sont attaqués, ils se défendent avec une férocité bestiale. Ils peuvent être en possession d’un artefact donnant un indice sur la localisation d’Éden (cf. chapitre 16).",
+    "effect": "",
+    "zoneKnowledgeModifier": 0,
+    "page": 174,
+    "special": false
+  },
+  {
+    "diceResultB": 46,
+    "diceResultH": 52,
+    "name": "Mutants exilés",
+    "description": "",
+    "effect": "Une douzaine de mutants dans un triste état. Leurs vêtements sont en haillons, certains boitent, d’autres ont des blessures infectées. Ils sont affamés et gravement contaminés par la Gangrène. Certains pourraient même être infectés par des champignons parasites (cf. page 178) ou un poisson des boyaux (cf. page 182). Ces mutants viennent d’une autre Arche, mais ont été exilés pour une raison ou pour une autre. Ils supplient les PJ de les aider, mais guettent la première occasion de leur sauter dessus et de les déposséder de leur bouffe, ou pire. Si les PJ se montrent amicaux, ils peuvent leur parler de leur Arche, et pourraient même détenir un indice sur la localisation d’Éden (cf. chapitre 16).",
+    "zoneKnowledgeModifier": 0,
+    "page": 174,
+    "special": false
+  },
+  {
+    "diceResultB": 53,
+    "diceResultH": 54,
+    "name": "Oracle du bric-à-brac",
+    "description": "Un mutant petit et trapu, paré d’un accoutrement étrange fait de babioles. C’est un personnage excentrique doté de puissantes mutations mentales, un télépathe qui peut avoir des visions de l’avenir possible des PJ. Ses pouvoirs peuvent les aider à interpréter un indice vers Éden ou leur venir en aide d’une autre manière. Vous pouvez utiliser l’oracle du bric-à-brac pour orienter les PJ dans la direction souhaitée pour votre campagne.",
+    "effect": "",
+    "zoneKnowledgeModifier": -1,
+    "page": 174,
+    "special": false
+  },
+  {
+    "diceResultB": 55,
+    "diceResultH": 56,
+    "name": "Patrouille de l’Arche",
+    "description": "Cette patrouille de l’Arche des PJ a trouvé un artefact de valeur, ou affirme savoir où en trouver. Le chef de l’expédition peut vouloir le rapporter à l’Arche, ou chercher de l’aide pour le récupérer. L’un des membres de l’expédition peut être un PNJ lié aux PJ.",
+    "effect": "",
+    "zoneKnowledgeModifier": 0,
+    "page": 175,
+    "special": false
+  },
+  {
+    "diceResultB": 61,
+    "diceResultH": 62,
+    "name": "Piégeurs",
+    "description": "Un imposant véhicule trône dans la Zone, étrangement intact. Ses vitres sont sales et ses écoutilles fermées. L’épave est un piège. Une bande de mutants sauvages ou de goules de la Zone l’utilise comme appât pour attirer les voyageurs. Leur plan est simple : ils chargent et attaquent leurs victimes avant qu’elles ne se rendent compte de l’entourloupe. Ils volent tout ce qu’ils peuvent et capturent tout survivant pour en faire un esclave. Les piégeurs ne sont jamais parvenus à ouvrir le véhicule blindé. Si les PJ y parviennent, ils y trouvent un artefact. Le moteur du véhicule est irréparable.",
+    "effect": "",
+    "zoneKnowledgeModifier": 0,
+    "page": 175,
+    "special": false
+  },
+  {
+    "diceResultB": 63,
+    "diceResultH": 64,
+    "name": "Vagabonds",
+    "description": "Une bande d’humains décharnés et lugubres aux vêtements élimés et à l’air étrange marchent à travers la Zone. Ils sont sur leurs gardes, mais pas hostiles. Si les PJ montrent qu’ils ne leur veulent pas de mal, les vagabonds peuvent raconter (dans un dialecte étrange) qu’ils marchent depuis des années. Ils affirment être partis d’une chaîne de montagnes loin d’ici. Ils demandent de la bouffe et de l’eau et veulent connaître l’emplacement de la colonie des PJ. Ils pourraient se montrer hostiles si ces derniers ne leur répondent pas. Référez-vous à la menace « Les vagabonds » (cf. page 150) pour plus d’informations sur ce qui pourrait",
+    "effect": "",
+    "zoneKnowledgeModifier": -1,
+    "page": 175,
+    "special": false
+  },
+  {
+    "diceResultB": 65,
+    "diceResultH": 66,
+    "name": "Vendeur d’eau",
+    "description": "Un voyageur solitaire qui brave les dangers de la Zone pour troquer son eau pure. C’est un grand mutant escorté de deux cabots décharnés et poussant un petit chariot. À l’intérieur, on trouve de vieilles bouteilles en plastique, de gros jerricans et un étrange assemblage de tuyaux et de bouteilles (un purificateur d’eau bricolé). Le vendeur d’eau est plutôt sympathique et toujours prêt à commercer, mais également en mesure de se défendre si nécessaire. Il en sait beaucoup sur la Zone et peut dire aux PJ où sont situées les autres colonies. Il peut également détenir un indice vers Éden, qu’il acceptera d’échanger. Il demandera où vivent les PJ pour pouvoir y faire commerce.",
+    "effect": "",
+    "zoneKnowledgeModifier": 0,
+    "page": 175,
+    "special": false
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "diceResult": 11,
+    "name": "Vagabonds.",
+    "teaser": "Quelques silhouettes dans le lointain… Qui peut bien se hasarder dans la Zone ?",
+    "type": "HUMANOÏDES"
+  },
+  {
+    "diceResult": 12,
+    "name": "Campement.",
+    "teaser": "Les restes d’un campement, peut-être que les braises sont encore chaudes.",
+    "type": "HUMANOÏDES"
+  },
+  {
+    "diceResult": 13,
+    "name": "Dernier repos.",
+    "teaser": "D6 tombes improvisées, signalées par des babioles. Qui est enterré ici ?",
+    "type": "HUMANOÏDES"
+  },
+  {
+    "diceResult": 14,
+    "name": "Victime.",
+    "teaser": "Un cadavre, pendu ou attaché à un poteau. Qui a fait cela, et pourquoi ?",
+    "type": "HUMANOÏDES"
+  },
+  {
+    "diceResult": 15,
+    "name": "Message.",
+    "teaser": "Quelqu’un a écrit quelque chose sur un mur. Quel est le message et est-il récent ?",
+    "type": "HUMANOÏDES"
+  },
+  {
+    "diceResult": 16,
+    "name": "Traces.",
+    "teaser": "Elles s’enfoncent dans la Zone. Qui est passé par ici et où est il/elle allé·e ?",
+    "type": "HUMANOÏDES"
+  },
+  {
+    "diceResult": 21,
+    "name": "Gros rocher.",
+    "teaser": "Un immense rocher. Une protection contre les vents de la Zone et peut-être un point d’observation ?",
+    "type": "NATURE"
+  },
+  {
+    "diceResult": 22,
+    "name": "Arbre.",
+    "teaser": "Un vieil arbre solitaire qui tient bon. Cache-t-il un quelconque secret ?",
+    "type": "NATURE"
+  },
+  {
+    "diceResult": 23,
+    "name": "Cours d’eau.",
+    "teaser": "Un mince ruisseau serpente à travers le paysage. Est-ce une source de vie ou de mort par la Gangrène ?",
+    "type": "NATURE"
+  },
+  {
+    "diceResult": 24,
+    "name": "Fleurs de la Zone.",
+    "teaser": "Voilà qui tranche avec la morosité de la Zone. Un champ d’étranges fleurs aux couleurs chatoyantes.",
+    "type": "NATURE"
+  },
+  {
+    "diceResult": 25,
+    "name": "Chardons.",
+    "teaser": "D’imposantes plantes épineuses recouvrent le secteur. Les bottes et l’équipement se prennent dedans. Est-ce que les plus gros buissons cachent des secrets ?",
+    "type": "NATURE"
+  },
+  {
+    "diceResult": 26,
+    "name": "Plantes grimpantes.",
+    "teaser": "Il y a beaucoup de lierre recouvrant les ruines par ici. Est-ce que ces plantes sont mortes ou toujours bien vivantes ?",
+    "type": "NATURE"
+  },
+  {
+    "diceResult": 31,
+    "name": "Pluies torrentielles.",
+    "teaser": "Une soudaine et violente ondée, ou une chute de neige, s’abat sur les PJ. Ils feraient bien de trouver un abri rapidement.",
+    "type": "TEMPS"
+  },
+  {
+    "diceResult": 32,
+    "name": "Brouillard.",
+    "teaser": "Une brume épaisse recouvre l’endroit. La visibilité est réduite à quelques mètres et les sons sont étouffés. Qu’est-ce qui peut rôder dans le brouillard ?",
+    "type": "TEMPS"
+  },
+  {
+    "diceResult": 33,
+    "name": "Soleil brûlant.",
+    "teaser": "D’ardents rayons du soleil frappent les PJ. Leur peau brûle et leurs vêtements sont trempés de sueur.",
+    "type": "TEMPS"
+  },
+  {
+    "diceResult": 34,
+    "name": "Ciel bleu.",
+    "teaser": "La brume, d’ordinaire omniprésente dans la Zone, se dissipe et laisse apparaître un ciel d’un bleu immaculé. C’est un spectacle à la fois magnifique et terrifiant.",
+    "type": "TEMPS"
+  },
+  {
+    "diceResult": 35,
+    "name": "Nuages noirs.",
+    "teaser": "Le ciel s’obscurcit et le vent se lève. Des nuages de poussière virevoltent. Une tempête se prépare.",
+    "type": "TEMPS"
+  },
+  {
+    "diceResult": 36,
+    "name": "Tonnerre.",
+    "teaser": "Le bruit sourd du tonnerre monte du lointain. Des éclairs s’abattent au milieu des ruines.",
+    "type": "TEMPS"
+  },
+  {
+    "diceResult": 41,
+    "name": "Panneau.",
+    "teaser": "Un vieux panneau en métal tient encore debout, témoignage des Temps d’Avant. Indique-t-il un chemin ou met-il en garde contre un danger ?",
+    "type": "RESTES"
+  },
+  {
+    "diceResult": 42,
+    "name": "Épave.",
+    "teaser": "Les restes d’un vieux véhicule, rouillé et irréparable. Sa carcasse de métal est encore intacte. Est-ce que quelqu’un s’est abrité ici ?",
+    "type": "RESTES"
+  },
+  {
+    "diceResult": 43,
+    "name": "Poster de film.",
+    "teaser": "Une vieille affiche des Temps d’Avant, froissée et presque effacée par le temps. Elle dépeint une scène étrange. Qu’est-ce que les PJ vont en penser ?",
+    "type": "RESTES"
+  },
+  {
+    "diceResult": 44,
+    "name": "Les morts.",
+    "teaser": "D6 squelettes blanchis, datant des Temps d’Avant. Quelle histoire pourraient raconter ces ossements ?",
+    "type": "RESTES"
+  },
+  {
+    "diceResult": 45,
+    "name": "Point de contrôle.",
+    "teaser": "Un blocage routier des Temps d’Avant, datant sans doute de la fin du monde. Peut-être que les PJ y trouveront quelques matériaux de récupération ?",
+    "type": "RESTES"
+  },
+  {
+    "diceResult": 46,
+    "name": "Voie de chemin de fer.",
+    "teaser": "Ces vieilles voies rouillées sont envahies par la végétation. Où mènent-elles ?",
+    "type": "RESTES"
+  },
+  {
+    "diceResult": 51,
+    "name": "Trou.",
+    "teaser": "Il y a un trou sombre et profond dans le sol. S’agit-il d’un vieux puits, ou d’un passage vers des tunnels en dessous ?",
+    "type": "ÉVÉNEMENTS"
+  },
+  {
+    "diceResult": 52,
+    "name": "Hurlement.",
+    "teaser": "Un cri inhumain résonne dans la Zone. Est-ce que quelqu’un a besoin d’aide, ou bien un monstre rôde-t-il dans les environs ?",
+    "type": "ÉVÉNEMENTS"
+  },
+  {
+    "diceResult": 53,
+    "name": "Effondrement.",
+    "teaser": "Un bâtiment en ruine s’effondre soudain dans un vacarme assourdissant. Peut-être que cela aura révélé quelque chose d’intéressant ?",
+    "type": "ÉVÉNEMENTS"
+  },
+  {
+    "diceResult": 54,
+    "name": "Oiseaux.",
+    "teaser": "Un groupe de petits oiseaux de la Zone s’envole subitement. Est-ce que quelque chose les a effrayés ?",
+    "type": "ÉVÉNEMENTS"
+  },
+  {
+    "diceResult": 55,
+    "name": "Bruit.",
+    "teaser": "Un bruit sourd, semblable à un mugissement, emplit l’endroit. Il se répète quelques fois, puis disparaît.",
+    "type": "ÉVÉNEMENTS"
+  },
+  {
+    "diceResult": 56,
+    "name": "Hutte.",
+    "teaser": "Quelqu’un a construit un abri de fortune ou une hutte à partir de matériaux de récupération. Est-ce qu’il y a quelqu’un ?",
+    "type": "ÉVÉNEMENTS"
+  },
+  {
+    "diceResult": 61,
+    "name": "Lac.",
+    "teaser": "Un petit lac noir se dessine derrière un banc de brume. Que peut-il y avoir sous sa surface opaque ?",
+    "type": "TERRAIN"
+  },
+  {
+    "diceResult": 62,
+    "name": "Pente raide.",
+    "teaser": "Un escarpement très raide. Comment les PJ vont-ils descendre, et qu’est-ce qui les attend en bas ?",
+    "type": "TERRAIN"
+  },
+  {
+    "diceResult": 63,
+    "name": "Faille.",
+    "teaser": "Une profonde fissure, de plusieurs mètres de large, balafre le paysage. Comment la traverser ?",
+    "type": "TERRAIN"
+  },
+  {
+    "diceResult": 64,
+    "name": "Marécages.",
+    "teaser": "De l’eau gangrenée a recouvert le secteur, submergeant les anciennes rues que l’on distingue à peine. Une eau sombre et froide s’infiltre dans les chaussures des PJ.",
+    "type": "TERRAIN"
+  },
+  {
+    "diceResult": 65,
+    "name": "Taillis.",
+    "teaser": "De sombres taillis d’arbres morts et noircis projettent leur ombre sur les PJ. Qu’est-ce qui pourrait se cacher à l’intérieur ?",
+    "type": "TERRAIN"
+  },
+  {
+    "diceResult": 66,
+    "name": "Colline.",
+    "teaser": "Une colline abrupte se dresse au milieu de la Zone. Qu’est-ce que c’est, et que peut-il bien y avoir au sommet ?",
+    "type": "TERRAIN"
+  }
+]
