@@ -107,6 +107,7 @@ div.zone-render {
   height: 80px;
 }
 
+/* BAUBLE */
 .card_bauble {
   width: 170px;
   font-family: Mutante;
@@ -126,9 +127,10 @@ div.zone-render {
   border-radius: 5px;
 }
 .card_body_bauble {
-  height: 80px;
+  height: 120px;
   background-color: rgb(43, 43, 43);
   border-color: #ffc107;
+  text-align: left;
 }
 .card-header-sector-generator{
   font-family: Mutante;
@@ -208,4 +210,36 @@ div.zone-render {
 .scroll-description {
   height: 150px;
   overflow-y: auto;
+}
+
+.myz-left-off-canvas{
+  background-image: url(../img/left-off-canvas.jpg);
+  background-position-x: -320px;
+}
+
+.myz-left-off-canvas .offcanvas-title {
+  font-family: Mutante;
+  background-image: url(../img/bg-myz-3.jpg);
+  background-position-y: -460px;
+  background-position-x: -700px;
+  color: white;
+  text-align: center;
+  border: 2px solid #282c34;
+  width: 100%;
+}
+.bg-dark {
+  background-color: black;
+  color: white;
+}
+.bg-blur {
+  background-blend-mode: exclusion;
+  background-color: transparent;
+}
+.critical-wounds {
+  background-blend-mode: hard-light;
+  background-color: #999;  
+}
+.critical-wounds .card-body{
+  background-color: transparent;  
+  height: 310px;
 }

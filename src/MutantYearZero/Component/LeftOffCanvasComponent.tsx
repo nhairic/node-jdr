@@ -1,6 +1,7 @@
 import React from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import BaubleComponent from './Component/BaubleComponent';
+import BaubleComponent from './BaubleComponent';
+import CriticalWoundsComponent from './CriticalWoundsComponent';
 
 interface MyzLeftOffCanvasPorops {
   show: boolean;
@@ -8,11 +9,12 @@ interface MyzLeftOffCanvasPorops {
 }
 
 const MyzLeftOffCanvasComponent = ({ show, handleClose }: MyzLeftOffCanvasPorops) => (
-  <Offcanvas show={show} onHide={handleClose} variant="dark">
+  <Offcanvas key="myz-offcanvas" show={show} onHide={handleClose} className="myz-left-off-canvas">
     <Offcanvas.Header closeButton>
       <Offcanvas.Title>Aide de jeux</Offcanvas.Title>
     </Offcanvas.Header>
     <Offcanvas.Body>
+      <CriticalWoundsComponent key="CriticalWounds" />
       <BaubleComponent key="bauble-generator" />
     </Offcanvas.Body>
   </Offcanvas>
