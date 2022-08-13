@@ -1,6 +1,6 @@
 [
     {
-        "d66": 11,
+        "diceResult": 11,
         "blessure" : "essouflé",
         "mortelle": "non",
         "periode_soin": "-",
@@ -8,7 +8,7 @@
         "convalescence": ""
     },
     {
-        "d66": 12,
+        "diceResult": 12,
         "blessure" : "sonné",
         "mortelle": "non",
         "periode_soin": "-",
@@ -16,7 +16,7 @@
         "convalescence": ""
     },  
     {
-        "d66": 13,
+        "diceResult": 13,
         "blessure" : "poignet foulé",
         "mortelle": "non",
         "periode_soin": "-",
@@ -24,7 +24,7 @@
         "convalescence": "d6"
     },
     {
-        "d66": 14,
+        "diceResult": 14,
         "blessure" : "Cheville foulée",
         "mortelle": "non",
         "periode_soin": "-",
@@ -32,7 +32,7 @@
         "convalescence": "d6"
     },
     {
-        "d66": 15,
+        "diceResult": 15,
         "blessure" : "Commotion cérébrale",
         "mortelle": "non",
         "periode_soin": "-",
@@ -40,7 +40,7 @@
         "convalescence": "d6"
     },
     {
-        "d66": 16,
+        "diceResult": 16,
         "blessure" : "Tibia blessé",
         "mortelle": "non",
         "periode_soin": "-",
@@ -48,7 +48,7 @@
         "convalescence": "2d6"
     },
     {
-        "d66": 21,
+        "diceResult": 21,
         "blessure" : "Nez cassé",
         "mortelle": "non",
         "periode_soin": "-",
@@ -56,7 +56,7 @@
         "convalescence": "2d6"
     },
     {
-        "d66": 22,
+        "diceResult": 22,
         "blessure" : "Doigts cassés",
         "mortelle": "non",
         "periode_soin": "-",
@@ -64,7 +64,7 @@
         "convalescence": "2d6"
     },
     {
-        "d66": 23,
+        "diceResult": 23,
         "blessure" : "Orteils cassés",
         "mortelle": "non",
         "periode_soin": "-",
@@ -72,7 +72,7 @@
         "convalescence": "2d6"
     },
     {
-        "d66": 24,
+        "diceResult": 24,
         "blessure" : "Dents cassées",
         "mortelle": "non",
         "periode_soin": "-",
@@ -80,7 +80,7 @@
         "convalescence": "2d6"
     },
     {
-        "d66": 25,
+        "diceResult": 25,
         "blessure" : "Coup à l’entrejambe",
         "mortelle": "non",
         "periode_soin": "-",
@@ -88,7 +88,7 @@
         "convalescence": "2d6"
     },
     {
-        "d66": 26,
+        "diceResult": 26,
         "blessure" : "Coup à la cuisse",
         "mortelle": "non",
         "periode_soin": "-",
@@ -96,7 +96,7 @@
         "convalescence": "2d6"
     },
     {
-        "d66": 31,
+        "diceResult": 31,
         "blessure" : "Blessure au biceps",
         "mortelle": "non",
         "periode_soin": "-",
@@ -104,7 +104,7 @@
         "convalescence": "2d6"
     },
     {
-        "d66": 32,
+        "diceResult": 32,
         "blessure" : "Tendon d’Achille sectionné",
         "mortelle": "non",
         "periode_soin": "-",
@@ -112,7 +112,7 @@
         "convalescence": "2d6"
     },
     {
-        "d66": 33,
+        "diceResult": 33,
         "blessure" : "Épaule déboîtée",
         "mortelle": "non",
         "periode_soin": "-",
@@ -120,7 +120,7 @@
         "convalescence": "d6"
     },
     {
-        "d66": 34,
+        "diceResult": 34,
         "blessure" : "Côtes cassées",
         "mortelle": "non",
         "periode_soin": "-",
@@ -128,7 +128,7 @@
         "convalescence": "2d6"
     },
     {
-        "d66": 35,
+        "diceResult": 35,
         "blessure" : "Avant-bras cassé",
         "mortelle": "non",
         "periode_soin": "-",
@@ -136,7 +136,7 @@
         "convalescence": "3d6"
     },
     {
-        "d66": 36,
+        "diceResult": 36,
         "blessure" : "Jambe cassée",
         "mortelle": "non",
         "periode_soin": "-",
@@ -144,7 +144,7 @@
         "convalescence": "3d6"
     },
     {
-        "d66": 41,
+        "diceResult": 41,
         "blessure" : "Oreille arrachée",
         "mortelle": "non",
         "periode_soin": "-",
@@ -152,7 +152,7 @@
         "convalescence": "3d6"
     },
     {
-        "d66": 42,
+        "diceResult": 42,
         "blessure" : "Œil crevé",
         "mortelle": "non",
         "periode_soin": "-",
@@ -160,7 +160,7 @@
         "convalescence": "3d6"
     },
     {
-        "d66": 43,
+        "diceResult": 43,
         "blessure" : "Poumon perforé",
         "mortelle": "oui",
         "periode_soin": "D6 jours",
@@ -168,7 +168,7 @@
         "convalescence": "2d6"
     },
     {
-        "d66": 44,
+        "diceResult": 44,
         "blessure" : "Blessure au rein",
         "mortelle": "oui",
         "periode_soin": "D6 jours",
@@ -176,7 +176,7 @@
         "convalescence": "3d6"
     },
     {
-        "d66": 45,
+        "diceResult": 45,
         "blessure" : "Genou broyé",
         "mortelle": "oui",
         "periode_soin": "D6 jours",
@@ -184,7 +184,7 @@
         "convalescence": "4d6"
     },
     {
-        "d66": 46,
+        "diceResult": 46,
         "blessure" : "Coude broyé",
         "mortelle": "oui",
         "periode_soin": "D6 jours",
@@ -192,7 +192,7 @@
         "convalescence": "4d6"
     },
     {
-        "d66": 51,
+        "diceResult": 51,
         "blessure" : "Pied écrasé",
         "mortelle": "oui",
         "periode_soin": "D6 jours",
@@ -200,7 +200,7 @@
         "convalescence": "4d6"
     },
     {
-        "d66": 52,
+        "diceResult": 52,
         "blessure" : "Hémorragie intestinale",
         "mortelle": "oui",
         "periode_soin": "D6 heures",
@@ -208,7 +208,7 @@
         "convalescence": "d6"
     },
     {
-        "d66": 53,
+        "diceResult": 53,
         "blessure" : "Défiguré",
         "mortelle": "oui",
         "periode_soin": "D6 heures",
@@ -216,7 +216,7 @@
         "convalescence": "4d6"
     },
     {
-        "d66": 54,
+        "diceResult": 54,
         "blessure" : "Intestin crevé",
         "mortelle": "oui",
         "periode_soin": "D6 heures",
@@ -224,7 +224,7 @@
         "convalescence": "2d6"
     },
     {
-        "d66": 55,
+        "diceResult": 55,
         "blessure" : "Colonne vertébrale fracturée",
         "mortelle": "non",
         "periode_soin": "-",
@@ -232,7 +232,7 @@
         "convalescence": "4d6"
     },
     {
-        "d66": 56,
+        "diceResult": 56,
         "blessure" : "Fracture des cervicales",
         "mortelle": "non",
         "periode_soin": "-",
@@ -240,7 +240,7 @@
         "convalescence": "4d6"
     },
     {
-        "d66": 61,
+        "diceResult": 61,
         "blessure" : "Hémorragie interne",
         "mortelle": "oui, -1*",
         "periode_soin": "D6 minutes",
@@ -248,7 +248,7 @@
         "convalescence": "2d6"
     },
     {
-        "d66": 62,
+        "diceResult": 62,
         "blessure" : "Artère du bras sectionnée",
         "mortelle": "oui, -1*",
         "periode_soin": "D6 minutes",
@@ -256,7 +256,7 @@
         "convalescence": "d6"
     },
     {
-        "d66": 63,
+        "diceResult": 63,
         "blessure" : "Artère de la jambe sectionnée",
         "mortelle": "oui, -1*",
         "periode_soin": "D6 minutes",
@@ -264,7 +264,7 @@
         "convalescence": "d6"
     },
     {
-        "d66": 64,
+        "diceResult": 64,
         "blessure" : "Jugulaire sectionnée",
         "mortelle": "oui, -1*",
         "periode_soin": "D6 tours",
@@ -272,7 +272,7 @@
         "convalescence": "d6"
     },
     {
-        "d66": 65,
+        "diceResult": 65,
         "blessure" : "Cœur transpercé",
         "mortelle": "oui",
         "periode_soin": "-",
@@ -280,7 +280,7 @@
         "convalescence": "-"
     },
     {
-        "d66": 66,
+        "diceResult": 66,
         "blessure" : "Crâne fracassé",
         "mortelle": "oui",
         "periode_soin": "-",

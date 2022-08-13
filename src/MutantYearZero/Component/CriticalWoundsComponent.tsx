@@ -1,21 +1,10 @@
-import * as React from 'react';
-import Table from 'react-bootstrap/Table';
+import React, { useState } from 'react';
+import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import Col from 'react-bootstrap/Col';
-import Alert from 'react-bootstrap/Alert';
+import CriticalWoundsDataType from '../Type/CriticalWoundsDataType';
+import CriticalWoundsGenerator from '../Class/CriticalWoundsGenerator';
 
-// import InputGroup from 'react-bootstrap/InputGroup';
-import Row from 'react-bootstrap/Row';
-import Dice from '../../Transverse/Dice/Class/Dice';
-import WoundData from '../Type/WoundDataType';
-import CWJson from '../Data/critiques.json';
-
-interface CriticalWoundsStateInterface {
-  criticalWound: null | WoundData;
-  message: null | string;
-}
-
+/*
 const atypique = {
   blessure: 'Dégâts atypiques',
   mortelle: 'oui',
@@ -31,150 +20,85 @@ const force = {
   effet_durant_guerison: 'Aucun.',
   convalescence: '-',
 };
+*/
 
-const DefaultWound = {
-  d66: 0,
-  blessure: ' ',
-  mortelle: '-',
-  periode_soin: ' ',
-  effet_durant_guerison: ' ',
-  convalescence: '',
+const CriticalWoundsComponent : React.FC = () => {
+  const criticalWoundsGenerator = new CriticalWoundsGenerator();
+  const [criticalWound, setValue] = useState<CriticalWoundsDataType>(
+    criticalWoundsGenerator.DefaultWound,
+  );
+
+  return (
+    <Card className="critical-wounds">
+      <Card.Header className="h2-myz">
+        <Card.Title>Blessure Critique</Card.Title>
+      </Card.Header>
+      <Card.Body className="bg-blur">
+        <ul>
+          <li>
+            Dé :
+            {' '}
+            {criticalWound?.diceResult ? criticalWound?.diceResult : ''}
+          </li>
+          <li>
+            Blessure :
+            {' '}
+            {criticalWound?.blessure ?? ''}
+          </li>
+          <li>
+            Mortelle :
+            {' '}
+            {criticalWound?.mortelle ?? ''}
+          </li>
+          <li>
+            Période de soin :
+            {' '}
+            {criticalWound?.periode_soin ?? ''}
+          </li>
+          <li>
+            Effet durant la guerison :
+            {' '}
+            {criticalWound?.effet_durant_guerison ?? ''}
+          </li>
+          <li>
+            Convalescence(jour) :
+            {' '}
+            {criticalWound?.convalescence ?? ''}
+          </li>
+        </ul>
+        <em>
+          * Pour une blessure aussi grave,
+          tous les tests de Soins sont effectués avec un modificateur de -1.
+        </em>
+      </Card.Body>
+      <Card.Footer className="bg-dark">
+        <Button variant="warning" id="launchcw" key="launchCW" type="button" onClick={() => setValue(criticalWoundsGenerator.generate())}>Lancer</Button>
+      </Card.Footer>
+    </Card>
+  );
 };
-// todo tranform in function
-class CriticalWoundsComponent extends React.Component <{}, CriticalWoundsStateInterface> {
-  constructor() {
-    super({});
-    this.state = {
-      criticalWound: null,
-      message: null,
-    };
-  }
+/*
+        <tfoot>
+          <tr>
+            <li colSpan={6}><strong>Autre critiques possible</strong></li>
+          </tr>
+          <tr>
+            <li>-</li>
+            <li>{atypique.blessure}</li>
+            <li>{atypique.mortelle}</li>
+            <li>{atypique.periode_soin}</li>
+            <li>{atypique.effet_durant_guerison}</li>
+            <li>{atypique.convalescence}</li>
+          </tr>
+          <tr>
+            <li>-</li>
+            <li>{force.blessure}</li>
+            <li>{force.mortelle}</li>
+            <li>{force.periode_soin}</li>
+            <li>{force.effet_durant_guerison}</li>
+            <li>{force.convalescence}</li>
+          </tr>
+        </tfoot>
 
-  getCriticalWounds() {
-    const dice = new Dice(6);
-    const WoundIndex = dice.roll(2, true);
-    const wound = CWJson.find((cw) => cw.d66 === WoundIndex);
-    if (wound) {
-      this.setState(
-        {
-          criticalWound: wound,
-        },
-      );
-    }
-  }
-
-  // eslint-disable-next-line class-methods-use-this
-  searchClick = (e: React.FormEvent<HTMLInputElement>) => {
-    const newValue = parseInt(e.currentTarget.value, 10);
-    if (newValue > 10 && newValue < 67) {
-      const wound = CWJson.find((cw) => cw.d66 === newValue);
-      if (wound) {
-        this.setState(
-          {
-            criticalWound: wound,
-            message: null,
-          },
-        );
-        return;
-      }
-    }
-    this.setState(
-      {
-        criticalWound: DefaultWound,
-        message: `Aucun résultat pour ${newValue}`,
-      },
-    );
-  };
-
-  render() {
-    const { criticalWound, message } = this.state;
-    return (
-      <div className="critical-wounds">
-        <h2 className="h2-myz">Blessure Critique</h2>
-        <Table striped bordered hover variant="dark">
-          <thead>
-            <tr>
-              <th>D</th>
-              <th>Blessure</th>
-              <th>Mortelle</th>
-              <th>Période de soin</th>
-              <th>Effet durant la guerison</th>
-              <th>Convalescence(jour)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>{criticalWound?.d66 ? criticalWound?.d66 : ''}</td>
-              <td>{criticalWound?.blessure ?? ''}</td>
-              <td>{criticalWound?.mortelle ?? ''}</td>
-              <td>{criticalWound?.periode_soin ?? ''}</td>
-              <td>{criticalWound?.effet_durant_guerison ?? ''}</td>
-              <td>{criticalWound?.convalescence ?? ''}</td>
-            </tr>
-            <tr>
-              <td colSpan={6}>
-                <em>
-                  * Pour une blessure aussi grave,
-                  tous les tests de Soins sont effectués avec un modificateur de -1.
-                </em>
-              </td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colSpan={6}><strong>Autre critiques possible</strong></td>
-            </tr>
-            <tr>
-              <td>-</td>
-              <td>{atypique.blessure}</td>
-              <td>{atypique.mortelle}</td>
-              <td>{atypique.periode_soin}</td>
-              <td>{atypique.effet_durant_guerison}</td>
-              <td>{atypique.convalescence}</td>
-            </tr>
-            <tr>
-              <td>-</td>
-              <td>{force.blessure}</td>
-              <td>{force.mortelle}</td>
-              <td>{force.periode_soin}</td>
-              <td>{force.effet_durant_guerison}</td>
-              <td>{force.convalescence}</td>
-            </tr>
-          </tfoot>
-        </Table>
-        <Row>
-          <Col>
-            { message ? (
-              <Alert variant="warning">
-                {message}
-              </Alert>
-            ) : ''}
-          </Col>
-        </Row>
-        <Row className="align-items-center">
-          <Col>
-            <Button variant="dark" id="launchcw" key="launchCW" type="button" onClick={() => this.getCriticalWounds()}>Lancer</Button>
-          </Col>
-          <Col>
-            <Form.Label htmlFor="searchcw" variant="dark">
-              Search
-            </Form.Label>
-            <input
-              type="number"
-              width="20"
-              min="11"
-              max="66"
-              id="searchcw"
-              name="search_cw"
-              className="form-range"
-              key="searchCW"
-              onChange={this.searchClick}
-            />
-          </Col>
-        </Row>
-      </div>
-    );
-  }
-}
-
+*/
 export default CriticalWoundsComponent;

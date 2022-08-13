@@ -6,7 +6,6 @@ import CardGroup from 'react-bootstrap/CardGroup';
 import Dice from '../../Transverse/Dice/Class/Dice';
 import DiceComponent from '../../Transverse/Dice/Component/DiceComponent';
 import DicesBoardComponent from '../../Transverse/Dice/Component/DicesBoardComponent';
-import CriticalWounds from './CriticalWoundsComponent';
 import SectorGeneratorComponent from './SectorGeneratorComponent';
 
 const FeatureComponent: React.FC = () => {
@@ -36,11 +35,6 @@ const FeatureComponent: React.FC = () => {
         </Col>
         <Col>
           <DicesBoardComponent dices={dices} />
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <CriticalWounds key="criticalWounds" />
         </Col>
       </Row>
       <Row>
