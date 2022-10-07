@@ -1,0 +1,9 @@
+[
+  {
+    "diceResult": 11,
+    "name": "Ailes d’insecte",
+    "effectA": "string",
+    "effectB": "string",
+    "effectC": "string"
+  }
+]
