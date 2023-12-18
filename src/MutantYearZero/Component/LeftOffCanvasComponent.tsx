@@ -2,6 +2,7 @@ import React from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import BaubleComponent from './BaubleComponent';
 import CriticalWoundsComponent from './CriticalWoundsComponent';
+import MutationComponent from './MutationComponent';
 
 interface MyzLeftOffCanvasPorops {
   show: boolean;
@@ -16,6 +17,7 @@ const MyzLeftOffCanvasComponent = ({ show, handleClose }: MyzLeftOffCanvasPorops
     <Offcanvas.Body>
       <CriticalWoundsComponent key="CriticalWounds" />
       <BaubleComponent key="bauble-generator" />
+      <MutationComponent key="mutation-genarator" />
     </Offcanvas.Body>
   </Offcanvas>
 );

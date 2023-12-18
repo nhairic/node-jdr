@@ -11,9 +11,12 @@ class MutationGenerator {
 
   public getData = (diceResult: number): MutationDataType => {
     let mutation = null;
+    let compare: number = diceResult;
     // todo add throw execption and end to getout while
     while (!mutation) {
-      mutation = this._mutationArray.find((elt) => elt.diceResult === diceResult);
+      // eslint-disable-next-line no-loop-func
+      mutation = this._mutationArray.find((elt) => elt.diceResult === compare);
+      compare = this._dice.roll(2, true);
     }
     return mutation;
   };

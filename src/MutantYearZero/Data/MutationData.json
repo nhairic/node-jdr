@@ -5,5 +5,12 @@
     "effectA": "string",
     "effectB": "string",
     "effectC": "string"
+  },
+  {
+    "diceResult": 12,
+    "name": "mutation 2",
+    "effectA": "string",
+    "effectB": "string",
+    "effectC": "string"
   }
 ]
